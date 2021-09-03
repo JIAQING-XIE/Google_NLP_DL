@@ -1,0 +1,22 @@
+输入： {goods_id:1,id:0,text:"yesterday i went to this resturant , <br><2312324> the food was very good but the waiter was terrible."}
+最终输出：{goods_id:1,id:0,labels:['food good','waiter terrible'],sentiments:['positive','negative'],paragraph:['food was very good','waiter was terrible]}
+
+流程： 1、构建aspect词典、情感词典、否定词典。
+2、根据词性和句法分析结果，构建规则，获取aspect-opinion的边和相应的片段。针对获取的结果，处理否定词(not等）。
+3、对aspect-opinion进行情感分析。（构建情感词典包括positive和negative），聚合，根据应用场景输出
+
+
+构建词典（~2021-8-27）：
+    1、jsonline格式，包括三个字段goods_id,id,text
+    2、第一步构建aspect词典，包括以下流程：
+    （1）读取数据，获取text字段。
+    （2）进行数据预处理（去除开头的一些空格和结尾的换行符、re库去除<>Html标签）得到text。
+    （3）进行分词（StanfordCoreNLP/nltk/re库根据字符分词）。
+    （4）去除停用词（nltk）得到最后分词好的text_tk。
+    （5）对text进行词性分析(StanfordCoreNLP),得到的列表假定为pos。
+    （6）统计共现gram的频次，遍历分词后的文本，对每一个token与其后面的每一个token组合，利用dict去统计频次（defaultdict）,按照dict的value()进行排序，即出现频次高的排在前面。
+    （7）对上述得到的dict进行人工分析（输出到txt，每一行类似food good	15，或者直接打印出来分析）。
+    （8）构造一个aspect词典，这个必须输出为文件保存，每一行为一个单词即可。
+    （9）同义词挖掘(word2vec,wordnet)，筛选出合理的加入词典。
+    3、构建两个情感词典(positive/negative)以及一个否定词词典deny.txt
+    参考上述流程或者寻找现有的资源整合。

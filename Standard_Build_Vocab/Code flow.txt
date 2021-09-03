@@ -1,0 +1,37 @@
+输入:text_tk
+输出:labels,labels_indexs,sentiments
+
+输入:['i','went','to','yesterday',',',''food','was','great','but','i','think','the','service','is','not','good','.']
+输出:
+labels:['food great','service not good']
+labels_index:[[5,7],[12,15]]
+sentiments:[1,0]
+
+2、抽取(aspect,opinion)对
+（1）首先构建一个词性对词典useful_pos_two,类似useful_pos_two = {('NN', 'JJ'):0,……},用于后续的规则。
+    这个词典的构建需要去搜一下词性的类型和含义，然后结合数据分析得到。
+（2）遍历每一条文本:
+    预处理、分词得到text_tk、分析其连边得到dependency（standfordnlp）、分析词性得到pos
+    for token1 in text_tk:
+        遍历dependency对与token1有连边的token2:
+         if (pos[token1],pos[token2]) in useful_pos_two:
+            认为合理，保存下来，同时保存其下标index如上述输出的形式
+         else:
+            continue
+ （3）（2）后得到了labels和labels_index，首先做情感分析:
+    遍历labels:
+    if label in positive_dict:
+        sentiment = 1
+    elif label in negative_dict:
+        sentiment = 0
+    else:
+        sentiment = -1
+（4）做否定词的处理：
+    在文本中可能会有not之类的否定词，类似上述举例的句子中。我们需要对其标签和情感做处理。
+    遍历 labels:
+        遍历dependency,找到与当前label有连边的词，如果该词落入deny_dict，则计数+1。
+        若计数为奇数，则给标签加入not词，情感词反向处理，对labels_index也进行相应处理，加入否定词的下标。
+
+3、思考如何针对应用场景加工处理：
+（1）应用场景1：需要给某个商品加上一个最有价值的评论片段，要怎么加工？
+（2）应用场景2：需要给商品下的评论按照标签进行分类，需要怎么加工，输出哪些字段？
