@@ -16,7 +16,7 @@ from utils.analysis_utils import *
 from stanfordcorenlp import StanfordCoreNLP
 
 cur_path = os.getcwd()
-path  = cur_path + "\\9.2\\stanford-corenlp-4.2.2\\"
+path  = r'C:\\Users\\11415\\Desktop\\stanford-corenlp-4.2.2\\'
 nlp = StanfordCoreNLP(path)
 
 class ProcessData():
