@@ -62,3 +62,5 @@ class AnalysisUtils:
                 labels[i] = label.split(' ')[0] + ' not ' + label.split(' ')[1]
                 sentiments[i] = 1 - sentiments[i]
         return labels,sentiments
+
+
