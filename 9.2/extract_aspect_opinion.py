@@ -80,6 +80,6 @@ class ProcessData():
                         "paragraphs":paragraphs})
 
 if __name__ =='__main__':
-
+    
     process_data = ProcessData("data/14res_data_sampled.jsonl")
     process_data.read_data()
