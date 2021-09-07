@@ -13,7 +13,6 @@ class Data():
         """
         1.分词
         2.transform T to B, I, E according to its position
-        
         """
         word_lists = []
         train_word_lists = []
