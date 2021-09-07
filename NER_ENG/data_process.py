@@ -1,4 +1,5 @@
 import re
+from sklearn.model_selection import train_test_split
 from stanfordcorenlp import StanfordCoreNLP
 path  = r'C:\\Users\\11415\\Desktop\\stanford-corenlp-4.2.2\\'
 nlp = StanfordCoreNLP(path)
@@ -30,7 +31,7 @@ class Data():
                     else:
                         for element in part.split(' '):
                             if element[0] == "=":
-                                tag_list.append(element.split("=")[0])
+                                tag_list.append(element.split("=")[2])
                                 train_word_list.append("=")
                             else:
                                 tag_list.append(element.split("=")[1])
@@ -70,9 +71,9 @@ class Data():
                         
     def substring(self, words):
         """
-        check one string if its the substring of the other strings in the 
+        check one string if its the substring of the other strings
+        !!!! very slow and takes up a huge amount of CPU. Please do not use it.
         """
-
         for i in range(len(words)):
             for j in range(i, len(words)):
                 if len(words) >= 4:
@@ -83,37 +84,35 @@ class Data():
 
         return words
 
-    def statistics(self, tags):
-        tag_pos = {'B-POS':0, 'I-POS':0, 'E-POS':0, 'S-POS': 0}
-        tag_neg = {'B-NEG':0, 'I-NEG':0, 'E-NEG':0, 'S-NEG': 0}
-        tag_neu = {'B-NEU':0, 'I-NEU':0, 'E-NEU':0, 'S-NEU': 0}
+    def statistics(self, tags, processed = False):
         for tag in tags:
             count = 0
             for i in range(len(tag)-1):
-                if tag[i] != 'O': # 一定是aspect
+                if tag[i] != 'O' and not processed: # 一定是entity
                     if tag[i+1] == 'O' and count == 0:
-                        tag[i] = "S" + tag[i][1:]
+                        tag[i] = 'S' + tag[i][1:]
                     elif tag[i+1] != 'O' and count==0:
-                        tag[i] = "B" + tag[i][1:]
-                        tag[i+1] = "I" + tag[i+1][1:]
+                        tag[i] = 'B' + tag[i][1:]
+                        tag[i+1] = 'I' + tag[i+1][1:]
                         count+=1
                     elif count!=0 and  tag[i+1] != 'O':
-                        tag[i] = "I" + tag[i][1:]
-                        tag[i+1] = "E" + tag[i+1][1:]
+                        tag[i] = 'I'+ tag[i][1:]
+                        tag[i+1] = 'E' + tag[i+1][1:]
                         count+=1
                     elif count!=0 and  tag[i+1] == 'O':
-                        tag[i] = "E" + tag[i][1:]
+                        tag[i] = 'E' + tag[i][1:]
                         count = 0
-                    
-                    if tag[i] in tag_pos.keys():
-                        tag_pos[tag[i]]+=1
-                    elif tag[i] in tag_neg.keys():
-                        tag_neg[tag[i]]+=1
-                    elif tag[i] in tag_neu.keys():
-                        tag_neu[tag[i]]+=1
-
-        print(tag_pos, tag_neu, tag_neg)
-        print("Total POS: {} \n Total NEU: {} \n Total NEG: {}".format(sum(tag_pos.values()), sum(tag_neu.values()),sum(tag_neg.values())))
+        # count the number of entities:
+        num_entities = {'POS':0, 'NEU':0, 'NEG':0}
+        i = 0
+        count = 0
+        for ta in tags:
+            while i < len(ta):
+                if ta[i][:1] == 'S' or ta[i][:1] == 'E':
+                    num_entities[ta[i][2:]]+=1
+                i+=1
+            i = 0
+        print(num_entities)
         return tags
     
     def tokenize(self, sentence, method = "re"):
@@ -132,7 +131,6 @@ class Data():
             sentence = re.sub(r' - ', ",", sentence)
             sentence = re.sub(r'-- ', " ", sentence)
             sentence = re.sub(r'- ', " ", sentence)
-            
             sentence = re.sub(r'--', " -- ", sentence)
             sentence = sentence.replace(",", " , ")
             sentence = sentence.replace(":", " , ")
@@ -170,8 +168,7 @@ class Data():
             while '' in sen_tk:
                 sen_tk.remove('') # 去除空字符
             i = 0
-
-            while i < len(sen_tk) -1:
+            while i < len(sen_tk) -1: # 去除多余句号(句中+句尾)
                 if sen_tk[i] == "." and sen_tk[i+1] == ".":
                     del sen_tk[i]
                 else:
@@ -181,8 +178,15 @@ class Data():
     def save(self):
         pass
 
-    def train_test_split(self):
+    def train_valid_split(self, words, tags):
         """
-        split to train and test datasets
+        split to train and vadiation datasets
+        X : words list->list
+        y: tags list->list
         """
-        pass
+        X_train, X_valid, y_train, y_valid = train_test_split(words, tags, test_size=0.1, random_state=30244)
+        print("----- Training statistics -----")
+        train_tags = self.statistics(y_train, processed=True)
+        print("----- Validation statistics -----")
+        valid_tags = self.statistics(y_valid, processed=True)
+        return X_train, X_valid, y_train, y_valid
