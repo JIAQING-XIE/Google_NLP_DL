@@ -83,6 +83,39 @@ class Data():
 
         return words
 
+    def statistics(self, tags):
+        tag_pos = {'B-POS':0, 'I-POS':0, 'E-POS':0, 'S-POS': 0}
+        tag_neg = {'B-NEG':0, 'I-NEG':0, 'E-NEG':0, 'S-NEG': 0}
+        tag_neu = {'B-NEU':0, 'I-NEU':0, 'E-NEU':0, 'S-NEU': 0}
+        for tag in tags:
+            count = 0
+            for i in range(len(tag)-1):
+                if tag[i] != 'O': # 一定是aspect
+                    if tag[i+1] == 'O' and count == 0:
+                        tag[i] = "S" + tag[i][1:]
+                    elif tag[i+1] != 'O' and count==0:
+                        tag[i] = "B" + tag[i][1:]
+                        tag[i+1] = "I" + tag[i+1][1:]
+                        count+=1
+                    elif count!=0 and  tag[i+1] != 'O':
+                        tag[i] = "I" + tag[i][1:]
+                        tag[i+1] = "E" + tag[i+1][1:]
+                        count+=1
+                    elif count!=0 and  tag[i+1] == 'O':
+                        tag[i] = "E" + tag[i][1:]
+                        count = 0
+                    
+                    if tag[i] in tag_pos.keys():
+                        tag_pos[tag[i]]+=1
+                    elif tag[i] in tag_neg.keys():
+                        tag_neg[tag[i]]+=1
+                    elif tag[i] in tag_neu.keys():
+                        tag_neu[tag[i]]+=1
+
+        print(tag_pos, tag_neu, tag_neg)
+        print("Total POS: {} \n Total NEU: {} \n Total NEG: {}".format(sum(tag_pos.values()), sum(tag_neu.values()),sum(tag_neg.values())))
+        return tags
+    
     def tokenize(self, sentence, method = "re"):
         """
         tokenize the sentence into an array of words with certain patterns
