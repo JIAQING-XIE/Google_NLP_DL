@@ -1,5 +1,7 @@
 import re
 from sklearn.model_selection import train_test_split
+from gensim.models import KeyedVectors
+from gensim.scripts.glove2word2vec import glove2word2vec
 from stanfordcorenlp import StanfordCoreNLP
 path  = r'C:\\Users\\11415\\Desktop\\stanford-corenlp-4.2.2\\'
 nlp = StanfordCoreNLP(path)
@@ -8,7 +10,6 @@ class Data():
     def __init__(self, data_path, method = "BIOES"):
         self.data_path = data_path
         self.method = method
-
     def transform(self, method = "re"):
         """
         1.分词
@@ -40,6 +41,29 @@ class Data():
         for i in range(len(train_word_lists)):
             assert train_word_lists[i] == word_lists[i], " line {}, \n {} \n {}".format(i, word_lists[i], train_word_lists[i])
         return train_word_lists, tag_lists
+        
+    def to_id(self, word_lists, tag_lists, make_vocab = False):
+        if make_vocab:
+            word2id = self.build_map(word_lists)
+            tag2id = self.build_map(tag_lists)
+            return word_lists, tag_lists, word2id, tag2id
+        else:
+            return word_lists, tag_lists
+
+    
+    def extend_maps(self, word2id, tag2id, for_crf=True):
+        word2id['<unk>'] = len(word2id)
+        word2id['<pad>'] = len(word2id)
+        tag2id['<unk>'] = len(tag2id)
+        tag2id['<pad>'] = len(tag2id)
+        # 如果是加了CRF的bilstm  那么还要加入<start> 和 <end>token
+        if for_crf:
+            word2id['<start>'] = len(word2id)
+            word2id['<end>'] = len(word2id)
+            tag2id['<start>'] = len(tag2id)
+            tag2id['<end>'] = len(tag2id)
+
+        return word2id, tag2id
 
     def check(self, group1, group2):
         """
@@ -135,12 +159,13 @@ class Data():
             sentence = sentence.replace(":", " , ")
             sentence = sentence.replace(".", " . ")
             sentence = sentence.replace("=)", " = ")
-            sentence = sentence.replace("?", " ?")
+            sentence = sentence.replace("?", " ? ")
             sentence = sentence.replace("!", " ! ")
-            sentence = sentence.replace(";", " ;")
+            sentence = sentence.replace(";", " ; ")
             sentence = sentence.replace("$", " $ ")
             sentence = sentence.replace("%", " % ")
             sentence = sentence.replace("#", " # ")
+            sentence = sentence.replace(">", " > ")
             #sentence = sentence.replace("*", " " )
             sentence = sentence.replace("n't", " n't")
             sentence = sentence.replace("'few", " few")
@@ -189,3 +214,19 @@ class Data():
         print("----- Validation statistics -----")
         valid_tags = self.statistics(y_valid, processed=True)
         return X_train, X_valid, y_train, y_valid
+    
+    def build_map(self,lists):
+        maps = {}
+        for list_ in lists:
+            for e in list_:
+                if e not in maps:
+                    maps[e] = len(maps)
+        return maps
+
+class Glove():
+    def __init__(self, hidden_size = 300):
+        self.hidden_size = hidden_size
+
+    def glove_word2vec(self, glove_inputfile, word2vec_output_file):
+        glove2word2vec(glove_inputfile, word2vec_output_file)
+    
