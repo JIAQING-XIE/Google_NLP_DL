@@ -7,7 +7,7 @@ import time
 from evaluating import Metrics
 
 class BILSTM_Model(object):
-    def __init__(self, vocab_size, out_size, lr, batch_size, crf=True):
+    def __init__(self, weight, vocab_size, out_size, lr, batch_size, crf=True):
         """功能：对LSTM的模型进行训练与测试
            参数:
             vocab_size:词典大小
@@ -24,7 +24,7 @@ class BILSTM_Model(object):
         # 根据是否添加crf初始化不同的模型 选择不一样的损失计算函数
         if not crf:
             self.model = BiLSTM(vocab_size, self.emb_size,
-                                self.hidden_size, out_size).to(self.device)
+                                self.hidden_size, out_size, weight).to(self.device)
             self.cal_loss_func = cal_loss
         #else:
         #    self.model = BiLSTM_CRF(vocab_size, self.emb_size,
@@ -165,7 +165,7 @@ class BILSTM_Model(object):
 
         return pred_tag_lists, tag_lists
     
-def bilstm_train_and_eval(train_data, dev_data, test_data,
+def bilstm_train_and_eval(weight, train_data, dev_data, test_data,
                           word2id, tag2id, crf=True, remove_O=True, lr = 0.001, batch_size = 8):
     train_word_lists, train_tag_lists = train_data
     dev_word_lists, dev_tag_lists = dev_data
@@ -174,7 +174,7 @@ def bilstm_train_and_eval(train_data, dev_data, test_data,
     start = time.time()
     vocab_size = len(word2id)
     out_size = len(tag2id)
-    bilstm_model = BILSTM_Model(vocab_size, out_size, lr, batch_size, crf=crf)
+    bilstm_model = BILSTM_Model(weight, vocab_size, out_size, lr, batch_size, crf=crf)
     bilstm_model.train(train_word_lists, train_tag_lists,
                        dev_word_lists, dev_tag_lists, word2id, tag2id)
 

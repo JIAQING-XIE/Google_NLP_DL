@@ -1,4 +1,6 @@
 import re
+import torch
+import numpy as np
 from sklearn.model_selection import train_test_split
 from gensim.models import KeyedVectors
 from gensim.scripts.glove2word2vec import glove2word2vec
@@ -49,6 +51,10 @@ class Data():
             return word_lists, tag_lists, word2id, tag2id
         else:
             return word_lists, tag_lists
+
+    def id2word(self, word2id):
+        id_to_word = {id: word for (word, id) in word2id.items()}
+        return id_to_word
 
     
     def extend_maps(self, word2id, tag2id, for_crf=True):
@@ -125,6 +131,12 @@ class Data():
                     elif count!=0 and  tag[i+1] == 'O':
                         tag[i] = 'E' + tag[i][1:]
                         count = 0
+                tmp = i + 1
+                if tmp == len(tag) -1:
+                    if tag[tmp] != 'O' and tag[i] == 'O':
+                        tag[tmp] = 'S' + tag[tmp][1:]
+                    break
+
         # count the number of entities:
         num_entities = {'POS':0, 'NEU':0, 'NEG':0}
         i = 0
@@ -224,9 +236,32 @@ class Data():
         return maps
 
 class Glove():
-    def __init__(self, hidden_size = 300):
-        self.hidden_size = hidden_size
+    def __init__(self, vocab_size, embed_size, word2id):
+        self.vocab_size =len(word2id)
+        self.embed_size = embed_size
+        self.word2id = word2id
 
     def glove_word2vec(self, glove_inputfile, word2vec_output_file):
         glove2word2vec(glove_inputfile, word2vec_output_file)
     
+    def get_weight(self, file, word2id, id2word):
+        wvmodel = KeyedVectors.load_word2vec_format(file \
+            , binary=False, encoding='utf-8')
+        torch.manual_seed(131415)
+        weight = torch.Tensor(self.vocab_size, self.embed_size).uniform_(-0.5, 0.5)
+
+        for i in range(len(wvmodel.index2word)):
+            try:
+                index = word2id[wvmodel.indexword[i]]
+            except:
+                continue
+            weight[index, :] = torch.from_numpy(wvmodel.get_vector(
+                id2word[word2id[wvmodel.index2word[i]]]))
+        
+        return weight
+        
+        
+
+
+        
+        
