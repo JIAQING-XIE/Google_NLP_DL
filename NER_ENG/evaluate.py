@@ -83,13 +83,7 @@ class BILSTM_Model(object):
     def count_f1_score(self, pred, target):
         # 需要计算的东西： precision, recall
         # precision : 预测正确/ 总的预测实体个数
-        for sen_ in range(len(pred)):
-            for word_ in range(len(pred[sen_])):
-                if pred[sen_][word_] == target[sen_][word_]:
-                    
 
-
-        
         return confusion_mtx
 
 
