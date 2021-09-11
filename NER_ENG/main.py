@@ -26,12 +26,18 @@ if __name__ == "__main__":
     test_data = Data("test.txt")
     
     train_word_lists, train_tag_lists = train_data.transform()
+    for sen_idx in range(len(train_word_lists)):
+        for word_idx in range(len(train_word_lists[sen_idx])):
+            train_word_lists[sen_idx][word_idx] = train_word_lists[sen_idx][word_idx].lower()
+
     test_word_lists, test_tag_lists = train_data.transform()
+    for sen_idx in range(len(test_word_lists)):
+        for word_idx in range(len(test_word_lists[sen_idx])):
+            test_word_lists[sen_idx][word_idx] = test_word_lists[sen_idx][word_idx].lower()
     
     train_tag_lists = train_data.statistics(train_tag_lists)
     print("counting test")
     test_tag_lists = test_data.statistics(test_tag_lists)
-    print(test_tag_lists)
     train_word_lists, valid_word_lists, train_tag_lists, valid_tag_lists = train_data.train_valid_split(
         train_word_lists, train_tag_lists)
     train_word_lists, train_tag_lists, train_word2id, train_tag2id = train_data.to_id(train_word_lists, train_tag_lists, make_vocab=True)
@@ -53,4 +59,4 @@ if __name__ == "__main__":
         bilstm_train_word2id,  bilstm_train_tag2id,
         crf=False, lr=args.learning_rate, batch_size=args.batch_size
     )
-    
+    print(lstm_pred)

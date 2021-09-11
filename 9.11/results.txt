@@ -1,0 +1,22 @@
+tensorflow LSTM:
+tf_seed = 1314159
+learning_rate = 0.001
+decay_rate = 0.05
+
+预训练词向量 跟着微调：batch_size=16 epoch27 f1=51.6
+_________________________________________
+pytorch LSTM:
+learning_rate = 0.001
+decay_rate = 0.05
+seed = 1314159
+np_seed = 7894
+
+预训练词向量 不跟着微调：batch_size=16 epoch215 f1=51.2
+_________________________________________
+tensorflow LSTM+CRF：
+tf_seed = 5154873
+batch_size = 16
+learning_rate = 0.001
+decay_rate = 0.05
+
+预训练词向量 不跟着微调：batch_size=16 epoch42 f1=54.0

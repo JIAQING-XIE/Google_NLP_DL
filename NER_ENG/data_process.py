@@ -58,17 +58,21 @@ class Data():
 
     
     def extend_maps(self, word2id, tag2id, for_crf=True):
+        
         word2id['<unk>'] = len(word2id)
         word2id['<pad>'] = len(word2id)
+        
         tag2id['<unk>'] = len(tag2id)
         tag2id['<pad>'] = len(tag2id)
+        
         # 如果是加了CRF的bilstm  那么还要加入<start> 和 <end>token
         if for_crf:
             word2id['<start>'] = len(word2id)
             word2id['<end>'] = len(word2id)
+            
             tag2id['<start>'] = len(tag2id)
             tag2id['<end>'] = len(tag2id)
-
+            
         return word2id, tag2id
 
     def check(self, group1, group2):

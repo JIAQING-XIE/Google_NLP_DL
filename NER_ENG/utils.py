@@ -2,6 +2,15 @@ import torch
 import torch.nn.functional as F
 import pickle
 
+'''
+def count_f1(target, predict):
+    for sen_ in range(len(target)):
+        for word_ in range(len(predict)):
+            if target == 0:
+'''
+             
+
+
 def sort_by_lengths(word_lists, tag_lists):
     pairs = list(zip(word_lists, tag_lists))
     indices = sorted(range(len(pairs)),
