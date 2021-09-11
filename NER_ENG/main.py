@@ -60,3 +60,4 @@ if __name__ == "__main__":
         crf=False, lr=args.learning_rate, batch_size=args.batch_size
     )
     test_precision, test_recall, test_f1 = count_f1_score(lstm_pred, test_tag_lists)
+    print(test_f1)
