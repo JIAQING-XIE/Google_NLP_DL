@@ -81,33 +81,12 @@ class BILSTM_Model(object):
             print("Epoch {}, Val Loss:{:.4f}".format(e, val_loss))
 
     def count_f1_score(self, pred, target):
-        confusion_mtx = torch.zeros((2,2), dtype=int)
+        # 需要计算的东西： precision, recall
+        # precision : 预测正确/ 总的预测实体个数
         for sen_ in range(len(pred)):
-            for word_ in range(len(target)):
-                if target[sen_][word_] == pred[sen_][word_]: 
-                # 如果相等有4种情况
-                # 1. 如果都是等于'O', true negative
-                    if target[sen_][word_] == 'O':
-                        confusion_mtx[1][1]+= 1
-                # 2. 如果都是等于'S', true positive
-                    elif target[sen_][word_][0] == 'S':
-                        confusion_mtx[0][0]+=1
-                # 3. 那就直接找 target 'B' 看对应的预测是否也是'B',
-                # 默认 target 不会出现 'B', 'B',.. 这类情况，就是说默认数据集perfect
-                # 那么只需要判断两种情况，第一种是 'B', 'E', 第二种是 'B', 'I', 'E', 后面的情感也需要一样
-                    elif target[sen_][word_][0] == 'B':
-                        if target[sen_][word_ + 1] == pred[sen_][word_ + 1]:
-                            if target[sen_][word_ + 1][0] == 'E':
-                                confusion_mtx[0][0]+=1
-                            elif target[sen_][word_ + 1][0] == 'I':
-                                if target[sen_][word_ + 2] == pred[sen_][word_ + 2] and target[sen_][word_ + 2][0] == 'E':
-                                    confusion_mtx[0][0]+=1
-                else:
-                # 如果不相等有很多种情况，
-                # 1. 如果target是'O',那么显然model将此类分为实体， false positive
-                    if target[sen_][word_] == 'O':
-                        confusion_mtx[1][0]+=1
-                    elif pred[sen_][word_] == 'O':
+            for word_ in range(len(pred[sen_])):
+                if pred[sen_][word_] == target[sen_][word_]:
+                    
 
 
         
