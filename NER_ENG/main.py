@@ -30,7 +30,7 @@ if __name__ == "__main__":
         for word_idx in range(len(train_word_lists[sen_idx])):
             train_word_lists[sen_idx][word_idx] = train_word_lists[sen_idx][word_idx].lower()
 
-    test_word_lists, test_tag_lists = train_data.transform()
+    test_word_lists, test_tag_lists = test_data.transform()
     for sen_idx in range(len(test_word_lists)):
         for word_idx in range(len(test_word_lists[sen_idx])):
             test_word_lists[sen_idx][word_idx] = test_word_lists[sen_idx][word_idx].lower()
@@ -38,6 +38,7 @@ if __name__ == "__main__":
     train_tag_lists = train_data.statistics(train_tag_lists)
     print("counting test")
     test_tag_lists = test_data.statistics(test_tag_lists)
+    
     train_word_lists, valid_word_lists, train_tag_lists, valid_tag_lists = train_data.train_valid_split(
         train_word_lists, train_tag_lists)
     train_word_lists, train_tag_lists, train_word2id, train_tag2id = train_data.to_id(train_word_lists, train_tag_lists, make_vocab=True)
@@ -61,3 +62,4 @@ if __name__ == "__main__":
     )
     test_precision, test_recall, test_f1 = count_f1_score(lstm_pred, test_tag_lists)
     print(test_f1)
+    

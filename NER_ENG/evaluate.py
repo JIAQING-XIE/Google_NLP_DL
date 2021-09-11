@@ -107,7 +107,7 @@ class BILSTM_Model(object):
         #    self.cal_loss_func = cal_lstm_crf_loss
 
         # 加载训练参数：
-        self.epoches = 50
+        self.epoches = 100
         self.print_step = 5
         self.lr = lr
         self.batch_size = batch_size
@@ -152,7 +152,7 @@ class BILSTM_Model(object):
                     ))
                     losses = 0.
             # 每轮结束测试在验证集上的性能，保存最好的一个
-            self.best_model = deepcopy(self.model)
+            self._model = deepcopy(self.model)
             val_loss = self.validate(
                 dev_word_lists, dev_tag_lists, word2id, tag2id)
             pred_val_tags_lists = self.test(dev_word_lists, dev_tag_lists, word2id, tag2id) # 模型在vad集上的prediction tag list
@@ -160,10 +160,11 @@ class BILSTM_Model(object):
             if val_f1 > best_valid_f1:
                 best_valid_f1 = val_f1
                 best_valid_epoch = e
+                self.best_model = self._model
                 self._best_val_loss = val_loss
                 no_better_f1_rounds = 0
             else:
-                if no_better_f1_rounds == 20:
+                if no_better_f1_rounds == 100:
                     break
                 else:
                     no_better_f1_rounds+=1
@@ -301,9 +302,9 @@ class BILSTM_Model(object):
         tensorized_sents, lengths = tensorized(word_lists, word2id)
         tensorized_sents = tensorized_sents.to(self.device)
 
-        self.best_model.eval()
+        self._model.eval()
         with torch.no_grad():
-            batch_tagids = self.best_model.test(
+            batch_tagids = self._model.test(
                 tensorized_sents, lengths, tag2id)
 
         # 将id转化为标注
