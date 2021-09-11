@@ -29,7 +29,7 @@ def count_f1_score(pred, target):
                         nst_E = nearest_E
                         break
                 sentiment = []
-                for cc in range(j, nearest_E+1):
+                for cc in range(j, nst_E+1):
                     sentiment.append(pred[i][cc][2:])
                 sentiment = tuple(sentiment)
                 predict_aspect.append((j, nst_E, sentiment))
@@ -51,7 +51,7 @@ def count_f1_score(pred, target):
                         nst_E = nearest_E
                         break
                 sentiment = []
-                for cc in range(j, nearest_E+1):
+                for cc in range(j,nst_E+1):
                     sentiment.append(target[i][cc][2:])
                 sentiment = tuple(sentiment)
                 target_aspect.append((j, nst_E, sentiment))
@@ -118,6 +118,7 @@ class BILSTM_Model(object):
         # 初始化其他指标
         self.step = 0
         self._best_val_loss = 1e18
+        self._model = None
         self.best_model = None
 
     def train(self, word_lists, tag_lists,
@@ -151,8 +152,7 @@ class BILSTM_Model(object):
                     ))
                     losses = 0.
             # 每轮结束测试在验证集上的性能，保存最好的一个
-            if e == 1:
-                self.best_model = deepcopy(self.model)
+            self.best_model = deepcopy(self.model)
             val_loss = self.validate(
                 dev_word_lists, dev_tag_lists, word2id, tag2id)
             pred_val_tags_lists = self.test(dev_word_lists, dev_tag_lists, word2id, tag2id) # 模型在vad集上的prediction tag list
@@ -160,12 +160,10 @@ class BILSTM_Model(object):
             if val_f1 > best_valid_f1:
                 best_valid_f1 = val_f1
                 best_valid_epoch = e
-                print("Save model...")
-                self.best_model = deepcopy(self.model)
                 self._best_val_loss = val_loss
                 no_better_f1_rounds = 0
             else:
-                if no_better_f1_rounds == 10:
+                if no_better_f1_rounds == 20:
                     break
                 else:
                     no_better_f1_rounds+=1
@@ -196,7 +194,7 @@ class BILSTM_Model(object):
                             nst_E = nearest_E
                             break
                     sentiment = []
-                    for cc in range(j, nearest_E+1):
+                    for cc in range(j, nst_E+1):
                         sentiment.append(pred[i][cc][2:])
                     sentiment = tuple(sentiment)
                     predict_aspect.append((j, nst_E, sentiment))
@@ -218,7 +216,7 @@ class BILSTM_Model(object):
                             nst_E = nearest_E
                             break
                     sentiment = []
-                    for cc in range(j, nearest_E+1):
+                    for cc in range(j, nst_E+1):
                         sentiment.append(target[i][cc][2:])
                     sentiment = tuple(sentiment)
                     target_aspect.append((j, nst_E, sentiment))
@@ -227,6 +225,8 @@ class BILSTM_Model(object):
 
         for sen_idx in range(len(predict_aspects)):
             for a_idx in range(len(predict_aspects[sen_idx])):
+                print(predict_aspects[sen_idx])
+                print(target_aspects[sen_idx])
                 if predict_aspects[sen_idx][a_idx] in target_aspects[sen_idx]:
                     correct+=1
 
