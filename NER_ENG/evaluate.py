@@ -6,6 +6,81 @@ from copy import deepcopy
 import time
 from evaluating import Metrics
 
+def count_f1_score(pred, target):
+    # 需要计算的东西： precision, recall
+    # precision : 预测正确/ 总的预测实体个数
+    correct = 0 
+    predict_total = 0
+    target_total = 0
+    target_aspects = []
+    predict_aspects = []
+    for i in range(len(pred)):
+        predict_aspect = []
+        for j in range(len(pred[i])):
+            if pred[i][j] == 'O': # 不是实体，跳过
+                continue
+            elif pred[i][j][0] == 'S': #单个实体
+                predict_aspect.append((j, pred[i][j][2:]))
+                predict_total+=1
+            elif pred[i][j][0] == 'B': #多个实体
+                nst_E = j 
+                for nearest_E in range(j+1, len(pred[i])):
+                    if pred[i][nearest_E][0] == 'E':
+                        nst_E = nearest_E
+                        break
+                sentiment = []
+                for cc in range(j, nearest_E+1):
+                    sentiment.append(pred[i][cc][2:])
+                sentiment = tuple(sentiment)
+                predict_aspect.append((j, nst_E, sentiment))
+                predict_total+=1
+        predict_aspects.append(predict_aspect)
+
+    for i in range(len(target)):
+        target_aspect = []
+        for j in range(len(target[i])):
+            if target[i][j] == 'O': # 不是实体，跳过
+                continue
+            elif target[i][j][0] == 'S': #单个实体
+                target_aspect.append((j, target[i][j][2:]))
+                target_total+=1
+            elif target[i][j][0] == 'B': #多个实体
+                nst_E = j 
+                for nearest_E in range(j+1, len(target[i])):
+                    if target[i][nearest_E][0] == 'E':
+                        nst_E = nearest_E
+                        break
+                sentiment = []
+                for cc in range(j, nearest_E+1):
+                    sentiment.append(target[i][cc][2:])
+                sentiment = tuple(sentiment)
+                target_aspect.append((j, nst_E, sentiment))
+                target_total+=1
+        target_aspects.append(target_aspect)         
+
+    for sen_idx in range(len(target_aspects)):
+        for a_idx in range(len(target_aspects[sen_idx])):
+            if predict_aspects[sen_idx][a_idx] in target_aspects[sen_idx]:
+                correct+=1
+
+    precision = 0
+    if predict_total != 0:        
+        precison = correct / predict_total
+    else:
+        precision = 0
+    recall = 0
+    if target_total != 0:
+        recall = correct / target_total
+    else:
+        recall = 0
+    f1 = 0
+    if precison + recall != 0.0:
+        f1 = 2 * precison * recall / (precison + recall)
+    else:
+        f1 = 0
+    
+    return precision, recall, f1
+
 class BILSTM_Model(object):
     def __init__(self, weight, vocab_size, out_size, lr, batch_size, crf=True):
         """功能：对LSTM的模型进行训练与测试
@@ -54,6 +129,9 @@ class BILSTM_Model(object):
             dev_word_lists, dev_tag_lists)
 
         B = self.batch_size
+        best_valid_epoch = 0
+        best_valid_f1 = 0
+        no_better_f1_rounds = 0
         for e in range(1, self.epoches+1):
             self.step = 0
             losses = 0.
@@ -76,21 +154,97 @@ class BILSTM_Model(object):
             # 每轮结束测试在验证集上的性能，保存最好的一个
             val_loss = self.validate(
                 dev_word_lists, dev_tag_lists, word2id, tag2id)
-            pred_val_tags_lists = self.test(dev_word_lists, dev_tag_lists, word2id, tag2id)
+            pred_val_tags_lists = self.test(dev_word_lists, dev_tag_lists, word2id, tag2id) # 模型在vad集上的prediction tag list
+            val_precision, val_recall, val_f1 = self.count_f1_score(pred_val_tags_lists, dev_tag_lists)
+            if val_f1 > best_valid_f1:
+                best_valid_f1 = val_f1
+                best_valid_epoch = e
+                print("Save model...")
+                self.best_model = deepcopy(self.model)
+                self._best_val_loss = val_loss
+                no_better_f1_rounds = 0
+            else:
+                if no_better_f1_rounds == 10:
+                    break
+                else:
+                    no_better_f1_rounds+=1
 
-            print("Epoch {}, Val Loss:{:.4f}".format(e, val_loss))
+        print("Best Epoch {}, Val Loss:{:.4f}, F1 Score:{:.4f}".format(e, val_loss, best_valid_f1))
 
     def count_f1_score(self, pred, target):
         # 需要计算的东西： precision, recall
         # precision : 预测正确/ 总的预测实体个数
+        correct = 0 
+        predict_total = 0
+        target_total = 0
+        target_aspects = []
+        predict_aspects = []
+        for i in range(len(pred)):
+            predict_aspect = []
+            for j in range(len(pred[i])):
+                if pred[i][j] == 'O': # 不是实体，跳过
+                    continue
+                elif pred[i][j][0] == 'S': #单个实体
+                    predict_aspect.append((j, pred[i][j][2:]))
+                    predict_total+=1
+                elif pred[i][j][0] == 'B': #多个实体
+                    nst_E = j 
+                    for nearest_E in range(j+1, len(pred[i])):
+                        if pred[i][nearest_E][0] == 'E':
+                            nst_E = nearest_E
+                            break
+                    sentiment = []
+                    for cc in range(j, nearest_E+1):
+                        sentiment.append(pred[i][cc][2:])
+                    sentiment = tuple(sentiment)
+                    predict_aspect.append((j, nst_E, sentiment))
+                    predict_total+=1
+            predict_aspects.append(predict_aspect)
 
-        return confusion_mtx
+        for i in range(len(target)):
+            target_aspect = []
+            for j in range(len(target[i])):
+                if target[i][j] == 'O': # 不是实体，跳过
+                    continue
+                elif target[i][j][0] == 'S': #单个实体
+                    target_aspect.append((j, target[i][j][2:]))
+                    target_total+=1
+                elif target[i][j][0] == 'B': #多个实体
+                    nst_E = j 
+                    for nearest_E in range(j+1, len(target[i])):
+                        if target[i][nearest_E][0] == 'E':
+                            nst_E = nearest_E
+                            break
+                    sentiment = []
+                    for cc in range(j, nearest_E+1):
+                        sentiment.append(target[i][cc][2:])
+                    sentiment = tuple(sentiment)
+                    target_aspect.append((j, nst_E, sentiment))
+                    target_total+=1
+            target_aspects.append(target_aspect)         
 
+        for sen_idx in range(len(target_aspects)):
+            for a_idx in range(len(target_aspects[sen_idx])):
+                if predict_aspects[sen_idx][a_idx] in target_aspects[sen_idx]:
+                    correct+=1
 
-
-
-
-                
+        precision = 0
+        if predict_total != 0:        
+            precison = correct / predict_total
+        else:
+            precision = 0
+        recall = 0
+        if target_total != 0:
+            recall = correct / target_total
+        else:
+            recall = 0
+        f1 = 0
+        if precison + recall != 0.0:
+            f1 = 2 * precison * recall / (precison + recall)
+        else:
+            f1 = 0
+        
+        return precision, recall, f1
 
     def train_step(self, batch_sents, batch_tags, word2id, tag2id):
         self.model.train()
@@ -135,11 +289,6 @@ class BILSTM_Model(object):
                     scores, targets, tag2id).to(self.device)
                 val_losses += loss.item()
             val_loss = val_losses / val_step
-
-            if val_loss < self._best_val_loss:
-                print("Save model...")
-                self.best_model = deepcopy(self.model)
-                self._best_val_loss = val_loss
 
             return val_loss
 

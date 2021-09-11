@@ -2,7 +2,7 @@ from data_process import Data, Glove
 import argparse
 import torch
 import torch.utils.data as DATA
-from evaluate import BILSTM_Model, bilstm_train_and_eval
+from evaluate import BILSTM_Model, bilstm_train_and_eval, count_f1_score
 torch.manual_seed(131415)
 
 def data_batch(x, y, batch_size):
@@ -59,4 +59,4 @@ if __name__ == "__main__":
         bilstm_train_word2id,  bilstm_train_tag2id,
         crf=False, lr=args.learning_rate, batch_size=args.batch_size
     )
-    print(lstm_pred)
+    test_precision, test_recall, test_f1 = count_f1_score(lstm_pred, test_tag_lists)
