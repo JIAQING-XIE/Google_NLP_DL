@@ -58,14 +58,14 @@ def count_f1_score(pred, target):
                 target_total+=1
         target_aspects.append(target_aspect)         
 
-    for sen_idx in range(len(target_aspects)):
-        for a_idx in range(len(target_aspects[sen_idx])):
+    for sen_idx in range(len(predict_aspects)):
+        for a_idx in range(len(predict_aspects[sen_idx])):
             if predict_aspects[sen_idx][a_idx] in target_aspects[sen_idx]:
                 correct+=1
 
     precision = 0
     if predict_total != 0:        
-        precison = correct / predict_total
+        precision = correct / predict_total
     else:
         precision = 0
     recall = 0
@@ -74,8 +74,8 @@ def count_f1_score(pred, target):
     else:
         recall = 0
     f1 = 0
-    if precison + recall != 0.0:
-        f1 = 2 * precison * recall / (precison + recall)
+    if precision + recall != 0.0:
+        f1 = 2 * precision * recall / (precision + recall)
     else:
         f1 = 0
     
@@ -150,8 +150,9 @@ class BILSTM_Model(object):
                         losses / self.print_step
                     ))
                     losses = 0.
-
             # 每轮结束测试在验证集上的性能，保存最好的一个
+            if e == 1:
+                self.best_model = deepcopy(self.model)
             val_loss = self.validate(
                 dev_word_lists, dev_tag_lists, word2id, tag2id)
             pred_val_tags_lists = self.test(dev_word_lists, dev_tag_lists, word2id, tag2id) # 模型在vad集上的prediction tag list
@@ -169,7 +170,8 @@ class BILSTM_Model(object):
                 else:
                     no_better_f1_rounds+=1
 
-        print("Best Epoch {}, Val Loss:{:.4f}, F1 Score:{:.4f}".format(e, val_loss, best_valid_f1))
+        print("Best Epoch {}, Val Loss:{:.4f}, F1 Score:{:.4f}".format(best_valid_epoch \
+                , val_loss, best_valid_f1))
 
     def count_f1_score(self, pred, target):
         # 需要计算的东西： precision, recall
@@ -223,14 +225,14 @@ class BILSTM_Model(object):
                     target_total+=1
             target_aspects.append(target_aspect)         
 
-        for sen_idx in range(len(target_aspects)):
-            for a_idx in range(len(target_aspects[sen_idx])):
+        for sen_idx in range(len(predict_aspects)):
+            for a_idx in range(len(predict_aspects[sen_idx])):
                 if predict_aspects[sen_idx][a_idx] in target_aspects[sen_idx]:
                     correct+=1
 
         precision = 0
         if predict_total != 0:        
-            precison = correct / predict_total
+            precision = correct / predict_total
         else:
             precision = 0
         recall = 0
@@ -239,8 +241,8 @@ class BILSTM_Model(object):
         else:
             recall = 0
         f1 = 0
-        if precison + recall != 0.0:
-            f1 = 2 * precison * recall / (precison + recall)
+        if precision + recall != 0.0:
+            f1 = 2 * precision * recall / (precision + recall)
         else:
             f1 = 0
         
