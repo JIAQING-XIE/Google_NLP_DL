@@ -1,7 +1,7 @@
-from tor.model_lstm.process_lap_data import ProcessData,Evaluate
-from tor.model_lstm.lstm import LSTM
+from process_lap_data import ProcessData,Evaluate
+from lstm import LSTM
 import torch
-from tor.model_lstm.config import  *
+from config import *
 import torch.nn as nn
 import numpy as np
 torch.manual_seed(seed)            # 为CPU设置随机种子
@@ -12,11 +12,13 @@ np.random.seed(np_seed)
 
 if __name__=="__main__":
     process_utils = ProcessData()
-    process_utils.read_vocab("../vocab/word_vocab.txt")
-    test_texts,test_words,test_labels = process_utils.read_data("../data_plain/test.txt")
+    process_utils.read_vocab("C:\\Users\\11415\\Desktop\\Google_Deep_Learning\\Google_NLP_DL\\9.11\\tor\\vocab\\word_vocab.txt")
+    test_texts,test_words,test_labels = process_utils.read_data( \
+        "C:\\Users\\11415\\Desktop\\Google_Deep_Learning\\Google_NLP_DL\\9.11\\tor\\data_plain\\test.txt")
     test_words_ids, test_labels_ids=  process_utils.convert_to_vocab(test_words,test_labels)
 
-    texts,words,labels = process_utils.read_data("../data_plain/train.txt")
+    texts,words,labels = process_utils.read_data( \
+        "C:\\Users\\11415\\Desktop\\Google_Deep_Learning\\Google_NLP_DL\\9.11\\tor\\data_plain\\train.txt")
     words_ids, labels_ids = process_utils.convert_to_vocab(words,labels)
     datas = [[texts[i],words[i],words_ids[i],labels_ids[i]] for i in range(len(texts))]
     test_datas = [[test_texts[i],test_words[i],test_words_ids[i],test_labels_ids[i]] for i in range(len(test_texts))]
@@ -32,7 +34,8 @@ if __name__=="__main__":
             train_datas.append(data)
             train_labels.append(labels_ids[i])
     print("train_dev_splited..")
-    word_embedding_matrix = process_utils.loadEmbMatrix("../data_plain/aets_embedding.txt", embedding_size, bina=False)
+    word_embedding_matrix = process_utils.loadEmbMatrix(\
+        "C:\\Users\\11415\\Desktop\\Google_Deep_Learning\\Google_NLP_DL\\9.11\\tor\\data_plain\\aets_embedding.txt", embedding_size, bina=False)
     print("embedding..")
     model = LSTM(len(word_embedding_matrix),embedding_size,word_embedding_matrix)
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
@@ -51,6 +54,8 @@ if __name__=="__main__":
         train_texts_batch, train_words_batch, train_words_ids_batch, train_aspect_labels_batch = zip(*train_batch)
         train_aspect_labels_batch = np.array(train_aspect_labels_batch)
         x_train = torch.from_numpy(np.array(train_words_ids_batch))  ## b,83
+        # debug
+        x_train = x_train.long()
         out, predict_sample = model(x_train)#b,83,13,
         out = out.view(-1,classfy_number)
         train_aspect_labels_batch_reshape = np.reshape(train_aspect_labels_batch,[-1])
@@ -80,6 +85,7 @@ if __name__=="__main__":
                 dev_texts_batch, dev_words_batch, dev_words_ids_batch, dev_aspect_labels_batch = zip(*dev_batch)
                 dev_aspect_labels_batch = np.array(dev_aspect_labels_batch)
                 x_dev = torch.from_numpy(np.array(dev_words_ids_batch))
+                x_dev = x_dev.long()
                 out, predict_sample = model(x_dev)
                 dev_epoch_reals.extend(dev_aspect_labels_batch)
                 dev_epoch_predict.extend(predict_sample.numpy().tolist())
@@ -98,6 +104,7 @@ if __name__=="__main__":
                     test_texts_batch, test_words_batch, test_words_ids_batch, test_aspect_labels_batch = zip(*test_batch)
                     test_aspect_labels_batch = np.array(test_aspect_labels_batch)
                     x_test = torch.from_numpy(np.array(test_words_ids_batch))
+                    x_test = x_test.long()
                     out, predict_sample = model(x_test)
                     test_epoch_reals.extend(test_aspect_labels_batch)
                     test_epoch_predict.extend(predict_sample.numpy().tolist())

@@ -1,5 +1,5 @@
 from nltk import word_tokenize
-from tor.model_lstm.lstm import *
+from lstm import *
 from gensim.models.keyedvectors import KeyedVectors
 import numpy as np
 

@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from tor.model_lstm.config import  *
+from config import *
 from torch.nn.utils.rnn import pad_packed_sequence, pack_padded_sequence
 
 class LSTM(nn.Module):
