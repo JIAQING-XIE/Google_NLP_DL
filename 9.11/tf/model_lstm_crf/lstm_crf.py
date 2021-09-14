@@ -1,0 +1,47 @@
+import tensorflow as tf
+from tf.model_lstm_crf.config import *
+tf.set_random_seed(tf_seed)
+class LSTM():
+    def __init__(self,embedding_size,word_embedding_matrix,max_length):
+        self.input_text_id = tf.placeholder(tf.int32, [None, max_length], name="input_text_id")
+        self.input_aspect_labels = tf.placeholder(tf.int32, [None, max_length], name="input_aspect_labels")
+        self.word_embedding_matrix = word_embedding_matrix
+        self.dropout = tf.placeholder(tf.float32, None, name="drop")
+        self.embedding_size = embedding_size
+        self.max_length = max_length
+        self.real_length = tf.placeholder(tf.int32, [None], name="real_length")
+
+    def network(self):
+        with tf.device('/cpu:0'), tf.name_scope("matrix"):
+            ##初始化词向量，保证unk向量一直为0
+            word_maxtrix = tf.Variable(initial_value=self.word_embedding_matrix, name='word_embedding_matrix',
+                                       dtype=tf.float32,trainable=False)
+
+            self.word_embedding = tf.nn.embedding_lookup(word_maxtrix, self.input_text_id)
+            self.word_embedding = tf.nn.dropout(self.word_embedding,keep_prob=self.dropout)
+
+        with tf.device('/cpu:0'), tf.name_scope("aspect"):
+            with tf.name_scope("lstm_t"):
+                lstm_fw_cell_t = tf.nn.rnn_cell.BasicRNNCell(50,name="cell_fw_t")
+                lstm_bw_cell_t = tf.nn.rnn_cell.BasicRNNCell(50,name="cell_bw_t")
+                (outputs_t, output_states_t) = tf.nn.bidirectional_dynamic_rnn(lstm_fw_cell_t, lstm_bw_cell_t,
+                                                                           self.word_embedding,sequence_length=self.real_length, dtype=tf.float32)
+                word_lstm_embedding_t = tf.concat(outputs_t, 2)  # b,100,300
+
+                self.y_t_predict = tf.layers.dense(word_lstm_embedding_t, 13)
+
+                log_likelihood, self.transition_params = tf.contrib.crf.crf_log_likelihood(self.y_t_predict, self.input_aspect_labels,
+                                                                                      self.real_length)
+
+                self.loss = tf.reduce_mean(-log_likelihood)
+                self.decode_tags, best_score = tf.contrib.crf.crf_decode(self.y_t_predict, self.transition_params, self.real_length)
+
+
+
+
+
+
+
+
+
+

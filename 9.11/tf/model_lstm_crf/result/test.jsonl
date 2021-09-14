@@ -1,0 +1,800 @@
+{"text": ["boot", "time", "is", "super", "fast", ",", "around", "anywhere", "from", "35", "seconds", "to", "1", "minute", "."], "predict": [[0, 1, ["boot", "time"], "NEG"]], "real": [[0, 1, ["boot", "time"], "POS"]]}
+{"text": ["tech", "support", "would", "not", "fix", "the", "problem", "unless", "i", "bought", "your", "plan", "for", "$", "150", "plus", "."], "predict": [[0, 1, ["tech", "support"], "NEG"]], "real": [[0, 1, ["tech", "support"], "NEG"]]}
+{"text": ["but", "in", "resume", "this", "computer", "rocks", "!"], "predict": [], "real": []}
+{"text": ["set", "up", "was", "easy", "."], "predict": [], "real": [[0, 1, ["set", "up"], "POS"]]}
+{"text": ["did", "not", "enjoy", "the", "new", "windows", "8", "and", "touchscreen", "functions", "."], "predict": [[5, 6, ["windows", "8"], "POS"]], "real": [[5, 6, ["windows", "8"], "NEG"], [8, 9, ["touchscreen", "functions"], "NEG"]]}
+{"text": ["i", "expected", "so", "as", "it", "'s", "an", "apple", "product", ",", "but", "i", "was", "glad", "to", "see", "my", "expectations", "exceeded", ",", "this", "is", "the", "laptop", "to", "buy", "right", "now", "."], "predict": [], "real": []}
+{"text": ["other", "than", "not", "being", "a", "fan", "of", "click", "pads", "industry", "standard", "these", "days", "and", "the", "lousy", "internal", "speakers", ",", "it", "'s", "hard", "for", "me", "to", "find", "things", "about", "this", "notebook", "i", "do", "n't", "like", ",", "especially", "considering", "the", "$", "350", "price", "tag", "."], "predict": [[5, 7, ["fan", "of", "click"], "NEG"], [16, 17, ["internal", "speakers"], "NEG"]], "real": [[7, 8, ["click", "pads"], "NEG"], [16, 17, ["internal", "speakers"], "NEG"], [40, 41, ["price", "tag"], "POS"]]}
+{"text": ["excellent", "in", "every", "way", "."], "predict": [], "real": []}
+{"text": ["no", "installation", "disk", "dvd", "is", "included", "."], "predict": [[1, 3, ["installation", "disk", "dvd"], "NEU"]], "real": [[1, 3, ["installation", "disk", "dvd"], "NEU"]]}
+{"text": ["it", "'s", "fast", ",", "light", ",", "and", "simple", "to", "use", "."], "predict": [[9, 9, "use", "POS"]], "real": [[9, 9, "use", "POS"]]}
+{"text": ["works", "well", ",", "and", "i", "am", "extremely", "happy", "to", "be", "back", "to", "an", "apple", "os", "."], "predict": [[0, 0, "works", "POS"], [13, 14, ["apple", "os"], "NEU"]], "real": [[0, 0, "works", "POS"], [13, 14, ["apple", "os"], "POS"]]}
+{"text": ["this", "mac", "has", "been", "a", "problem", "since", "we", "got", "it", "."], "predict": [], "real": []}
+{"text": ["sure", "it", "'s", "not", "light", "and", "slim", "but", "the", "features", "make", "up", "for", "it", "100", "%", "."], "predict": [[9, 9, "features", "POS"]], "real": [[9, 9, "features", "POS"]]}
+{"text": ["i", "am", "pleased", "with", "the", "fast", "log", "on", ",", "speedy", "wifi", "connection", "and", "the", "long", "battery", "life", ">", "6", "hrs", "."], "predict": [[10, 11, ["wifi", "connection"], "POS"], [15, 16, ["battery", "life"], "POS"]], "real": [[6, 7, ["log", "on"], "POS"], [10, 11, ["wifi", "connection"], "POS"], [15, 16, ["battery", "life"], "POS"]]}
+{"text": ["the", "apple", "engineers", "have", "not", "yet", "discovered", "the", "delete", "key", "."], "predict": [[8, 9, ["delete", "key"], "NEG"]], "real": [[8, 9, ["delete", "key"], "NEG"]]}
+{"text": ["made", "interneting", "part", "of", "my", "business", "very", "difficult", "to", "maintain", "."], "predict": [], "real": [[1, 1, "interneting", "NEG"]]}
+{"text": ["luckily", ",", "for", "all", "of", "us", "contemplating", "the", "decision", ",", "the", "mac", "mini", "is", "priced", "just", "right", "."], "predict": [], "real": [[14, 14, "priced", "POS"]]}
+{"text": ["small", "and", "still", "very", "powerful", "."], "predict": [], "real": []}
+{"text": ["i", "had", "gotten", "this", "model", "for", "$", "119900", "on", "my", "state", "'s", "tax-free", "weekend", "and", "had", "a", "$", "100", "off", "coupon", "for", "a", "macbook", "at", "the", "local", "bestbuy", "!", "."], "predict": [], "real": []}
+{"text": ["super", "light", ",", "super", "sexy", "and", "everything", "just", "works", "."], "predict": [], "real": [[8, 8, "works", "POS"]]}
+{"text": ["only", "problem", "that", "i", "had", "was", "that", "the", "track", "pad", "was", "not", "very", "good", "for", "me", ",", "i", "only", "had", "a", "problem", "once", "or", "twice", "with", "it", ",", "but", "probably", "my", "computer", "was", "a", "bit", "defective", "."], "predict": [[8, 9, ["track", "pad"], "NEG"]], "real": [[8, 9, ["track", "pad"], "NEG"]]}
+{"text": ["and", "if", "you", "are", "switching", "from", "a", "pc", "i", "hilghy", "sugest", "this", "one", "."], "predict": [], "real": []}
+{"text": ["it", "is", "super", "fast", "and", "has", "outstanding", "graphics", "."], "predict": [[7, 7, "graphics", "POS"]], "real": [[7, 7, "graphics", "POS"]]}
+{"text": ["but", "the", "mountain", "lion", "is", "just", "too", "slow", "."], "predict": [[2, 3, ["mountain", "lion"], "POS"]], "real": [[2, 3, ["mountain", "lion"], "NEG"]]}
+{"text": ["strong", "build", "though", "which", "really", "adds", "to", "its", "durability", "."], "predict": [[1, 1, "build", "POS"], [8, 8, "durability", "POS"]], "real": [[1, 1, "build", "POS"], [8, 8, "durability", "POS"]]}
+{"text": ["the", "battery", "life", "is", "excellent", "6-7", "hours", "without", "charging", "."], "predict": [[1, 2, ["battery", "life"], "POS"], [8, 8, "charging", "NEG"]], "real": [[1, 2, ["battery", "life"], "POS"]]}
+{"text": ["i", "enjoy", "having", "apple", "products", "."], "predict": [], "real": []}
+{"text": ["i", "'ve", "had", "my", "computer", "for", "2", "weeks", "already", "and", "it", "works", "perfectly", "."], "predict": [], "real": [[11, 11, "works", "POS"]]}
+{"text": ["i", "will", "never", "go", "back", "to", "a", "pc", "again", "!"], "predict": [], "real": []}
+{"text": ["and", "i", "may", "be", "the", "only", "one", "but", "i", "am", "really", "liking", "windows", "8", "."], "predict": [[12, 13, ["windows", "8"], "POS"]], "real": [[12, 13, ["windows", "8"], "POS"]]}
+{"text": ["the", "baterry", "is", "very", "longer", "."], "predict": [[1, 1, "baterry", "POS"]], "real": [[1, 1, "baterry", "POS"]]}
+{"text": ["and", "it", "'s", "so", "quiet", "that", "i", "do", "n't", "hear", "it", "at", "all", "."], "predict": [], "real": []}
+{"text": ["its", "size", "is", "ideal", "and", "the", "weight", "is", "acceptable", "."], "predict": [[1, 1, "size", "POS"], [6, 6, "weight", "POS"]], "real": [[1, 1, "size", "POS"], [6, 6, "weight", "POS"]]}
+{"text": ["i", "know", "apples", "are", "more", "expensive", "than", "pcs", ",", "but", "he", "thinks", "it", "is", "worth", "every", "penny", "."], "predict": [], "real": []}
+{"text": ["to", "me", "it", "'s", "a", "workhorse", "and", "quiet", "as", "can", "be", "you", "even", "save", "big", "bucks", "not", "dishing", "out", "any", "extra", "to", "uncle", "sam", "definite", "buy", "."], "predict": [], "real": []}
+{"text": ["i", "can", "say", "that", "i", "am", "fully", "satisfied", "with", "the", "performance", "that", "the", "computer", "has", "supplied", "."], "predict": [[10, 10, "performance", "NEG"]], "real": [[10, 10, "performance", "POS"]]}
+{"text": ["i", "'m", "pretty", "sure", "when", "i", "bought", "it", ",", "my", "bank", "account", "went", "ouch", "!"], "predict": [], "real": []}
+{"text": ["thank", "you", "so", "much", "for", "the", "great", "item", "."], "predict": [], "real": []}
+{"text": ["this", "laptop", "has", "only", "2", "usb", "ports", ",", "and", "they", "are", "both", "on", "the", "same", "side", "."], "predict": [[5, 6, ["usb", "ports"], "NEG"]], "real": [[5, 6, ["usb", "ports"], "NEG"]]}
+{"text": ["it", "'s", "annoying", "very", "much", "and", "i", "wo", "n't", "ever", "buy", "any", "acer", "products", "."], "predict": [], "real": []}
+{"text": ["this", "is", "why", "i", "purchased", "a", "brand", "new", "laptop", "in", "the", "first", "place", "so", "it", "would", "n't", "have", "any", "problems", "."], "predict": [], "real": []}
+{"text": ["it", "has", "so", "much", "more", "speed", "and", "the", "screen", "is", "very", "sharp", "."], "predict": [[5, 5, "speed", "POS"], [8, 8, "screen", "POS"]], "real": [[5, 5, "speed", "POS"], [8, 8, "screen", "POS"]]}
+{"text": ["as", "for", "the", "laptop", ",", "this", "is", "our", "3rd", "apple", "computer", "in", "the", "past", "2", "years", "."], "predict": [], "real": []}
+{"text": ["everything", "i", "wanted", "and", "everything", "i", "needed", "and", "the", "price", "was", "great", "!"], "predict": [[9, 9, "price", "POS"]], "real": [[9, 9, "price", "POS"]]}
+{"text": ["it", "'s", "not", "inexpensive", "but", "the", "hardware", "performance", "is", "impressive", "for", "a", "computer", "this", "small", "."], "predict": [[7, 7, "performance", "POS"]], "real": [[6, 7, ["hardware", "performance"], "POS"]]}
+{"text": ["it", "is", "better", "than", "my", "old", "acer", "laptop", "."], "predict": [], "real": []}
+{"text": ["this", "thing", "is", "awesome", ",", "everything", "always", "works", ",", "everything", "is", "always", "easy", "to", "set", "up", ",", "everything", "is", "compatible", ",", "its", "literally", "everything", "i", "could", "ask", "for", "."], "predict": [[7, 7, "works", "POS"], [14, 15, ["set", "up"], "POS"]], "real": [[7, 7, "works", "POS"], [14, 15, ["set", "up"], "POS"]]}
+{"text": ["i", "would", "buy", "it", "again", "in", "a", "heartbeat", "!"], "predict": [], "real": []}
+{"text": ["keyboard", "responds", "well", "to", "presses", "."], "predict": [[0, 0, "keyboard", "NEG"]], "real": [[0, 0, "keyboard", "POS"]]}
+{"text": ["if", "someone", "called", "me", "an", "apple", "fanboyit", "would", "make", "sense", "."], "predict": [], "real": []}
+{"text": ["lastly", ",", "windows", "8", "is", "annoying", "."], "predict": [[2, 3, ["windows", "8"], "NEG"]], "real": [[2, 3, ["windows", "8"], "NEG"]]}
+{"text": ["a", "scratch", "on", "a", "$", "1,500", "macbook", "is", "unforgivable", "."], "predict": [], "real": []}
+{"text": ["i", "just", "fell", "in", "love", "with", "this", "thing", "."], "predict": [], "real": []}
+{"text": ["everything", "is", "so", "easy", "and", "intuitive", "to", "setup", "or", "configure", "."], "predict": [], "real": [[7, 7, "setup", "POS"], [9, 9, "configure", "POS"]]}
+{"text": ["i", "have", "no", "problems", "yet", "on", "my", "mac", "so", "far", ",", "and", "hope", "it", "stays", "like", "that", "."], "predict": [], "real": []}
+{"text": ["this", "laptop", "is", "a", "great", "buy", "."], "predict": [], "real": []}
+{"text": ["biggest", "complaint", "is", "windows", "8", "."], "predict": [[3, 4, ["windows", "8"], "POS"]], "real": [[3, 4, ["windows", "8"], "NEG"]]}
+{"text": ["only", "2", "usb", "portsseems", "kind", "oflimited", "."], "predict": [], "real": [[2, 3, ["usb", "portsseems"], "NEG"]]}
+{"text": ["it", "has", "been", "to", "early", "to", "see", "if", "this", "actually", "fixes", "the", "problem", "or", "not", "though", "."], "predict": [], "real": []}
+{"text": ["this", "device", "has", "met", "my", "expectations", "and", "i", "'m", "sure", "it", "will", "meet", "yours", "."], "predict": [], "real": []}
+{"text": ["it", "has", "all", "the", "expected", "features", "and", "more", "+plus", "a", "wide", "screen", "and", "more", "than", "roomy", "keyboard", "."], "predict": [[5, 5, "features", "POS"], [11, 11, "screen", "POS"], [16, 16, "keyboard", "POS"]], "real": [[5, 5, "features", "POS"], [11, 11, "screen", "POS"], [16, 16, "keyboard", "POS"]]}
+{"text": ["out", "of", "all", "the", "laptops", "i", "have", "owned", ",", "this", "is", "by", "far", "the", "best", "!"], "predict": [], "real": []}
+{"text": ["amazing", "performance", "for", "anything", "i", "throw", "at", "it", "."], "predict": [[1, 1, "performance", "POS"]], "real": [[1, 1, "performance", "POS"]]}
+{"text": ["i", "can", "never", "go", "back", "to", "a", "pc", "now", ",", "this", "machine", "never", "freezes", "or", "has", "any", "problems", "."], "predict": [], "real": []}
+{"text": ["out", "of", "the", "box", "i", "noticed", "how", "small", "it", "was", "and", "was", "exactly", "what", "i", "was", "looking", "for", "."], "predict": [], "real": []}
+{"text": ["the", "receiver", "was", "full", "of", "superlatives", "for", "the", "quality", "and", "performance", "."], "predict": [[1, 1, "receiver", "POS"], [8, 8, "quality", "POS"], [10, 10, "performance", "POS"]], "real": [[8, 8, "quality", "POS"], [10, 10, "performance", "POS"]]}
+{"text": ["i", "was", "extremely", "happy", "with", "the", "os", "itself", "."], "predict": [[6, 6, "os", "POS"]], "real": [[6, 6, "os", "POS"]]}
+{"text": ["i", "was", "looking", "for", "something", "in", "between", "a", "regular", "laptop", "and", "a", "tablet", "and", "this", "is", "it", "."], "predict": [], "real": []}
+{"text": ["the", "new", "mbp", "offers", "great", "portability", "and", "gives", "us", "confidence", "that", "we", "are", "not", "going", "to", "need", "to", "purchase", "a", "new", "laptop", "in", "18", "months", "."], "predict": [[5, 5, "portability", "POS"]], "real": [[5, 5, "portability", "POS"]]}
+{"text": ["great", "purchase", "and", "i", "definitely", "did", "n't", "miss", "out", "on", "the", "black", "friday", "deals", "."], "predict": [], "real": []}
+{"text": ["the", "criticism", "has", "waned", ",", "and", "now", "i", "'d", "be", "the", "first", "to", "recommend", "an", "air", "for", "truly", "portable", "computing", "."], "predict": [], "real": [[18, 19, ["portable", "computing"], "POS"]]}
+{"text": ["i", "would", "have", "given", "it", "5", "starts", "was", "it", "not", "for", "the", "fact", "that", "it", "had", "windows", "8"], "predict": [], "real": [[16, 17, ["windows", "8"], "NEG"]]}
+{"text": ["ms", "office", "2011", "for", "mac", "is", "wonderful", ",", "well", "worth", "it", "."], "predict": [[0, 1, ["ms", "office"], "POS"]], "real": [[0, 4, ["ms", "office", "2011", "for", "mac"], "POS"]]}
+{"text": ["after", "using", "it", "for", "over", "a", "month", ",", "an", "issue", "started", "to", "surface", "."], "predict": [], "real": []}
+{"text": ["but", "the", "performance", "of", "mac", "mini", "is", "a", "huge", "disappointment", "."], "predict": [[2, 5, ["performance", "of", "mac", "mini"], "NEG"]], "real": [[2, 2, "performance", "NEG"]]}
+{"text": ["there", "has", "been", "no", "problem", "with", "anything", "."], "predict": [], "real": []}
+{"text": ["i", "believe", "with", "apple", ",", "you", "get", "what", "you", "pay", "for", "."], "predict": [], "real": []}
+{"text": ["they", "do", "n't", "just", "look", "good", ";", "they", "deliver", "excellent", "performance", "."], "predict": [[10, 10, "performance", "POS"]], "real": [[4, 4, "look", "POS"], [10, 10, "performance", "POS"]]}
+{"text": ["i", "have", "had", "it", "over", "a", "year", "now", "with", "out", "a", "glitch", "of", "any", "kindi", "love", "the", "lit", "up", "keys", "and", "screen", "displaythis", "thing", "is", "fast", "and", "clear", "as", "can", "be", "."], "predict": [[19, 19, "keys", "POS"]], "real": [[17, 19, ["lit", "up", "keys"], "POS"], [21, 22, ["screen", "displaythis"], "POS"]]}
+{"text": ["the", "product", "is", "prefect", "for", "everyone", "."], "predict": [], "real": []}
+{"text": ["the", "mountain", "lion", "os", "is", "not", "hard", "to", "figure", "out", "if", "you", "are", "familiar", "with", "microsoft", "windows", "."], "predict": [[1, 3, ["mountain", "lion", "os"], "POS"], [15, 16, ["microsoft", "windows"], "NEU"]], "real": [[1, 3, ["mountain", "lion", "os"], "POS"], [15, 16, ["microsoft", "windows"], "NEU"]]}
+{"text": ["however", ",", "i", "can", "refute", "that", "osx", "is", "fast", "."], "predict": [[6, 6, "osx", "POS"]], "real": [[6, 6, "osx", "NEG"]]}
+{"text": ["i", "waited", "to", "review", "to", "make", "sure", "it", "is", "what", "it", "is", "."], "predict": [], "real": []}
+{"text": ["enjoy", "using", "microsoft", "office", "!"], "predict": [[2, 3, ["microsoft", "office"], "POS"]], "real": [[2, 3, ["microsoft", "office"], "POS"]]}
+{"text": ["i", "would", "suggest", "this", "product", "to", "anyone", "."], "predict": [], "real": []}
+{"text": ["with", "no", "problems", ",", "i", "'m", "happy", "with", "this", "purchase", "because", "i", "saved", "money", "compared", "to", "buying", "it", "anywhere", "else", "."], "predict": [], "real": []}
+{"text": ["incredible", "graphics", "and", "brilliant", "colors", "."], "predict": [[1, 1, "graphics", "POS"], [4, 4, "colors", "POS"]], "real": [[1, 1, "graphics", "POS"], [4, 4, "colors", "POS"]]}
+{"text": ["i", "needed", "something", "affordable", "from", "apple", "and", "was", "tired", "of", "dealing", "with", "pc", "laptop", "after", "pc", "laptop", "."], "predict": [], "real": []}
+{"text": ["just", "bit", "the", "bullet", "and", "bought", "the", "mac", "hoping", "it", "will", "last", "a", "lot", "longer", "."], "predict": [], "real": []}
+{"text": ["built-in", "apps", "are", "purely", "amazing", "."], "predict": [], "real": [[0, 1, ["built-in", "apps"], "POS"]]}
+{"text": ["cons", ",", "screen", "resolution", "."], "predict": [[2, 3, ["screen", "resolution"], "POS"]], "real": [[2, 3, ["screen", "resolution"], "NEG"]]}
+{"text": ["from", "the", "speed", "to", "the", "multi", "touch", "gestures", "this", "operating", "system", "beats", "windows", "easily", "."], "predict": [[2, 6, ["speed", "to", "the", "multi", "touch"], "POS"], [9, 10, ["operating", "system"], "POS"], [12, 12, "windows", "POS"]], "real": [[2, 2, "speed", "POS"], [5, 7, ["multi", "touch", "gestures"], "POS"], [9, 10, ["operating", "system"], "POS"], [12, 12, "windows", "NEG"]]}
+{"text": ["i", "really", "like", "the", "size", "and", "i", "'m", "a", "fan", "of", "the", "acers", "."], "predict": [[4, 4, "size", "POS"]], "real": [[4, 4, "size", "POS"]]}
+{"text": ["this", "is", "by", "far", "thee", "best", ",", "most", "reliable", "computer", "i", "could", "find", "."], "predict": [], "real": []}
+{"text": ["i", "opted", "for", "the", "squaretrade", "3-year", "computer", "accidental", "protection", "warranty", "$", "1500-2000", "which", "also", "support", "accidents", "like", "drops", "and", "spills", "that", "are", "not", "covered", "by", "applecare", "."], "predict": [[9, 9, "warranty", "NEG"], [25, 25, "applecare", "NEG"]], "real": [[4, 9, ["squaretrade", "3-year", "computer", "accidental", "protection", "warranty"], "POS"], [25, 25, "applecare", "NEG"]]}
+{"text": ["it", "'s", "light", "and", "easy", "to", "transport", "."], "predict": [[6, 6, "transport", "POS"]], "real": [[6, 6, "transport", "POS"]]}
+{"text": ["once", "you", "get", "past", "learning", "how", "to", "use", "the", "poorly", "designed", "windows", "8", "set-up", "you", "may", "feel", "frustrated", "."], "predict": [[11, 13, ["windows", "8", "set-up"], "NEG"]], "real": [[11, 13, ["windows", "8", "set-up"], "NEG"]]}
+{"text": ["very", "powerful", "especially", "for", "the", "money", "."], "predict": [], "real": []}
+{"text": ["when", "my", "dell", "laptop", "gave", "up", "only", "after", "2", "1/2", "years", ",", "i", "decided", "to", "buy", "macbook", "pro", "."], "predict": [], "real": []}
+{"text": ["it", "'s", "been", "time", "for", "a", "new", "laptop", ",", "and", "the", "only", "debate", "was", "which", "size", "of", "the", "mac", "laptops", ",", "and", "whether", "to", "spring", "for", "the", "retina", "display", "."], "predict": [[15, 15, "size", "NEU"], [27, 28, ["retina", "display"], "POS"]], "real": [[15, 15, "size", "NEU"], [27, 28, ["retina", "display"], "NEU"]]}
+{"text": ["this", "was", "a", "significan'tly", "more", "affordable", "than", "getting", "a", "new", "macbook", "pro", "from", "apple", "."], "predict": [], "real": []}
+{"text": ["i", "have", "always", "wanted", "a", "macbook", "proalways", "!", "."], "predict": [], "real": []}
+{"text": ["the", "reason", "why", "i", "choose", "apple", "macbook", "because", "of", "their", "design", "and", "the", "aluminum", "casing", "."], "predict": [[10, 10, "design", "POS"], [13, 14, ["aluminum", "casing"], "POS"]], "real": [[10, 10, "design", "POS"], [13, 14, ["aluminum", "casing"], "POS"]]}
+{"text": ["the", "aluminum", "body", "sure", "makes", "it", "stand", "out", "."], "predict": [[1, 1, "aluminum", "NEG"]], "real": [[1, 2, ["aluminum", "body"], "POS"]]}
+{"text": ["overall", "it", "'s", "an", "amazing", "product", ",", "5", "stars", "!"], "predict": [], "real": []}
+{"text": ["it", "is", "very", "easy", "to", "integrate", "bluetooth", "devices", ",", "and", "usb", "devices", "are", "recognized", "almost", "instantly", "."], "predict": [[5, 7, ["integrate", "bluetooth", "devices"], "POS"], [10, 11, ["usb", "devices"], "POS"]], "real": [[5, 7, ["integrate", "bluetooth", "devices"], "POS"], [10, 11, ["usb", "devices"], "POS"]]}
+{"text": ["he", "'s", "thrilled", "with", "his", "new", "laptop", "."], "predict": [], "real": []}
+{"text": ["amazing", "product", "as", "you", "would", "expect", "from", "apple", "."], "predict": [], "real": []}
+{"text": ["nothing", "wrong", "with", "this", "computer", "at", "all", "!"], "predict": [], "real": []}
+{"text": ["and", "the", "fact", "that", "apple", "is", "driving", "the", "13", "rmbp", "with", "the", "intel4000", "graphic", "chip", "seems", "underpowered", "to", "me", "."], "predict": [[14, 14, "chip", "NEG"]], "real": [[12, 14, ["intel4000", "graphic", "chip"], "NEG"]]}
+{"text": ["i", "have", "to", "wonder", "why", "amazon", "is", "even", "selling", "this", "dinosaur", "."], "predict": [], "real": []}
+{"text": ["apple", "removed", "the", "dvd", "drive", "firewire", "port", "will", "work", "with", "adapter", "and", "put", "the", "sdxc", "slot", "in", "a", "silly", "position", "on", "the", "back", "."], "predict": [[3, 6, ["dvd", "drive", "firewire", "port"], "NEG"], [10, 10, "adapter", "NEU"], [14, 15, ["sdxc", "slot"], "NEU"]], "real": [[3, 6, ["dvd", "drive", "firewire", "port"], "NEU"], [10, 10, "adapter", "NEU"], [14, 15, ["sdxc", "slot"], "NEG"]]}
+{"text": ["no", "hassle", "and", "no", "complaints", "."], "predict": [], "real": []}
+{"text": ["love", "it", "i", "'ve", "always", "been", "an", "apple", "fan", "boy", ",", "but", "never", "had", "the", "money", "to", "buy", "a", "mac", ",", "only", "ipads", "and", "iphones", ",", "and", "this", "is", "my", "first", "mac", ",", "blew", "me", "away", "completely", "."], "predict": [], "real": []}
+{"text": ["the", "durability", "of", "the", "laptop", "will", "make", "it", "worth", "the", "money", "."], "predict": [[1, 1, "durability", "POS"]], "real": [[1, 1, "durability", "POS"]]}
+{"text": ["well", "designed", "and", "fast", "."], "predict": [[1, 1, "designed", "POS"]], "real": [[1, 1, "designed", "POS"]]}
+{"text": ["and", "now", "i", "am", "a", "proud", "macbook", "owner", "also", "!"], "predict": [], "real": []}
+{"text": ["but", "i", "was", "completely", "wrong", ",", "this", "computer", "is", "unbelievable", "amazing", "and", "easy", "to", "use", "."], "predict": [[14, 14, "use", "POS"]], "real": [[14, 14, "use", "POS"]]}
+{"text": ["exactly", "as", "posted", "plus", "a", "great", "value", "."], "predict": [[6, 6, "value", "POS"]], "real": [[6, 6, "value", "POS"]]}
+{"text": ["the", "specs", "are", "pretty", "good", "too", "."], "predict": [[1, 1, "specs", "POS"]], "real": [[1, 1, "specs", "POS"]]}
+{"text": ["i", "am", "having", "a", "friend", "look", "at", "it", ",", "but", "will", "probably", "return", "it", "."], "predict": [], "real": []}
+{"text": ["there", "were", "no", "scratches", "or", "dents", "or", "any", "marks", "at", "all", "."], "predict": [], "real": []}
+{"text": ["i", "'ve", "only", "had", "it", "one", "day", ",", "but", "i", "really", "do", "love", "it", "and", "i", "'m", "happy", "it", "was", "economical", "and", "i", "'m", "finally", "able", "to", "own", "a", "mac", "!"], "predict": [], "real": []}
+{"text": ["since", "i", "have", "always", "used", "apple", "products", ",", "the", "choice", "of", "macbook", "pro", "was", "obvious", "."], "predict": [], "real": []}
+{"text": ["apple", "is", "unmatched", "in", "product", "quality", ",", "aesthetics", ",", "craftmanship", ",", "and", "customer", "service", "."], "predict": [[7, 7, "aesthetics", "POS"], [12, 13, ["customer", "service"], "POS"]], "real": [[4, 5, ["product", "quality"], "POS"], [7, 7, "aesthetics", "POS"], [9, 9, "craftmanship", "POS"], [12, 13, ["customer", "service"], "POS"]]}
+{"text": ["this", "is", "my", "first", "apple", "laptop", "."], "predict": [], "real": []}
+{"text": ["it", "makes", "a", "great", "gift", "."], "predict": [], "real": []}
+{"text": ["it", "is", "a", "great", "size", "and", "amazing", "windows", "8", "included", "!"], "predict": [[4, 4, "size", "POS"], [7, 8, ["windows", "8"], "POS"]], "real": [[4, 4, "size", "POS"], [7, 8, ["windows", "8"], "POS"]]}
+{"text": ["i", "would", "recommend", "to", "any", "one", "lloking", "for", "a", "first", "class", "computer", "!"], "predict": [], "real": []}
+{"text": ["i", "do", "not", "like", "too", "much", "windows", "8", "."], "predict": [[6, 7, ["windows", "8"], "POS"]], "real": [[6, 7, ["windows", "8"], "NEG"]]}
+{"text": ["startup", "times", "are", "incredibly", "long", ",", "over", "two", "minutes", "."], "predict": [], "real": [[0, 1, ["startup", "times"], "NEG"]]}
+{"text": ["i", "bought", "this", "macbook", "pro", "from", "best", "buy", "under", "a", "year", "ago", "to", "replace", "my", "old", "macbook", "air", "."], "predict": [], "real": []}
+{"text": ["the", "macbook", "pro", "is", "really", "responsive", "."], "predict": [], "real": []}
+{"text": ["also", "stunning", "colors", "and", "speedy"], "predict": [[2, 2, "colors", "POS"]], "real": [[2, 2, "colors", "POS"]]}
+{"text": ["it", "is", "really", "expensive", "though", "."], "predict": [], "real": []}
+{"text": ["great", "price", "free", "shipping", "what", "else", "can", "i", "ask", "for", "!", "!"], "predict": [[1, 1, "price", "POS"], [3, 3, "shipping", "POS"]], "real": [[1, 1, "price", "POS"], [3, 3, "shipping", "POS"]]}
+{"text": ["this", "mouse", "is", "terrific", "."], "predict": [[1, 1, "mouse", "POS"]], "real": [[1, 1, "mouse", "POS"]]}
+{"text": ["i", "will", "also", "say", "it", "is", "much", "better", "than", "i", "expected", "!"], "predict": [], "real": []}
+{"text": ["this", "computer", "does", "everything", "i", "need", "it", "to", "do", "for", "school", "and", "more", "."], "predict": [], "real": []}
+{"text": ["it", "is", "really", "thick", "around", "the", "battery", "."], "predict": [[6, 6, "battery", "POS"]], "real": [[6, 6, "battery", "NEU"]]}
+{"text": ["and", "windows", "7", "works", "like", "a", "charm", "."], "predict": [[1, 2, ["windows", "7"], "POS"]], "real": [[1, 2, ["windows", "7"], "POS"]]}
+{"text": ["and", "i", "can", "attach", "my", "projector", "to", "it", "."], "predict": [], "real": []}
+{"text": [",", "great", "product", ",", "great", "price", ",", "great", "delivery", ",", "and", "great", "service", "."], "predict": [[5, 5, "price", "POS"], [8, 8, "delivery", "POS"], [12, 12, "service", "POS"]], "real": [[5, 5, "price", "POS"], [8, 8, "delivery", "POS"], [12, 12, "service", "POS"]]}
+{"text": [",", "]", "it", "arrived", "so", "fast", "and", "customer", "service", "was", "great", "."], "predict": [[7, 8, ["customer", "service"], "POS"]], "real": [[7, 8, ["customer", "service"], "POS"]]}
+{"text": ["tried", "windows", "8", "and", "hated", "it", "!", "!", "!"], "predict": [[1, 2, ["windows", "8"], "POS"]], "real": [[1, 2, ["windows", "8"], "NEG"]]}
+{"text": ["the", "price", "is", "higher", "than", "most", "lab", "top", "out", "there", ";", "however", ",", "he/she", "will", "get", "what", "they", "paid", "for", ",", "which", "is", "a", "great", "computer", "."], "predict": [[1, 1, "price", "NEG"]], "real": []}
+{"text": ["so", ",", "i", "thought", "why", "not", "give", "mac", "book", "pro", "a", "try", "."], "predict": [], "real": []}
+{"text": ["set", "up", "was", "a", "breeze", "."], "predict": [], "real": [[0, 1, ["set", "up"], "POS"]]}
+{"text": ["but", "i", "do", "not", "like", "win8", "."], "predict": [], "real": [[5, 5, "win8", "NEG"]]}
+{"text": ["i", "have", "owned", "at", "least", "4", "to", "5", "laptops", "and", "computers", ",", "but", "this", "is", "by", "far", "the", "most", "superior", "machine", "i", "have", "ever", "owned", "."], "predict": [], "real": []}
+{"text": ["i", "am", "still", "in", "the", "process", "of", "learning", "about", "its", "features", "."], "predict": [[10, 10, "features", "NEU"]], "real": [[10, 10, "features", "NEU"]]}
+{"text": ["btw", ",", "i", "checked", "online", "regarding", "the", "old", "laptop", "that", "died", "and", "found", "that", "i", "was", "not", "alone", ",", "far", "from", "it", "."], "predict": [], "real": []}
+{"text": ["i", "had", "the", "same", "reasons", "as", "most", "pc", "users", ",", "the", "price", ",", "the", "overbearing", "restrictions", "of", "osx", "and", "lack", "of", "support", "for", "games", "."], "predict": [[11, 11, "price", "POS"], [17, 17, "osx", "POS"], [23, 23, "games", "NEG"]], "real": [[11, 11, "price", "NEG"], [17, 17, "osx", "NEG"], [21, 23, ["support", "for", "games"], "NEG"]]}
+{"text": ["i", "wanted", "it", "for", "it", "'s", "mobility", "and", "man", ",", "this", "little", "bad", "boy", "is", "very", "nice", "."], "predict": [], "real": [[6, 6, "mobility", "POS"]]}
+{"text": ["seems", "to", "me", "that", "'s", "the", "best", "way", "to", "get", "apple", "'s", "attention", "."], "predict": [], "real": []}
+{"text": ["very", "nice", "so", "far", "."], "predict": [], "real": []}
+{"text": ["you", "wo", "n't", "be", "disappointed", "."], "predict": [], "real": []}
+{"text": ["the", "investment", "of", "a", "new", "macbook", "pro", "came", "at", "a", "price", ",", "but", "totally", "worth", "it", "for", "a", "good", "piece", "of", "mind", "."], "predict": [[10, 10, "price", "POS"]], "real": []}
+{"text": ["i", "found", "the", "mini", "to", "be", ",", "exceptionally", "easy", "to", "set", "up"], "predict": [], "real": [[10, 11, ["set", "up"], "POS"]]}
+{"text": ["having", "usb3", "is", "why", "i", "bought", "this", "mini", "."], "predict": [[1, 1, "usb3", "POS"]], "real": [[1, 1, "usb3", "POS"]]}
+{"text": ["be", "sure", "to", "have", "good", "air", "flow", "where", "ever", "you", "put", "it", "."], "predict": [], "real": []}
+{"text": ["the", "sound", "is", "nice", "and", "loud", ";", "i", "do", "n't", "have", "any", "problems", "with", "hearing", "anything", "."], "predict": [[1, 1, "sound", "POS"]], "real": [[1, 1, "sound", "POS"]]}
+{"text": ["it", "is", "very", "slim", ",", "the", "track", "pad", "is", "very", "much", "impressed", "with", "me", "."], "predict": [[6, 7, ["track", "pad"], "POS"]], "real": [[6, 7, ["track", "pad"], "POS"]]}
+{"text": ["this", "was", "the", "same", "problem", "with", "my", "macbook", "circa", "2007", "that", "i", "just", "retired", "."], "predict": [], "real": []}
+{"text": ["great", "things", "come", "in", "small", "packages", "."], "predict": [], "real": []}
+{"text": ["huge", "apple", "mac", "fan", "!"], "predict": [], "real": []}
+{"text": ["looked", "at", "hp", ",", "asus", ",", "acer", ",", "sony", "and", "a", "bunch", "of", "other", "ones", "but", "could", "not", "find", "i", "really", "liked", "."], "predict": [], "real": []}
+{"text": ["the", "settings", "are", "not", "user-friendly", "either", "."], "predict": [[1, 1, "settings", "NEG"]], "real": [[1, 1, "settings", "NEG"]]}
+{"text": ["honestly", ",", "i", "am", "surprised", "no", "one", "else", "has", "mentioned", "returning", "theirs", "."], "predict": [], "real": []}
+{"text": ["most", "of", "them", "were", "either", "too", "big", ",", "too", "noisy", "and", "too", "slow", "after", "2", "years", "."], "predict": [], "real": []}
+{"text": ["the", "machine", "is", "used", ",", "but", "is", "like", "new", ",", "i", "'m", "very", "impress", "."], "predict": [], "real": []}
+{"text": ["thank", "goodness", "for", "openoffice", "!"], "predict": [[3, 3, "openoffice", "POS"]], "real": [[3, 3, "openoffice", "POS"]]}
+{"text": ["awesome", "form", "factor", ",", "great", "battery", "life", ",", "wonderful", "ux", "."], "predict": [[5, 6, ["battery", "life"], "POS"]], "real": [[1, 2, ["form", "factor"], "POS"], [5, 6, ["battery", "life"], "POS"], [9, 9, "ux", "POS"]]}
+{"text": ["needless", "to", "say", ",", "the", "leap", "from", "that", "to", "this", "has", "been", "amazing", "and", "aside", "from", "the", "financial", "reasons", "i", "am", "astounded", "that", "i", "had", "n't", "made", "the", "switch", "sooner", "."], "predict": [[28, 28, "switch", "NEG"]], "real": []}
+{"text": ["its", "perfect", ",", "not", "much", "heavy", "."], "predict": [], "real": []}
+{"text": ["i", "love", "the", "keyboard", "and", "the", "screen", "."], "predict": [[3, 3, "keyboard", "POS"], [6, 6, "screen", "POS"]], "real": [[3, 3, "keyboard", "POS"], [6, 6, "screen", "POS"]]}
+{"text": ["i", "find", "it", "not", "to", "be", "very", "user", "friendly", "."], "predict": [], "real": []}
+{"text": ["it", "has", "surpassed", "all", "expectations", "and", "fulfilled", "all", "my", "needs", "."], "predict": [], "real": []}
+{"text": ["however", ",", "there", "are", "major", "issues", "with", "the", "touchpad", "which", "render", "the", "device", "nearly", "useless", "."], "predict": [[8, 8, "touchpad", "NEG"], [12, 12, "device", "NEG"]], "real": [[8, 8, "touchpad", "NEG"]]}
+{"text": ["what", "angers", "me", "more", "than", "anything", "else", "is", "that", "i", "spent", "all", "those", "years", "hating", "macs", "when", "i", "could", "have", "been", "getting", "a", "lot", "more", "production", "with", "a", "whole", "lot", "less", "grief", "!"], "predict": [], "real": []}
+{"text": ["i", "'ve", "already", "upgraded", "o", "mavericks", "and", "i", "am", "impressed", "with", "everything", "about", "this", "computer", "."], "predict": [], "real": [[5, 5, "mavericks", "POS"]]}
+{"text": ["so", "this", "is", "very", "good", "commputer", "and", "i", "highly", "suggest", "it", "."], "predict": [], "real": []}
+{"text": ["the", "mbp", "i", "recieved", "was", "everything", "it", "should", "have", "been", "."], "predict": [], "real": []}
+{"text": ["i", "was", "going", "to", "buy", "today", "and", "noticed", "it", "went", "back", "up", "to", "$", "34499", "?", "."], "predict": [], "real": []}
+{"text": ["not", "as", "fast", "as", "i", "would", "have", "expect", "for", "an", "i5", "."], "predict": [], "real": [[10, 10, "i5", "NEG"]]}
+{"text": ["so", "of", "course", "this", "one", "came", "through", "with", "the", "awesomeness", "!"], "predict": [], "real": []}
+{"text": ["you", "will", "not", "regret", "buying", "this", "computer", "!"], "predict": [], "real": []}
+{"text": ["nothing", "bad", "to", "say", "about", "it", "."], "predict": [], "real": []}
+{"text": ["it", "s", "heavy", "for", "mac", "book", "but", "is", "good", "."], "predict": [], "real": []}
+{"text": ["thanks", "for", "great", "service", "and", "shipping", "!"], "predict": [[3, 3, "service", "POS"], [5, 5, "shipping", "POS"]], "real": [[3, 3, "service", "POS"], [5, 5, "shipping", "POS"]]}
+{"text": ["deal", "of", "the", "year", "."], "predict": [], "real": []}
+{"text": ["my", "sisters", "same", "laptop", "broke", "about", "the", "month", "later", "for", "the", "same", "reason", "."], "predict": [], "real": []}
+{"text": ["minis", "make", "sense", "for", "a", "lot", "of", "people", "."], "predict": [], "real": []}
+{"text": ["the", "performance", "seems", "quite", "good", ",", "and", "built-in", "applications", "like", "iphoto", "work", "great", "with", "my", "phone", "and", "camera", "."], "predict": [[1, 1, "performance", "POS"], [7, 8, ["built-in", "applications"], "POS"], [10, 10, "iphoto", "POS"]], "real": [[1, 1, "performance", "POS"], [7, 8, ["built-in", "applications"], "POS"], [10, 10, "iphoto", "POS"]]}
+{"text": ["this", "mac", "mini", "makes", "the", "macbook", "pro", "seem", "slow", "."], "predict": [], "real": []}
+{"text": ["i", "did", "swap", "out", "the", "hard", "drive", "for", "a", "samsung", "830", "ssd", "which", "i", "highly", "recommend", "."], "predict": [[5, 6, ["hard", "drive"], "NEU"]], "real": [[5, 6, ["hard", "drive"], "NEU"], [9, 11, ["samsung", "830", "ssd"], "POS"]]}
+{"text": ["i", "bought", "this", "macbook", "pro", "to", "replace", "my", "six-year-old", "pc", "a", "sony", "vaio", ",", "but", "it", "was", "basically", "no", "better", "than", "my", "old", "pc", ",", "so", "i", "returned", "it", "."], "predict": [], "real": []}
+{"text": ["i", "wanted", "a", "simple", ",", "reliable", "laptop", "."], "predict": [], "real": []}
+{"text": ["cheaper", "than", "buying", "it", "@", "apple", "too", "!"], "predict": [], "real": []}
+{"text": ["i", "have", "just", "had", "to", "learn", "to", "be", "a", "little", "harder", "typer", "than", "on", "my", "last", "computer", "."], "predict": [], "real": []}
+{"text": ["extremely", "disappointed", "with", "the", "way", "it", "is", "."], "predict": [], "real": []}
+{"text": ["never", "been", "happier", "using", "computer", "."], "predict": [], "real": []}
+{"text": ["i", "have", "had", "a", "total", "of", "5", "different", "laptop", "from", "many", "different", "manufactures", "."], "predict": [], "real": []}
+{"text": ["does", "everything", "i", "wanted", "this", "laptop", "to", "do", "."], "predict": [], "real": []}
+{"text": ["besides", ",", "the", "apple", "stocks", "have", "been", "falling", "due", "to", "lack", "of", "sales", "."], "predict": [], "real": []}
+{"text": ["turns", "out", "this", "is", "a", "common", "problem", "."], "predict": [], "real": []}
+{"text": ["starts", "up", "in", "a", "hurry", "and", "everything", "is", "ready", "to", "go", "."], "predict": [], "real": [[0, 1, ["starts", "up"], "POS"]]}
+{"text": ["it", "is", "also", "fast", "as", "can", "be", "you", "get", "what", "you", "pay", "for", "well", "worth", "the", "investment", "."], "predict": [], "real": []}
+{"text": ["but", "i", "'m", "still", "learning", "so", "ca", "n't", "rate", "it", "yet", "for", "everything", "."], "predict": [], "real": []}
+{"text": ["overall", "very", "impressed", ",", "thank", "you", "apple", "and", "amazon", "!"], "predict": [], "real": []}
+{"text": ["yes", ",", "that", "'s", "a", "good", "thing", ",", "but", "it", "'s", "made", "from", "aluminum", "that", "scratches", "easily", "."], "predict": [[13, 13, "aluminum", "NEG"]], "real": [[13, 13, "aluminum", "NEG"]]}
+{"text": ["very", "fast", "for", "my", "needs", "."], "predict": [], "real": []}
+{"text": ["i", "bought", "this", "mac", "in", "order", "to", "replace", "my", "old", "dell", "laptop", "."], "predict": [], "real": []}
+{"text": ["quick", "and", "has", "built", "in", "virus", "control", "."], "predict": [[5, 6, ["virus", "control"], "POS"]], "real": [[3, 6, ["built", "in", "virus", "control"], "POS"]]}
+{"text": ["took", "a", "long", "time", "trying", "to", "decide", "between", "one", "with", "retina", "display", "and", "one", "without", "."], "predict": [], "real": [[10, 11, ["retina", "display"], "NEU"]]}
+{"text": ["i", "saw", "the", "mini", "mac", "at", "best", "buy", "and", "decided", "to", "get", "this", "as", "my", "replacement", "."], "predict": [], "real": []}
+{"text": ["i", "finally", "decided", "on", "this", "one", "and", "could", "n't", "be", "any", "happier", "."], "predict": [], "real": []}
+{"text": ["i", "was", "also", "informed", "that", "the", "components", "of", "the", "mac", "book", "were", "dirty", "."], "predict": [[6, 6, "components", "NEG"]], "real": [[6, 6, "components", "NEG"]]}
+{"text": ["so", "glad", "i", "did", "not", "waste", "money", "on", "a", "less", "than", "par", "product", "."], "predict": [], "real": []}
+{"text": ["have", "n't", "regretted", "it", "one", "bit", "."], "predict": [], "real": []}
+{"text": ["the", "one", "thing", "that", "apple", "does", "right", "is", "computers", "."], "predict": [], "real": []}
+{"text": ["the", "hardware", "problems", "have", "been", "so", "bad", ",", "i", "ca", "n't", "wait", "till", "it", "completely", "dies", "in", "3", "years", ",", "tops", "!"], "predict": [[1, 1, "hardware", "NEG"]], "real": [[1, 1, "hardware", "NEG"]]}
+{"text": ["it", "'s", "so", "nice", "that", "the", "battery", "last", "so", "long", "and", "that", "this", "machine", "has", "the", "snow", "lion", "!"], "predict": [[6, 6, "battery", "POS"], [16, 17, ["snow", "lion"], "POS"]], "real": [[6, 6, "battery", "POS"], [16, 17, ["snow", "lion"], "POS"]]}
+{"text": ["i", "think", "that", "they", "are", "the", "best", "out", "on", "the", "market", "."], "predict": [], "real": []}
+{"text": ["however", "i", "chose", "two", "day", "shipping", "and", "it", "took", "over", "a", "week", "to", "arrive", "."], "predict": [], "real": [[5, 5, "shipping", "NEG"]]}
+{"text": ["that", "'s", "quite", "a", "bump", "up", "from", "the", "$", "599", "that", "this", "little", "guy", "sells", "for", ",", "which", "leaves", "me", "to", "my", "next", "point", "."], "predict": [], "real": []}
+{"text": ["this", "is", "quite", "smooth", "as", "well", "as", "heavy", "and", "can", "easily", "slip", "through", "the", "hands", "."], "predict": [], "real": []}
+{"text": ["my", "laptop", "is", "so", "light", "that", "i", "can", "take", "it", "with", "me", "anywhere", "."], "predict": [], "real": []}
+{"text": ["it", "'s", "exactly", "what", "i", "wanted", ",", "and", "it", "has", "all", "the", "new", "features", "and", "whatnot", "."], "predict": [[13, 13, "features", "POS"]], "real": [[13, 13, "features", "POS"]]}
+{"text": ["you", "can", "do", "absolutely", "anything", "and", "is", "very", "fast", "and", "stylish", "."], "predict": [], "real": []}
+{"text": ["finally", "decided", "to", "try", "a", "mac", "because", "there", "were", "too", "many", "choices", "of", "which", "pc", "'s", "to", "buy", "and", "everyone", "who", "had", "a", "mac", "said", "buy", "a", "mac", "."], "predict": [], "real": []}
+{"text": ["can", "you", "buy", "any", "laptop", "that", "matches", "the", "quality", "of", "a", "macbook", "?"], "predict": [], "real": [[8, 8, "quality", "POS"]]}
+{"text": ["it", "feels", "cheap", ",", "the", "keyboard", "is", "not", "very", "sensitive", "."], "predict": [[5, 5, "keyboard", "NEG"]], "real": [[5, 5, "keyboard", "NEG"]]}
+{"text": ["that", "defeated", "the", "whole", "point", "of", "a", "laptop", "."], "predict": [], "real": []}
+{"text": ["though", "please", "note", "that", "sometimes", "it", "crashes", ",", "and", "the", "sound", "quality", "isnt", "superb", "."], "predict": [[10, 11, ["sound", "quality"], "NEG"]], "real": [[10, 11, ["sound", "quality"], "NEG"]]}
+{"text": ["it", "is", "very", "easy", "to", "navigate", "even", "for", "a", "novice", "."], "predict": [[5, 5, "navigate", "POS"]], "real": [[5, 5, "navigate", "POS"]]}
+{"text": ["but", "until", "now", ",", "no", "complains", "at", "all", "."], "predict": [], "real": []}
+{"text": ["the", "cons", "are", "more", "annoyances", "that", "can", "be", "lived", "with", "."], "predict": [], "real": []}
+{"text": ["does", "everything", "i", "need", "it", "to", ",", "has", "a", "wonderful", "battery", "life", "and", "i", "could", "n't", "be", "happier", "."], "predict": [[10, 11, ["battery", "life"], "POS"]], "real": [[10, 11, ["battery", "life"], "POS"]]}
+{"text": ["great", "performance", "and", "quality", "."], "predict": [[1, 1, "performance", "POS"], [3, 3, "quality", "POS"]], "real": [[1, 1, "performance", "POS"], [3, 3, "quality", "POS"]]}
+{"text": ["just", "what", "i", "needed", "for", "portable", "and", "my", "wallet", "too", "!"], "predict": [], "real": []}
+{"text": ["the", "device", "speaks", "about", "it", "self", "."], "predict": [[1, 1, "device", "NEG"]], "real": []}
+{"text": ["i", "used", "windows", "xp", ",", "windows", "vista", ",", "and", "windows", "7", "extensively", "."], "predict": [[2, 3, ["windows", "xp"], "NEU"], [5, 6, ["windows", "vista"], "NEU"], [9, 10, ["windows", "7"], "POS"]], "real": [[2, 3, ["windows", "xp"], "NEU"], [5, 6, ["windows", "vista"], "NEU"], [9, 10, ["windows", "7"], "NEU"]]}
+{"text": ["the", "only", "thing", "that", "bums", "me", "out", "about", "this", "purchase", "is", "they", "released", "a", "newer", "updated", "mbp", "seriously", "right", "after", "i", "bought", "this", "one", "."], "predict": [], "real": []}
+{"text": ["it", "does", "get", "hot", "when", "using", "on", "a", "bed", "or", "sofa", "and", "gets", "warm", "on", "a", "deskthis", "is", "in", "an", "un-air", "conditioned", "roomin", "air", "condition", "it", "gets", "slightly", "warm", "."], "predict": [[16, 16, "deskthis", "NEG"], [22, 22, "roomin", "NEG"]], "real": []}
+{"text": ["i", "did", "add", "a", "ssd", "drive", "and", "memory"], "predict": [[4, 5, ["ssd", "drive"], "NEU"], [7, 7, "memory", "NEU"]], "real": [[4, 5, ["ssd", "drive"], "NEU"], [7, 7, "memory", "NEU"]]}
+{"text": ["i", "got", "this", "one", "for", "thanks", "giving", "offer", "for", "$", "962", ",", "."], "predict": [], "real": []}
+{"text": ["i", "had", "my", "pc", "laptop", "for", "3", "years", "and", "going", "to", "a", "macbook", "pro", "is", "like", "i", "leaped", "through", "time", "."], "predict": [], "real": []}
+{"text": ["on", "start", "up", "it", "asks", "endless", "questions", "just", "so", "itune", "can", "sell", "you", "more", "of", "their", "products", "."], "predict": [], "real": [[1, 2, ["start", "up"], "NEG"], [9, 9, "itune", "NEG"]]}
+{"text": ["pretty", "much", "made", "sense", "to", "get", "a", "mini", "."], "predict": [], "real": []}
+{"text": ["i", "have", "been", "a", "pc", "user", "for", "a", "very", "long", "time", "now", "but", "i", "will", "get", "used", "to", "this", "new", "os", "."], "predict": [[20, 20, "os", "NEU"]], "real": [[20, 20, "os", "NEU"]]}
+{"text": ["not", "something", "you", "want", "to", "miss", "out", "on", "!", "!", "!"], "predict": [], "real": []}
+{"text": ["one", "more", "thing", ",", "this", "mac", "does", "not", "come", "with", "restore", "disks", "and", "i", "am", "not", "sure", "if", "you", "can", "make", "them", "direct", "from", "the", "mac", "like", "you", "can", "with", "newer", "pc", "'s", ",", "also", "the", "charging", "cables", "are", "made", "of", "the", "same", "cheap", "material", "as", "the", "iphone/ipod", "touch", "cables", "."], "predict": [[10, 11, ["restore", "disks"], "NEG"], [36, 37, ["charging", "cables"], "NEG"], [47, 49, ["iphone/ipod", "touch", "cables"], "NEU"]], "real": [[10, 11, ["restore", "disks"], "NEG"], [36, 37, ["charging", "cables"], "NEG"], [44, 44, "material", "NEG"]]}
+{"text": ["i", "bought", "it", "to", "my", "son", "who", "uses", "it", "for", "graphic", "design", "."], "predict": [], "real": [[10, 11, ["graphic", "design"], "NEU"]]}
+{"text": ["i", "previously", "owned", "an", "older", "dell", "laptop", "that", "died", "after", "about", "5", "or", "6", "years", "."], "predict": [], "real": []}
+{"text": ["its", "a", "pretty", "decent", "computer", "."], "predict": [], "real": []}
+{"text": ["i", "never", "tried", "any", "external", "mics", "with", "that", "imac", "."], "predict": [[4, 5, ["external", "mics"], "NEG"]], "real": [[4, 5, ["external", "mics"], "NEU"]]}
+{"text": ["the", "new", "os", "is", "great", "on", "my", "macbook", "pro", "!"], "predict": [[2, 2, "os", "POS"]], "real": [[2, 2, "os", "POS"]]}
+{"text": ["it", "was", "fast", ",", "and", "it", "was", "different", "."], "predict": [], "real": []}
+{"text": ["i", "had", "a", "little", "problem", "adjusting", "to", "the", "small", "screen", "but", "works", "fine", "as", "long", "as", "i", "remember", "to", "carry", "my", "glasses", "."], "predict": [], "real": []}
+{"text": ["i", "purchased", "my", "first", "mac", "and", "am", "glad", "i", "did", "."], "predict": [], "real": []}
+{"text": ["i", "have", "experienced", "no", "problems", ",", "works", "as", "anticipated", "."], "predict": [], "real": [[6, 6, "works", "POS"]]}
+{"text": ["system", "is", "running", "great", "."], "predict": [[0, 0, "system", "POS"]], "real": [[0, 0, "system", "POS"]]}
+{"text": ["easy", "to", "customize", "setting", "and", "even", "create", "your", "own", "bookmarks", "."], "predict": [[2, 3, ["customize", "setting"], "POS"]], "real": [[2, 3, ["customize", "setting"], "POS"], [6, 9, ["create", "your", "own", "bookmarks"], "POS"]]}
+{"text": ["they", "really", "screwed", "the", "pooch", "on", "this", "one", "."], "predict": [], "real": []}
+{"text": ["the", "mac", "mini", ",", "wireless", "keyboard", "/", "mouse", "and", "a", "hdmi", "cable", "is", "all", "i", "need", "to", "get", "some", "real", "work", "done", "."], "predict": [[4, 5, ["wireless", "keyboard"], "NEU"], [7, 7, "mouse", "NEU"], [10, 11, ["hdmi", "cable"], "POS"]], "real": [[4, 7, ["wireless", "keyboard", "/", "mouse"], "NEU"], [10, 11, ["hdmi", "cable"], "NEU"]]}
+{"text": ["i", "finally", "pulled", "the", "trigger", "and", "i", "am", "blown", "away", "by", "how", "much", "more", "i", "enjoy", "my", "computer", "tasks", "using", "the", "mac", "mini", "!", "!", "!"], "predict": [], "real": []}
+{"text": ["it", "has", "all", "the", "features", "that", "we", "expected", "and", "the", "price", "was", "good", ",", "working", "well", "so", "far", "."], "predict": [[4, 4, "features", "POS"], [10, 10, "price", "POS"]], "real": [[4, 4, "features", "POS"], [10, 10, "price", "POS"], [14, 14, "working", "POS"]]}
+{"text": ["i", "work", "as", "a", "designer", "and", "coder", "and", "i", "needed", "a", "new", "buddy", "to", "work", "with", ",", "not", "gaming", "."], "predict": [[18, 18, "gaming", "NEU"]], "real": [[18, 18, "gaming", "NEU"]]}
+{"text": ["i", "was", "told", "that", "it", "seems", "to", "be", "a", "multi", ",", "component", "failure", "."], "predict": [], "real": []}
+{"text": ["the", "new", "operating", "system", "makes", "this", "computer", "into", "a", "super", "ipad", "."], "predict": [[2, 3, ["operating", "system"], "POS"]], "real": [[2, 3, ["operating", "system"], "POS"]]}
+{"text": ["i", "am", "very", "happy", "with", "my", "first", "mac", "."], "predict": [], "real": []}
+{"text": ["easy", "to", "set", "up", "and", "go", "!"], "predict": [[2, 3, ["set", "up"], "POS"]], "real": [[2, 3, ["set", "up"], "POS"]]}
+{"text": ["i", "ca", "n't", "believe", "how", "quiet", "the", "hard", "drive", "is", "and", "how", "quick", "this", "thing", "boots", "up", "."], "predict": [[7, 8, ["hard", "drive"], "NEG"], [15, 16, ["boots", "up"], "POS"]], "real": [[7, 8, ["hard", "drive"], "POS"], [15, 16, ["boots", "up"], "POS"]]}
+{"text": ["the", "only", "issue", "came", "when", "i", "tried", "scanning", "to", "the", "mac", "."], "predict": [], "real": [[7, 7, "scanning", "NEG"]]}
+{"text": ["the", "machine", "is", "speedy", "and", "efficient", "."], "predict": [], "real": []}
+{"text": ["i", "think", "this", "is", "about", "as", "good", "as", "it", "gets", "at", "anything", "close", "to", "this", "price", "point", "."], "predict": [[15, 15, "price", "POS"]], "real": [[15, 16, ["price", "point"], "NEU"]]}
+{"text": ["a", "big", "upgrade", "from", "my", "13", "2006", "macbook", "."], "predict": [], "real": []}
+{"text": ["it", "'s", "just", "what", "we", "were", "looking", "for", "and", "it", "works", "great", "."], "predict": [], "real": [[10, 10, "works", "POS"]]}
+{"text": ["having", "a", "mac", "certainly", "makes", "life", "easier", "."], "predict": [], "real": []}
+{"text": ["it", "'s", "so", "quick", "and", "responsive", "that", "it", "makes", "working/surfing", "on", "a", "computer", "so", "much", "more", "pleasurable", "!"], "predict": [], "real": [[9, 9, "working/surfing", "POS"]]}
+{"text": ["the", "old", "unibody", "macbook", "pro", "could", "fry", "an", "egg", "after", "a", "while", "."], "predict": [], "real": []}
+{"text": ["it", "works", "fine", ",", "and", "all", "the", "software", "seems", "to", "run", "pretty", "well", "."], "predict": [[1, 1, "works", "POS"], [7, 7, "software", "POS"], [10, 10, "run", "POS"]], "real": [[1, 1, "works", "POS"], [7, 7, "software", "POS"]]}
+{"text": ["for", "this", "purpose", ",", "it", "'s", "great", "."], "predict": [], "real": []}
+{"text": ["could", "n't", "have", "asked", "for", "more", "!"], "predict": [], "real": []}
+{"text": ["i", "'m", "using", "this", "computer", "for", "word", "processing", ",", "web", "browsing", ",", "some", "gaming", ",", "and", "i", "'m", "learning", "programming", "."], "predict": [[6, 7, ["word", "processing"], "NEU"], [9, 10, ["web", "browsing"], "NEU"], [13, 13, "gaming", "NEU"]], "real": [[6, 7, ["word", "processing"], "NEU"], [9, 10, ["web", "browsing"], "NEU"], [13, 13, "gaming", "NEU"], [19, 19, "programming", "NEU"]]}
+{"text": ["it", "certainly", "does", ",", "but", "you", "rarely", "hear", "any", "of", "your", "friends", "with", "mac", "'s", "complain", "about", "anything", "."], "predict": [], "real": []}
+{"text": ["my", "wife", "was", "so", "excited", "to", "open", "the", "box", ",", "but", "quickly", "came", "to", "see", "that", "it", "did", "not", "function", "as", "it", "should", "."], "predict": [], "real": [[19, 19, "function", "NEG"]]}
+{"text": ["i", "do", "n't", "have", "any", "technical", "pearls", "to", "share", "."], "predict": [], "real": []}
+{"text": ["i", "wanted", "a", "computer", "that", "was", "quite", ",", "fast", ",", "and", "that", "had", "overall", "great", "performance", "."], "predict": [[15, 15, "performance", "POS"]], "real": [[15, 15, "performance", "NEU"]]}
+{"text": ["apple", "help", "is", "a", "mixed", "bag", "."], "predict": [], "real": [[0, 1, ["apple", "help"], "NEG"]]}
+{"text": ["all", "i", "can", "say", "is", "i", "am", "impressed", "."], "predict": [], "real": []}
+{"text": ["it", "suddenly", "can", "not", "work", "."], "predict": [[4, 4, "work", "NEG"]], "real": [[4, 4, "work", "NEG"]]}
+{"text": ["it", "did", "everything", "we", "expected", "!"], "predict": [], "real": []}
+{"text": ["harddrive", "was", "in", "poor", "condition", ",", "had", "to", "replace", "it", "."], "predict": [[0, 0, "harddrive", "NEG"]], "real": [[0, 0, "harddrive", "NEG"]]}
+{"text": ["the", "on/off", "switch", "is", "a", "bit", "obscure", "in", "the", "rear", "corner", "."], "predict": [[1, 2, ["on/off", "switch"], "NEG"]], "real": [[1, 2, ["on/off", "switch"], "NEG"]]}
+{"text": ["it", "'s", "a", "nice", "little", "gadget", "."], "predict": [], "real": []}
+{"text": ["my", "only", "complaint", "is", "the", "total", "lack", "of", "instructions", "that", "come", "with", "the", "mac", "mini", "."], "predict": [[8, 8, "instructions", "NEG"]], "real": [[8, 8, "instructions", "NEG"]]}
+{"text": ["the", "only", "task", "that", "this", "computer", "would", "not", "be", "good", "enough", "for", "would", "be", "gaming", ",", "otherwise", "the", "integrated", "intel", "4000", "graphics", "work", "well", "for", "other", "tasks", "."], "predict": [[14, 14, "gaming", "NEG"]], "real": [[14, 14, "gaming", "NEG"]]}
+{"text": ["it", "'s", "macbook", "pro", "and", "there", "is", "no", "discusion", "about", "it", "."], "predict": [], "real": []}
+{"text": ["i", "'m", "hoping", "the", "rest", "of", "the", "features", "will", "be", "the", "signature", "quality", "of", "apple", "."], "predict": [[7, 7, "features", "NEU"], [12, 12, "quality", "POS"]], "real": []}
+{"text": ["i", "use", "it", "mostly", "for", "content", "creation", "audio", ",", "video", ",", "photo", "editing", "and", "its", "reliable", "."], "predict": [[11, 12, ["photo", "editing"], "POS"]], "real": [[5, 7, ["content", "creation", "audio"], "POS"], [9, 9, "video", "POS"], [11, 12, ["photo", "editing"], "POS"]]}
+{"text": ["it", "is", "the", "best", "all", "around", "mac", "."], "predict": [], "real": []}
+{"text": ["screen", "is", "bright", "and", "gorgeous", "."], "predict": [[0, 0, "screen", "POS"]], "real": [[0, 0, "screen", "POS"]]}
+{"text": ["also", "is", "portable", "and", "reliable", "."], "predict": [], "real": []}
+{"text": ["the", "only", "solution", "is", "to", "turn", "the", "brightness", "down", ",", "etc", "."], "predict": [], "real": [[7, 7, "brightness", "NEU"]]}
+{"text": ["it", "is", "not", "an", "easy", "decision", "to", "purchase", "a", "used", "or", "even", "good", "as", "new", "laptop", "but", "i", "am", "very", "satisfied", "."], "predict": [], "real": []}
+{"text": ["if", "you", "want", "more", "information", "on", "macs", "i", "suggest", "going", "to", "applecom", "and", "heading", "towards", "the", "macbook", "page", "for", "more", "information", "on", "the", "applications", "."], "predict": [[23, 23, "applications", "NEU"]], "real": [[23, 23, "applications", "NEU"]]}
+{"text": ["it", "is", "robust", ",", "with", "a", "friendly", "use", "as", "all", "apple", "products", "."], "predict": [[7, 7, "use", "POS"]], "real": [[7, 7, "use", "POS"]]}
+{"text": ["even", "if", "you", "do", "n't", "do", "business", ",", "thats", "okay", ",", "it", "'s", "incredibly", "fast", "."], "predict": [], "real": []}
+{"text": ["it", "is", "fast", "and", "easy", "to", "use", "."], "predict": [[6, 6, "use", "POS"]], "real": [[6, 6, "use", "POS"]]}
+{"text": ["this", "was", "absolutely", "annoying", "!"], "predict": [], "real": []}
+{"text": ["and", "the", "fact", "that", "it", "comes", "with", "an", "i5", "processor", "definitely", "speeds", "things", "up"], "predict": [[9, 9, "processor", "POS"], [11, 11, "speeds", "POS"]], "real": [[8, 9, ["i5", "processor"], "POS"]]}
+{"text": ["but", "for", "those", "of", "you", "that", "do", "n't", "have", "a", "mac", "and", "are", "still", "on", "the", "pc", "'s", "this", "is", "a", "good", "foot", "in", "the", "door", "into", "mac", "."], "predict": [], "real": []}
+{"text": ["i", "have", "been", "pc", "for", "years", "but", "this", "computer", "is", "intuitive", "and", "its", "built", "in", "features", "are", "a", "great", "help"], "predict": [[13, 15, ["built", "in", "features"], "POS"]], "real": [[13, 15, ["built", "in", "features"], "POS"]]}
+{"text": ["and", "it", "fits", "in", "my", "briefcase", "with", "ease"], "predict": [], "real": []}
+{"text": ["nice", "screen", ",", "keyboard", "works", "great", "!"], "predict": [[1, 1, "screen", "POS"], [3, 3, "keyboard", "POS"]], "real": [[1, 1, "screen", "POS"], [3, 3, "keyboard", "POS"]]}
+{"text": ["still", "not", "bad", "for", "22000", "."], "predict": [], "real": []}
+{"text": ["i", "was", "amazed", "at", "how", "fast", "the", "delivery", "was", "."], "predict": [[7, 7, "delivery", "POS"]], "real": [[7, 7, "delivery", "POS"]]}
+{"text": ["good", "computer", "and", "fast", "."], "predict": [], "real": []}
+{"text": ["i", "'ve", "installed", "to", "it", "additional", "ssd", "and", "16gb", "ram", "."], "predict": [[8, 9, ["16gb", "ram"], "NEU"]], "real": [[6, 6, "ssd", "NEU"], [8, 9, ["16gb", "ram"], "NEU"]]}
+{"text": ["the", "memory", "was", "gone", "and", "it", "was", "not", "able", "to", "be", "used", "."], "predict": [[1, 1, "memory", "NEG"]], "real": [[1, 1, "memory", "NEG"]]}
+{"text": ["its", "pretty", "much", "fire", "it", "up", "and", "go", "."], "predict": [], "real": []}
+{"text": ["it", "works", "great", "and", "i", "am", "so", "happy", "i", "bought", "it", "."], "predict": [[1, 1, "works", "POS"]], "real": [[1, 1, "works", "POS"]]}
+{"text": ["let", "me", "start", "off", "by", "saying", "that", "i", "was", "highly", "reluctant", "to", "spend", "so", "much", "money", "on", "a", "laptop", "."], "predict": [], "real": []}
+{"text": ["i", "like", "the", "design", "and", "ease", "of", "use", "with", "the", "keyboard", ",", "plenty", "of", "ports", "."], "predict": [[3, 3, "design", "POS"], [7, 7, "use", "POS"], [10, 10, "keyboard", "POS"], [14, 14, "ports", "POS"]], "real": [[3, 3, "design", "POS"], [10, 10, "keyboard", "POS"], [14, 14, "ports", "POS"]]}
+{"text": ["apple", "is", "living", "up", "to", "its", "name", "with", "the", "mini", "and", ",", "for", "our", "needs", ",", "it", "'s", "perfect", "."], "predict": [], "real": []}
+{"text": ["it", "definitely", "beats", "my", "old", "mac", "and", "the", "service", "was", "great", "."], "predict": [[8, 8, "service", "POS"]], "real": [[8, 8, "service", "POS"]]}
+{"text": ["i", "went", "from", "a", "macbook", "to", "this", "mac", "mini", "and", "this", "was", "a", "great", "upgrade", "!"], "predict": [], "real": []}
+{"text": ["web", "browsing", "is", "very", "quick", "with", "safari", "browser", "."], "predict": [[0, 1, ["web", "browsing"], "POS"], [6, 7, ["safari", "browser"], "POS"]], "real": [[0, 1, ["web", "browsing"], "POS"], [6, 7, ["safari", "browser"], "POS"]]}
+{"text": ["it", "could", "n't", "have", "been", "a", "better", "decision", "."], "predict": [], "real": []}
+{"text": ["i", "like", "the", "lighted", "screen", "at", "night", "."], "predict": [[3, 4, ["lighted", "screen"], "POS"]], "real": [[3, 4, ["lighted", "screen"], "POS"]]}
+{"text": ["it", "'s", "great", "to", "have", "a", "solid", "mac", "in", "the", "living", "room", "."], "predict": [], "real": []}
+{"text": ["it", "is", "really", "easy", "to", "use", "and", "it", "is", "quick", "to", "start", "up", "."], "predict": [[5, 5, "use", "POS"], [11, 12, ["start", "up"], "POS"]], "real": [[5, 5, "use", "POS"], [11, 12, ["start", "up"], "POS"]]}
+{"text": ["i", "'ve", "lived", "with", "the", "crashes", "and", "slow", "operation", "and", "restarts", "."], "predict": [[8, 8, "operation", "NEG"]], "real": [[8, 8, "operation", "NEG"]]}
+{"text": ["very", "light", "and", "easily", "maneuverable", "."], "predict": [], "real": []}
+{"text": ["usb3", "peripherals", "are", "noticably", "less", "expensive", "than", "the", "thunderbolt", "ones", "."], "predict": [[0, 1, ["usb3", "peripherals"], "NEG"]], "real": [[0, 1, ["usb3", "peripherals"], "POS"], [8, 8, "thunderbolt", "NEG"]]}
+{"text": ["this", "can", "be", "annoying", "at", "first", "but", "you", "just", "have", "to", "train", "yourself", "not", "to", "to", "start", "over", "so", "far", "."], "predict": [], "real": []}
+{"text": ["and", "mine", "had", "broke", "but", "i", "sent", "it", "in", "under", "warranty-no", "problems", "."], "predict": [], "real": [[10, 10, "warranty-no", "POS"]]}
+{"text": ["i", "am", "not", "happy", "with", "my", "purchase"], "predict": [], "real": []}
+{"text": ["it", "'s", "fast", ",", "light", ",", "and", "is", "perfect", "for", "media", "editing", ",", "which", "is", "mostly", "why", "i", "bought", "it", "in", "the", "first", "place", "."], "predict": [], "real": [[10, 11, ["media", "editing"], "POS"]]}
+{"text": ["however", ",", "the", "machine", "itself", "left", "a", "bit", "to", "be", "desired", "."], "predict": [], "real": []}
+{"text": ["the", "battery", "lasts", "as", "advertised", "give", "or", "take", "15-20", "minutes", ",", "and", "the", "entire", "user", "experience", "is", "very", "elegant", "."], "predict": [[1, 1, "battery", "POS"]], "real": [[1, 1, "battery", "POS"], [14, 15, ["user", "experience"], "POS"]]}
+{"text": ["i", "spent", "months", "looking", "for", "a", "good", "laptop", "for", "me", "and", "i", "finally", "found", "it", "!"], "predict": [], "real": []}
+{"text": ["$", "99900", "tax", "free", "."], "predict": [], "real": []}
+{"text": ["thanks", "for", "the", "fast", "shipment", "and", "great", "price", "."], "predict": [[4, 4, "shipment", "POS"], [7, 7, "price", "POS"]], "real": [[4, 4, "shipment", "POS"], [7, 7, "price", "POS"]]}
+{"text": ["!", "excelent", "performance", ",", "usability", ",", "presentation", "and", "time", "response", "."], "predict": [[2, 2, "performance", "POS"], [4, 4, "usability", "POS"]], "real": [[2, 2, "performance", "POS"], [4, 4, "usability", "POS"], [6, 6, "presentation", "POS"], [8, 9, ["time", "response"], "POS"]]}
+{"text": ["the", "smaller", "size", "was", "a", "bonus", "because", "of", "space", "restrictions", "."], "predict": [[2, 2, "size", "POS"]], "real": [[2, 2, "size", "POS"]]}
+{"text": ["i", "blame", "the", "mac", "os", "."], "predict": [[3, 4, ["mac", "os"], "POS"]], "real": [[3, 4, ["mac", "os"], "NEG"]]}
+{"text": ["but", "for", "now", ",", "this", "laptop", "is", "still", "a", "workhorse", "."], "predict": [], "real": []}
+{"text": ["in", "fact", "i", "still", "use", "manylegacy", "programs", "appleworks", ",", "filemaker", "pro", ",", "quicken", ",", "photoshop", "etc", "!"], "predict": [[6, 7, ["programs", "appleworks"], "NEU"], [9, 10, ["filemaker", "pro"], "NEU"], [12, 12, "quicken", "NEU"], [14, 14, "photoshop", "POS"]], "real": [[7, 7, "appleworks", "NEU"], [9, 10, ["filemaker", "pro"], "NEU"], [12, 12, "quicken", "NEU"], [14, 14, "photoshop", "NEU"]]}
+{"text": ["it", "'s", "small", "but", "powerful", ",", "light", "but", "strong", ",", "elegant", "and", "beautiful", "in", "resume", ",", "it", "'s", "a", "mac", "!", "."], "predict": [], "real": []}
+{"text": ["i", "like", "the", "operating", "system", "."], "predict": [[3, 4, ["operating", "system"], "POS"]], "real": [[3, 4, ["operating", "system"], "POS"]]}
+{"text": ["i", "wish", "i", "would", "have", "taken", "the", "plunge", "years", "ago", "."], "predict": [], "real": []}
+{"text": ["i", "love", "the", "form", "factor", "."], "predict": [], "real": [[3, 4, ["form", "factor"], "POS"]]}
+{"text": ["i", "have", "n't", "used", "the", "product", "long", "enough", "to", "write", "a", "detailed", "technical", "review", "."], "predict": [], "real": []}
+{"text": ["it", "'s", "fast", "at", "loading", "the", "internet", "."], "predict": [[4, 6, ["loading", "the", "internet"], "POS"]], "real": [[4, 6, ["loading", "the", "internet"], "POS"]]}
+{"text": ["so", "much", "faster", "and", "sleeker", "looking", "."], "predict": [], "real": [[5, 5, "looking", "POS"]]}
+{"text": ["i", "plan", "on", "using", "my", "macbook", "pro", "for", "a", "long", "time", "."], "predict": [], "real": []}
+{"text": ["unfortunately", ",", "it", "runs", "xp", "and", "microsoft", "is", "dropping", "support", "next", "april", "."], "predict": [[4, 4, "xp", "POS"], [6, 6, "microsoft", "NEU"]], "real": [[4, 4, "xp", "NEU"], [9, 9, "support", "NEG"]]}
+{"text": ["its", "seen", "in", "movies", ",", "sitcoms", ",", "prominent", "important", "people", "carry", "and", "use", "them", "and", "they", "are", "great", "!"], "predict": [], "real": []}
+{"text": ["first", "off", ",", "i", "really", "do", "like", "my", "mbp", "once", "used", "to", "the", "os", "it", "is", "pretty", "easy", "to", "get", "around", ",", "and", "the", "overall", "build", "is", "great", "eg", "the", "keyboard", "is", "one", "of", "the", "best", "to", "type", "on", "."], "predict": [[13, 13, "os", "POS"], [25, 25, "build", "POS"], [30, 30, "keyboard", "POS"]], "real": [[13, 13, "os", "POS"], [24, 25, ["overall", "build"], "POS"], [30, 30, "keyboard", "POS"]]}
+{"text": ["does", "exactly", "what", "i", "bought", "it", "4", "."], "predict": [], "real": []}
+{"text": ["buy", "the", "mac", "mini", "it", "'s", "a", "terribly", "great", "machine", "."], "predict": [], "real": []}
+{"text": ["it", "is", "made", "of", "such", "solid", "construction", "and", "since", "i", "have", "never", "had", "a", "mac", "using", "my", "iphone", "helped", "me", "get", "used", "to", "the", "system", "a", "bit", "."], "predict": [], "real": [[6, 6, "construction", "POS"], [24, 24, "system", "NEU"]]}
+{"text": ["i", "love", "this", "piece", "of", "equipment", ",", "it", "will", "be", "hard", "to", "go", "back", "to", "other", "type", "of", "laptop", "after", "using", "a", "macbook", "pro", "."], "predict": [], "real": []}
+{"text": ["very", "nice", "unibody", "construction", "."], "predict": [[2, 3, ["unibody", "construction"], "POS"]], "real": [[2, 3, ["unibody", "construction"], "POS"]]}
+{"text": ["very", "disappointed", "with", "apple", "."], "predict": [], "real": []}
+{"text": ["this", "macbook", "pro", "is", "fast", ",", "powerful", ",", "and", "runs", "super", "quiet", "and", "cool", "."], "predict": [[9, 9, "runs", "POS"]], "real": [[9, 9, "runs", "POS"]]}
+{"text": ["the", "review", "below", "is", "no", "longer", "relevant", ",", "apple", "has", "fixed", "the", "issue", "."], "predict": [], "real": []}
+{"text": ["it", "'s", "ok", "but", "does", "n't", "have", "a", "disk", "drive", "which", "i", "did", "n't", "know", "until", "after", "i", "bought", "it", "."], "predict": [[8, 9, ["disk", "drive"], "NEG"]], "real": [[8, 9, ["disk", "drive"], "NEU"]]}
+{"text": ["there", "is", "no", "hdmi", "receptacle", ",", "nor", "is", "there", "an", "sd", "card", "slot", "located", "anywhere", "on", "the", "device", "."], "predict": [[3, 4, ["hdmi", "receptacle"], "NEG"], [10, 12, ["sd", "card", "slot"], "NEU"]], "real": [[3, 4, ["hdmi", "receptacle"], "NEU"], [10, 12, ["sd", "card", "slot"], "NEU"]]}
+{"text": ["it", "really", "is", "very", "light", "compared", "to", "other", "computers", "."], "predict": [], "real": []}
+{"text": ["it", "came", "in", "brand", "new", "and", "works", "perfectly", "."], "predict": [], "real": [[6, 6, "works", "POS"]]}
+{"text": ["this", "machine", "is", "a-mazing", "."], "predict": [], "real": []}
+{"text": ["it", "should", "n't", "happen", "like", "that", ",", "i", "do", "n't", "have", "any", "design", "app", "open", "or", "anything", "."], "predict": [], "real": [[12, 13, ["design", "app"], "NEU"]]}
+{"text": ["my", "trackpad", "is", "not", "working", "."], "predict": [[1, 1, "trackpad", "NEG"]], "real": [[1, 1, "trackpad", "NEG"]]}
+{"text": ["i", "just", "hope", "this", "expensive", "laptop", "does", "n't", "go", "dead", "like", "my", "friendsit", "did", "last", "him", "5", "good", "years", "before", "it", "bit", "the", "dust", "."], "predict": [[12, 12, "friendsit", "NEG"]], "real": []}
+{"text": ["considering", "another", "computer", "should", "be", "out", "of", "the", "question"], "predict": [], "real": []}
+{"text": ["it", "looks", "and", "feels", "solid", ",", "with", "a", "flawless", "finish", "."], "predict": [], "real": [[1, 1, "looks", "POS"], [3, 3, "feels", "POS"], [9, 9, "finish", "POS"]]}
+{"text": ["its", "worth", "every", "penny", "."], "predict": [], "real": []}
+{"text": ["price", "was", "higher", "when", "purchased", "on", "mac", "when", "compared", "to", "price", "showing", "on", "pc", "when", "i", "bought", "this", "product", "."], "predict": [[0, 0, "price", "POS"], [10, 10, "price", "POS"]], "real": [[0, 0, "price", "NEG"], [10, 10, "price", "POS"]]}
+{"text": ["this", "was", "a", "great", "deal", "for", "a", "decked", "out", "macbook", "pro", "."], "predict": [], "real": []}
+{"text": ["then", "the", "system", "would", "many", "times", "not", "power", "down", "without", "a", "forced", "power-off", "."], "predict": [[2, 2, "system", "NEG"], [11, 12, ["forced", "power-off"], "NEG"]], "real": [[2, 2, "system", "NEG"], [7, 8, ["power", "down"], "NEG"]]}
+{"text": ["get", "this", "instead", ",", "you", "wo", "n't", "be", "sorry", "."], "predict": [], "real": []}
+{"text": ["the", "configuration", "is", "perfect", "for", "my", "needs", "."], "predict": [[1, 1, "configuration", "POS"]], "real": [[1, 1, "configuration", "POS"]]}
+{"text": ["and", "the", "speakers", "is", "the", "worst", "ever", "."], "predict": [[2, 2, "speakers", "NEG"]], "real": [[2, 2, "speakers", "NEG"]]}
+{"text": ["i", "think", "it", "was", "around", "16", "hundred", "bucks", "last", "i", "checked", "."], "predict": [], "real": []}
+{"text": ["its", "the", "best", ",", "its", "got", "the", "looks", ",", "super", "easy", "to", "use", "and", "love", "all", "you", "can", "do", "with", "the", "trackpad", "!", "."], "predict": [[7, 7, "looks", "POS"], [12, 12, "use", "POS"], [21, 21, "trackpad", "POS"]], "real": [[7, 7, "looks", "POS"], [12, 12, "use", "POS"], [21, 21, "trackpad", "POS"]]}
+{"text": ["it", "'s", "fast", ",", "quiet", ",", "incredibly", "small", "and", "affordable", "compared", "to", "other", "mac", "models", "."], "predict": [], "real": []}
+{"text": ["web", "surfuring", "is", "smooth", "and", "seamless", "."], "predict": [[0, 1, ["web", "surfuring"], "POS"]], "real": [[0, 1, ["web", "surfuring"], "POS"]]}
+{"text": ["it", "was", "so", "exciting", "for", "me", "to", "unwrapp", "my", "new", "mac", "."], "predict": [], "real": []}
+{"text": ["i", "'m", "overall", "pleased", "with", "the", "interface", "and", "the", "portability", "of", "this", "product", "."], "predict": [[6, 6, "interface", "POS"], [9, 9, "portability", "POS"]], "real": [[6, 6, "interface", "POS"], [9, 9, "portability", "POS"]]}
+{"text": ["so", "when", "i", "had", "the", "money", "to", "buy", "one", "i", "bought", "other", "things", "insteada", "700", "laptop", "and", "some", "extra", "stuff", "with", "it", "."], "predict": [], "real": []}
+{"text": ["this", "item", "is", "a", "beautiful", "piece", ",", "it", "works", "well", ",", "it", "is", "easy", "to", "carry", "and", "handle", "."], "predict": [[8, 8, "works", "POS"], [15, 15, "carry", "POS"], [17, 17, "handle", "POS"]], "real": [[8, 8, "works", "POS"], [15, 15, "carry", "POS"], [17, 17, "handle", "POS"]]}
+{"text": ["see", "retired", "recently", "and", "decided", "that", "she", "wanted", "a", "laptop", "."], "predict": [], "real": []}
+{"text": ["it", "was", "also", "suffering", "from", "hardware", "keyboard", "issues", ",", "relatively", "slow", "performance", "and", "shortening", "battery", "lifetime", "."], "predict": [[5, 6, ["hardware", "keyboard"], "NEG"], [11, 11, "performance", "NEG"], [14, 15, ["battery", "lifetime"], "NEG"]], "real": [[5, 6, ["hardware", "keyboard"], "NEG"], [11, 11, "performance", "NEG"], [14, 15, ["battery", "lifetime"], "NEG"]]}
+{"text": ["i", "'m", "no", "regular", "customer", "i", "hate", "wasting", "my", "time", "with", "hellos", "and", "how", "can", "i", "help", "you", "'s", "."], "predict": [], "real": []}
+{"text": ["runs", "good", "and", "does", "the", "job", ",", "ca", "n't", "complain", "about", "that", "!"], "predict": [[0, 0, "runs", "POS"]], "real": [[0, 0, "runs", "POS"]]}
+{"text": ["it", "'s", "silent", "and", "has", "a", "very", "small", "footprint", "on", "my", "desk", "."], "predict": [], "real": [[8, 8, "footprint", "POS"]]}
+{"text": ["i", "have", "nothing", "to", "regret", "from", "this", "new", "product", "."], "predict": [], "real": []}
+{"text": ["the", "exterior", "is", "absolutely", "gorgeous", "."], "predict": [[1, 1, "exterior", "POS"]], "real": [[1, 1, "exterior", "POS"]]}
+{"text": ["have", "one", "myself", "and", "love", "it", "!"], "predict": [], "real": []}
+{"text": ["it", "has", "a", "very", "high", "performance", ",", "just", "for", "what", "i", "needed", "for", "."], "predict": [[5, 5, "performance", "POS"]], "real": [[5, 5, "performance", "POS"]]}
+{"text": ["this", "is", "especially", "disheartening", "when", "apple", "prides", "itself", "as", "the", "choice", "of", "creative", "professionals", "."], "predict": [], "real": []}
+{"text": ["apple", "is", "aware", "of", "this", "issue", "and", "this", "is", "either", "old", "stock", "or", "a", "defective", "design", "involving", "the", "intel", "4000", "graphics", "chipset", "."], "predict": [[21, 21, "chipset", "NEG"]], "real": [[15, 15, "design", "NEU"], [18, 21, ["intel", "4000", "graphics", "chipset"], "NEU"]]}
+{"text": ["stop", "living", "in", "the", "stone", "age", "and", "buy", "a", "mac", ",", "you", "will", "not", "be", "sorry", "at", "all", "!", "!"], "predict": [], "real": []}
+{"text": ["osx", "mountain", "lion", "soon", "to", "upgrade", "to", "mavericks", "."], "predict": [[0, 0, "osx", "POS"]], "real": [[0, 2, ["osx", "mountain", "lion"], "NEU"], [7, 7, "mavericks", "NEU"]]}
+{"text": ["apple", "hit", "a", "home", "run", "here", "."], "predict": [], "real": []}
+{"text": ["i", "just", "bought", "the", "new", "macbook", "pro", ",", "the", "13", "model", ",", "and", "i", "ca", "n't", "believe", "apple", "keeps", "making", "the", "same", "mistake", "with", "regard", "to", "usb", "ports", "."], "predict": [[26, 27, ["usb", "ports"], "NEG"]], "real": [[26, 27, ["usb", "ports"], "NEG"]]}
+{"text": ["so", "glad", "i", "have", "gone", "this", "route", "!", "!"], "predict": [], "real": []}
+{"text": ["it", "wakes", "in", "less", "than", "a", "second", "when", "i", "open", "the", "lid", "."], "predict": [[11, 11, "lid", "NEU"]], "real": [[1, 1, "wakes", "POS"], [11, 11, "lid", "NEU"]]}
+{"text": ["it", "is", "the", "perfect", "size", "and", "speed", "for", "me", "."], "predict": [[4, 4, "size", "POS"], [6, 6, "speed", "POS"]], "real": [[4, 4, "size", "POS"], [6, 6, "speed", "POS"]]}
+{"text": ["i", "am", "so", "addict", "to", "this", "laptop", "."], "predict": [], "real": []}
+{"text": ["the", "customer", "service", "is", "terrific", "!", "!"], "predict": [[1, 2, ["customer", "service"], "POS"]], "real": [[1, 2, ["customer", "service"], "POS"]]}
+{"text": ["trashed", "it", "when", "i", "spilled", "a", "latte", "on", "it", "while", "writing", "at", "a", "cafe", "."], "predict": [], "real": []}
+{"text": ["my", "last", "laptop", "was", "a", "17", "asus", "gaming", "machine", ",", "which", "performed", "admirably", ",", "but", "having", "since", "built", "my", "own", "desktop", "and", "really", "settling", "into", "the", "college", "life", ",", "i", "found", "myself", "wanting", "something", "smaller", "and", "less", "cumbersome", ",", "not", "to", "mention", "that", "the", "asus", "had", "been", "slowly", "developing", "problems", "ever", "since", "i", "bought", "it", "about", "4", "years", "ago", "."], "predict": [[11, 11, "performed", "POS"]], "real": [[11, 11, "performed", "POS"]]}
+{"text": ["however", ",", "it", "did", "not", "have", "any", "scratches", ",", "zero", "battery", "cycle", "count", "pretty", "surprised", ",", "and", "all", "the", "hardware", "seemed", "to", "be", "working", "perfectly", "."], "predict": [[10, 10, "battery", "NEG"], [19, 19, "hardware", "NEG"]], "real": [[10, 12, ["battery", "cycle", "count"], "POS"], [19, 19, "hardware", "POS"]]}
+{"text": ["after", "fumbling", "around", "with", "the", "os", "i", "started", "searching", "the", "internet", "for", "a", "fix", "and", "found", "a", "number", "of", "forums", "on", "fixing", "the", "issue", "."], "predict": [[5, 5, "os", "NEU"]], "real": [[5, 5, "os", "NEG"]]}
+{"text": ["i", "could", "n't", "be", "more", "pleased", "."], "predict": [], "real": []}
+{"text": ["and", "as", "for", "all", "the", "fancy", "finger", "swipes", "-", "i", "just", "gave", "up", "and", "attached", "a", "mouse", "."], "predict": [[16, 16, "mouse", "NEU"]], "real": [[6, 7, ["finger", "swipes"], "NEG"], [16, 16, "mouse", "NEU"]]}
+{"text": ["i", "needed", "a", "laptop", "with", "big", "storage", ",", "a", "nice", "screen", "and", "fast", "so", "i", "can", "photoshop", "without", "any", "problem", "."], "predict": [[6, 6, "storage", "POS"], [10, 10, "screen", "POS"], [16, 16, "photoshop", "POS"]], "real": [[6, 6, "storage", "NEU"], [10, 10, "screen", "NEU"], [16, 16, "photoshop", "NEU"]]}
+{"text": ["i", "like", "coming", "back", "to", "mac", "os", "but", "this", "laptop", "is", "lacking", "in", "speaker", "quality", "compared", "to", "my", "$", "400", "old", "hp", "laptop", "."], "predict": [[5, 6, ["mac", "os"], "POS"], [13, 14, ["speaker", "quality"], "NEG"]], "real": [[5, 6, ["mac", "os"], "POS"], [13, 14, ["speaker", "quality"], "NEG"]]}
+{"text": ["it", "is", "much", "better", "than", "the", "acer", "ultrabook", "i", "had", "before", "."], "predict": [], "real": []}
+{"text": ["shipped", "very", "quickly", "and", "safely", "."], "predict": [[0, 0, "shipped", "POS"]], "real": [[0, 0, "shipped", "POS"]]}
+{"text": ["i", "finally", "own", "a", "piece", "of", "computing", "equipment", "that", "i", "do", "n't", "want", "to", "take", "a", "baseball", "bat", "and", "destroy", "."], "predict": [], "real": []}
+{"text": ["the", "thunderbolt", "port", "is", "awesome", "!"], "predict": [[1, 2, ["thunderbolt", "port"], "POS"]], "real": [[1, 2, ["thunderbolt", "port"], "POS"]]}
+{"text": ["user", "friendly", ",", "fast", "and", "high", "tech", "it", "is", "amazing", "!"], "predict": [], "real": []}
+{"text": ["the", "performance", "is", "definitely", "superior", "to", "any", "computer", "i", "'ve", "ever", "put", "my", "hands", "on", "."], "predict": [[1, 1, "performance", "POS"]], "real": [[1, 1, "performance", "POS"]]}
+{"text": ["it", "'s", "great", "for", "streaming", "video", "and", "other", "entertainment", "uses", "."], "predict": [[4, 5, ["streaming", "video"], "POS"]], "real": [[4, 5, ["streaming", "video"], "POS"], [8, 9, ["entertainment", "uses"], "POS"]]}
+{"text": ["apple", "did", "a", "great", "job", "."], "predict": [], "real": []}
+{"text": ["i", "like", "the", "design", "and", "its", "features", "but", "there", "are", "somethings", "i", "think", "needs", "to", "be", "improved", "."], "predict": [[3, 3, "design", "POS"], [6, 6, "features", "POS"]], "real": [[3, 3, "design", "POS"], [6, 6, "features", "POS"]]}
+{"text": ["there", "were", "small", "problems", "with", "mac", "office", "."], "predict": [[6, 6, "office", "NEG"]], "real": [[5, 6, ["mac", "office"], "NEG"]]}
+{"text": ["it", "is", "extremely", "fast", "and", "very", "compact", "."], "predict": [], "real": []}
+{"text": ["i", "understand", "i", "should", "call", "apple", "tech", "support", "about", "any", "variableswhich", "is", "my", "purpose", "of", "writing", "this", "con", "as", "variables", "could", "be", "a", "bigger", "future", "problem", "."], "predict": [[5, 7, ["apple", "tech", "support"], "NEG"]], "real": [[5, 7, ["apple", "tech", "support"], "NEU"]]}
+{"text": ["i", "ordered", "my", "2012", "mac", "mini", "after", "being", "disappointed", "with", "spec", "of", "the", "new", "27", "imacs", "."], "predict": [], "real": [[10, 10, "spec", "NEG"]]}
+{"text": ["it", "still", "works", "and", "it", "'s", "extremely", "user", "friendly", ",", "so", "i", "would", "recommend", "it", "for", "new", "computer", "user", "and", "also", "for", "those", "who", "are", "just", "looking", "for", "a", "more", "efficient", "way", "to", "do", "things"], "predict": [[2, 2, "works", "POS"]], "real": [[2, 2, "works", "POS"]]}
+{"text": ["its", "fast", ",", "easy", "to", "use", "and", "it", "looks", "great", "."], "predict": [[5, 5, "use", "POS"]], "real": [[5, 5, "use", "POS"], [8, 8, "looks", "POS"]]}
+{"text": ["but", "office", "can", "be", "purchased", "if", "i", "ever", "need", "a", "laptop", "again", "i", "am", "for", "sure", "purchasing", "another", "toshiba", "!", "!"], "predict": [], "real": [[1, 1, "office", "NEU"]]}
+{"text": ["i", "have", "n't", "tried", "the", "one", "with", "retina", "display", "maybe", "in", "the", "future", "."], "predict": [], "real": [[7, 8, ["retina", "display"], "NEU"]]}
+{"text": ["you", "can", "read", "all", "about", "the", "details", "of", "this", "marvelous", "computer", "on", "wikipedia", "."], "predict": [], "real": []}
+{"text": ["performance", "is", "much", "much", "better", "on", "the", "pro", ",", "especially", "if", "you", "install", "an", "ssd", "on", "it", "."], "predict": [[0, 0, "performance", "POS"]], "real": [[0, 0, "performance", "POS"], [14, 14, "ssd", "POS"]]}
+{"text": ["note", ",", "however", ",", "that", "any", "existing", "magsafe", "accessories", "you", "have", "will", "not", "work", "with", "the", "magsafe", "2", "connection", "."], "predict": [[16, 18, ["magsafe", "2", "connection"], "NEU"]], "real": [[7, 8, ["magsafe", "accessories"], "NEU"], [16, 18, ["magsafe", "2", "connection"], "NEG"]]}
+{"text": ["if", "you", "get", "a", "lemon", "i", "have", "two", "thirds", "of", "my", "macs", ",", "you", "have", "to", "send", "it", "in", "for", "repairs", "several", "times", "before", "they", "will", "replace", "it", ",", "even", "if", "they", "have", "numerous", "problems", "with", "the", "same", "version", "of", "their", "computers", "."], "predict": [], "real": []}
+{"text": ["the", "only", "thing", "i", "dislike", "is", "the", "touchpad", ",", "alot", "of", "the", "times", "its", "unresponsive", "and", "does", "things", "i", "do", "n't", "want", "it", "too", ",", "i", "would", "recommend", "using", "a", "mouse", "with", "it", "."], "predict": [[7, 7, "touchpad", "NEG"], [30, 30, "mouse", "NEU"]], "real": [[7, 7, "touchpad", "NEG"], [30, 30, "mouse", "NEU"]]}
+{"text": ["yeah", ",", "it", "'s", "super", "expensive", "."], "predict": [], "real": []}
+{"text": ["the", "mac", "mini", "is", "about", "8x", "smaller", "than", "my", "old", "computer", "which", "is", "a", "huge", "bonus", "and", "runs", "very", "quiet", ",", "actually", "the", "fans", "are", "n't", "audible", "unlike", "my", "old", "pc"], "predict": [[17, 17, "runs", "POS"]], "real": [[17, 17, "runs", "POS"], [23, 23, "fans", "POS"]]}
+{"text": ["maybe", "the", "mac", "os", "improvement", "were", "not", "the", "product", "they", "want", "to", "offer", "."], "predict": [[2, 4, ["mac", "os", "improvement"], "NEG"]], "real": [[2, 3, ["mac", "os"], "NEG"]]}
+{"text": ["it", "came", "before", "the", "day", "it", "supposed", "to", "which", "is", "great", "."], "predict": [], "real": []}
+{"text": ["i", "thought", "the", "transition", "would", "be", "difficult", "at", "best", "and", "would", "take", "some", "time", "to", "fully", "familiarize", "myself", "with", "the", "new", "mac", "ecosystem", "."], "predict": [], "real": [[21, 22, ["mac", "ecosystem"], "NEU"]]}
+{"text": ["it", "'s", "absolutely", "wonderful", "and", "worth", "the", "price", "!"], "predict": [[7, 7, "price", "POS"]], "real": [[7, 7, "price", "POS"]]}
+{"text": ["it", "'s", "a", "good", "fix", ",", "in", "my", "opinion", "."], "predict": [], "real": []}
+{"text": ["i", "am", "please", "with", "the", "products", "ease", "of", "use", ";", "out", "of", "the", "box", "ready", ";", "appearance", "and", "functionality", "."], "predict": [[8, 8, "use", "POS"], [18, 18, "functionality", "POS"]], "real": [[8, 8, "use", "POS"], [16, 16, "appearance", "POS"], [18, 18, "functionality", "POS"]]}
+{"text": ["buying", "a", "mac", "mini", "would", "allow", "me", "to", "make", "the", "transition", "."], "predict": [], "real": []}
+{"text": ["before", "i", "begin", ",", "i", "will", "say", "that", "i", "am", "not", "like", "a", "good", "percentage", "of", "the", "people", "that", "will", "end", "up", "writing", "a", "review", "on", "this", "computer", ",", "i", "am", "not", "an", "apple", "fanboy", "."], "predict": [], "real": []}
+{"text": ["its", "by", "far", "faster", "and", "more", "stable", "then", "my", "pc", "."], "predict": [], "real": []}
+{"text": ["i", "purchased", "a", "macbook", "pro", "and", "this", "to", "replace", "a", "couple", "of", "hp", "units", "that", "i", "was", "using", "."], "predict": [], "real": []}
+{"text": ["you", "will", "not", "regret", "it", ",", "promise", "you", "!"], "predict": [], "real": []}
+{"text": ["moving", "from", "a", "pc", "to", "mac", "has", "never", "been", "easier", ",", "and", "i", "'m", "glad", "that", "i", "did", "it", "."], "predict": [], "real": []}
+{"text": ["perfect", "for", "all", "my", "graphic", "design", "classes", "i", "'m", "taking", "this", "year", "in", "college", ",", "-"], "predict": [], "real": [[4, 5, ["graphic", "design"], "POS"]]}
+{"text": ["have", "used", "only", "macs", "for", "years", "."], "predict": [], "real": []}
+{"text": ["being", "a", "tech", "savvy", ",", "apple", ",", "product", "loving", "person", ",", "i", "'m", "glad", "i", "finally", "got", "the", "macbook", "pro", "!"], "predict": [], "real": []}
+{"text": ["i", "was", "always", "against", "them", "but", "now", "i", "buying", "one", "i", "'ll", "never", "go", "back", "to", "pc", "."], "predict": [], "real": []}
+{"text": ["i", "will", "not", "be", "using", "that", "slot", "again", "."], "predict": [], "real": [[6, 6, "slot", "NEG"]]}
+{"text": ["i", "think", "that", "was", "a", "great", "decision", "to", "buy"], "predict": [], "real": []}
+{"text": ["the", "os", "is", "fast", "and", "fluid", ",", "everything", "is", "organized", "and", "it", "'s", "just", "beautiful", "."], "predict": [[1, 1, "os", "POS"]], "real": [[1, 1, "os", "POS"]]}
+{"text": ["it", "will", "make", "life", "so", "much", "easier", "next", "semester", ",", "just", "wish", "i", "had", "it", "last", "semester", "!", "!"], "predict": [], "real": []}
+{"text": ["i", "paid", "for", "a", "new", "laptop", ",", "but", "was", "sent", "a", "used", "one", "."], "predict": [], "real": []}
+{"text": ["searched", "it", "on", "amazon", "and", "on", "bestbuy", "."], "predict": [], "real": []}
+{"text": ["i", "bought", "this", "one", "for", "my", "11", "year", "old", "and", "the", "macbook", "air", "for", "my", "9", "year", "old", "."], "predict": [], "real": []}
+{"text": ["i", "bought", "it", "for", "college", "and", "so", "far", "it", "'s", "amazing", "!"], "predict": [], "real": []}
+{"text": ["they", "are", "simpler", "to", "use", "."], "predict": [], "real": [[4, 4, "use", "POS"]]}
+{"text": ["it", "was", "at", "my", "door", "in", "less", "than", "24", "hours", "."], "predict": [], "real": []}
+{"text": ["it", "'s", "also", "very", "pricey", "but", "you", "just", "have", "to", "tell", "yourself", "it", "'s", "an", "investment", "and", "that", "it", "'s", "gon", "na", "last", "you", "a", "long", "time", "."], "predict": [], "real": []}
+{"text": ["it", "was", "getting", "old", "and", "i", "needed", "a", "new", "school", "computer", "."], "predict": [], "real": []}
+{"text": ["!", "so", "nice", "stable", "fast", "now", "i", "got", "my", "ssd", "!", "."], "predict": [], "real": [[9, 9, "ssd", "POS"]]}
+{"text": ["i", "love", "apple", "but", "unlike", "others", "that", "does", "not", "prevent", "me", "to", "not", "be", "honest", "about", "how", "i", "like", "it", "and", "if", "its", "good", "or", "not", "."], "predict": [], "real": []}
+{"text": ["so", ",", "i", "'m", "cooled", "on", "mac", "buys", "."], "predict": [], "real": []}
+{"text": ["it", "is", "a", "great", "computer", "for", "that", "and", "i", "have", "to", "say", "i", "'m", "happy", "i", "switched", "."], "predict": [], "real": []}
+{"text": ["also", ",", "in", "using", "the", "built-in", "camera", ",", "my", "voice", "recording", "for", "my", "vlog", "sounds", "like", "the", "interplanetary", "transmissions", "in", "the", "star", "wars", "saga", "."], "predict": [[5, 6, ["built-in", "camera"], "POS"], [17, 18, ["interplanetary", "transmissions"], "NEG"]], "real": [[5, 6, ["built-in", "camera"], "NEU"], [9, 10, ["voice", "recording"], "NEG"]]}
+{"text": ["overall", "a", "nice", "computer", "."], "predict": [], "real": []}
+{"text": ["you", "can", "imagine", "that", "an", "expensive", "item", "as", "a", "laptop", "will", "not", "be", "left", "on", "your", "front", "steps", ",", "it", "needs", "signature", "to", "pove", "that", "you", "received", "it", "."], "predict": [], "real": []}
+{"text": ["i", "love", "the", "quick", "start", "up", "."], "predict": [], "real": [[4, 5, ["start", "up"], "POS"]]}
+{"text": ["yes", ",", "he", "is", "a", "self", "professed", "mac", "snob", "."], "predict": [], "real": []}
+{"text": ["you", "just", "can", "not", "beat", "the", "functionality", "of", "an", "apple", "device", "."], "predict": [], "real": [[6, 6, "functionality", "POS"]]}
+{"text": ["yet", "my", "mac", "continues", "to", "function", "properly", "."], "predict": [], "real": [[5, 5, "function", "POS"]]}
+{"text": ["graphics", "are", "much", "improved", "."], "predict": [[0, 0, "graphics", "POS"]], "real": [[0, 0, "graphics", "POS"]]}
+{"text": ["here", "are", "the", "things", "that", "made", "me", "confident", "with", "my", "purchase", ",", "build", "quality", ",", "seriously", ",", "you", "ca", "n't", "beat", "a", "unibody", "construction", "."], "predict": [[12, 13, ["build", "quality"], "POS"], [22, 23, ["unibody", "construction"], "POS"]], "real": [[12, 13, ["build", "quality"], "POS"], [22, 23, ["unibody", "construction"], "POS"]]}
+{"text": ["it", "'s", "the", "mid", "2012", "version", "."], "predict": [], "real": []}
+{"text": ["it", "provides", "much", "more", "flexibility", "for", "connectivity", "."], "predict": [[6, 6, "connectivity", "POS"]], "real": [[4, 6, ["flexibility", "for", "connectivity"], "POS"]]}
+{"text": ["i", "want", "the", "portability", "of", "a", "tablet", ",", "without", "the", "limitations", "of", "a", "tablet", "and", "that", "'s", "where", "this", "laptop", "comes", "into", "play", "."], "predict": [[3, 3, "portability", "POS"]], "real": [[3, 3, "portability", "POS"]]}
+{"text": ["i", "have", "had", "many", ",", "many", "issues", "with", "pc", "'s", "in", "the", "past", "and", "i", "'m", "finally", "glad", "to", "have", "joined", "the", "mac", "revolution", "!"], "predict": [], "real": []}
+{"text": ["mac", "tutorials", "do", "help", "."], "predict": [], "real": [[0, 1, ["mac", "tutorials"], "POS"]]}
+{"text": ["when", "it", "broke", "i", "wanted", "another", "acer", "and", "chose", "the", "v5", "."], "predict": [], "real": []}
+{"text": ["the", "technical", "support", "was", "not", "helpful", "as", "well", "."], "predict": [[1, 2, ["technical", "support"], "NEG"]], "real": [[1, 2, ["technical", "support"], "NEG"]]}
+{"text": ["i", "got", "the", "new", "adapter", "and", "there", "was", "no", "change", "."], "predict": [[4, 4, "adapter", "POS"]], "real": [[4, 4, "adapter", "NEU"]]}
+{"text": ["so", "i", "called", "technical", "support", "."], "predict": [[3, 4, ["technical", "support"], "NEU"]], "real": [[3, 4, ["technical", "support"], "NEU"]]}
+{"text": ["nothing", "about", "it", "that", "i", "do", "n't", "love", ",", "apple", "always", "makes", "a", "great", "product", "."], "predict": [], "real": []}
+{"text": ["i", "saved", "about", "$", "100", "plus", "tax", "ordering", "on", "amazon", "and", "since", "i", "have", "prime", ",", "it", "arrived", "overnight", "for", "just", "$", "399", "more", "."], "predict": [], "real": []}
+{"text": ["came", "with", "iphoto", "and", "garage", "band", "already", "loaded", "."], "predict": [[2, 2, "iphoto", "POS"], [4, 5, ["garage", "band"], "POS"]], "real": [[2, 2, "iphoto", "NEU"], [4, 5, ["garage", "band"], "NEU"]]}
+{"text": ["it", "'s", "all", "a", "bit", "magical", "."], "predict": [], "real": []}
+{"text": ["logic", "board", "utterly", "fried", ",", "cried", ",", "and", "laid", "down", "and", "died", "."], "predict": [[0, 1, ["logic", "board"], "NEG"]], "real": [[0, 1, ["logic", "board"], "POS"]]}
+{"text": ["it", "is", "blazing", "fast", "!"], "predict": [], "real": []}
+{"text": ["the", "sound", "was", "crappy", "even", "when", "you", "turn", "up", "the", "volume", "still", "the", "same", "results", "."], "predict": [[1, 1, "sound", "NEG"]], "real": [[1, 1, "sound", "NEG"], [10, 10, "volume", "NEG"]]}
+{"text": ["ive", "never", "had", "a", "problem", "with", "it", "!"], "predict": [], "real": []}
+{"text": ["i", "currently", "own", "a", "lenovo", "laptop", "as", "well", "as", "my", "new", "macbook", "pro", ",", "and", "each", "have", "their", "own", "strengths", "and", "weaknesses", "."], "predict": [], "real": []}
+{"text": ["osx", "lion", "is", "a", "great", "performerextremely", "fast", "and", "reliable", "."], "predict": [[0, 1, ["osx", "lion"], "POS"], [5, 5, "performerextremely", "POS"]], "real": [[0, 1, ["osx", "lion"], "POS"]]}
+{"text": ["best", "commuter", "i", "have", "ever", "owned", "."], "predict": [], "real": []}
+{"text": ["what", "can", "i", "say", ",", "it", "'s", "an", "apple", "."], "predict": [], "real": []}
+{"text": ["having", "heard", "from", "friends", "and", "family", "about", "how", "reliable", "a", "mac", "product", "is", ",", "i", "never", "expected", "to", "have", "an", "application", "crash", "within", "the", "first", "month", ",", "but", "i", "did", "."], "predict": [], "real": [[20, 20, "application", "NEG"]]}
+{"text": ["the", "macbook", "pro", "'s", "physical", "form", "is", "wonderful", "."], "predict": [], "real": [[4, 5, ["physical", "form"], "POS"]]}
+{"text": ["i", "have", "an", "iphone", ",", "and", "ipad", ",", "so", "it", "just", "made", "sense", "to", "finish", "off", "the", "platform", "by", "adding", "the", "mini", "."], "predict": [], "real": []}
+{"text": ["not", "super", "light", "but", "still", "a", "good", "one", "."], "predict": [], "real": []}
+{"text": ["the", "mini", "'s", "body", "has", "n't", "changed", "since", "late", "2010", "and", "for", "a", "good", "reason", "."], "predict": [], "real": [[3, 3, "body", "POS"]]}
+{"text": ["the", "unibody", "construction", "really", "does", "feel", "lot", "more", "solid", "than", "apple", "'s", "previous", "laptops", "."], "predict": [[1, 2, ["unibody", "construction"], "POS"]], "real": [[1, 2, ["unibody", "construction"], "POS"]]}
+{"text": ["i", "had", "to", "return", "it", "for", "a", "replacement", "."], "predict": [], "real": []}
+{"text": ["it", "was", "wonderful", "deal", "for", "the", "wonderful", "product", "."], "predict": [], "real": []}
+{"text": ["it", "completely", "supports", "my", "home", "business", "and", "personal", "life", "."], "predict": [], "real": []}
+{"text": ["3d", "rendering", "slows", "it", "down", "considerably", "."], "predict": [], "real": [[0, 1, ["3d", "rendering"], "NEG"]]}
+{"text": ["got", "this", "mac", "mini", "with", "os", "x", "mountain", "lion", "for", "my", "wife", "."], "predict": [], "real": [[5, 8, ["os", "x", "mountain", "lion"], "NEU"]]}
+{"text": ["i", "am", "pleased", "to", "report", "that", "it", "is", "one", "of", "the", "best", "presents", "i", "have", "received", "to", "date", "."], "predict": [], "real": []}
+{"text": ["every", "day", "i", "had", "this", "computer", ",", "something", "failed", "on", "it", "."], "predict": [], "real": []}
+{"text": ["fast", ",", "great", "screen", ",", "beautiful", "apps", "for", "a", "laptop", ";", "priced", "at", "1100", "on", "the", "apple", "website", ";", "amazon", "had", "it", "for", "1098+", "tax", ",", "plus", "i", "had", "a", "10", "%", "off", "coupon", "from", "amazon-cost", "me", "998", "plus", "tax", "1070", "otd", "!"], "predict": [[3, 3, "screen", "POS"], [6, 6, "apps", "POS"]], "real": [[3, 3, "screen", "POS"], [6, 6, "apps", "POS"], [11, 11, "priced", "NEU"]]}
+{"text": ["1244", "seconds", "to", "boot", "."], "predict": [[3, 3, "boot", "NEU"]], "real": [[3, 3, "boot", "NEU"]]}
+{"text": ["all", "the", "ports", "are", "much", "needed", "since", "this", "is", "my", "main", "computer", "."], "predict": [[2, 2, "ports", "NEG"]], "real": [[2, 2, "ports", "NEU"]]}
+{"text": ["the", "like", "new", "condition", "of", "the", "imac", "mc309ll/a", "on", "amazon", "is", "at", "$", "900+", "level", "only", ",", "and", "it", "is", "a", "quad-core", "25", "ghz", "cpu", "similar", "to", "the", "$", "799", "mini", ",", "with", "radeon", "hd", "6750m", "512mb", "graphic", "card", "this", "mini", "is", "integrated", "intel", "4000", "card", ",", "and", "it", "even", "comes", "with", "wireless", "apple", "keyboard", "and", "mouse", ",", "all", "put", "together", "in", "neat", "and", "nice", "package", "."], "predict": [[21, 22, ["quad-core", "25"], "POS"], [33, 34, ["radeon", "hd"], "NEU"], [53, 54, ["apple", "keyboard"], "POS"], [56, 56, "mouse", "NEU"]], "real": [[21, 24, ["quad-core", "25", "ghz", "cpu"], "NEU"], [33, 38, ["radeon", "hd", "6750m", "512mb", "graphic", "card"], "NEU"], [42, 45, ["integrated", "intel", "4000", "card"], "NEU"], [52, 56, ["wireless", "apple", "keyboard", "and", "mouse"], "NEU"], [65, 65, "package", "POS"]]}
+{"text": ["put", "a", "cover", "on", "it", "and", "is", "a", "little", "better", "but", "that", "is", "my", "only", "complaint", "."], "predict": [], "real": [[2, 2, "cover", "NEU"]]}
+{"text": ["within", "a", "few", "hours", "i", "was", "using", "the", "gestures", "unconsciously", "."], "predict": [[8, 8, "gestures", "NEG"]], "real": [[8, 8, "gestures", "POS"]]}
+{"text": ["this", "mac", "does", "come", "with", "an", "extender", "cable", "and", "i", "'m", "using", "mine", "right", "now", "hoping", "the", "cable", "will", "stay", "nice", "for", "the", "many", "years", "i", "plan", "on", "using", "this", "mac", "."], "predict": [[6, 7, ["extender", "cable"], "POS"]], "real": [[6, 7, ["extender", "cable"], "NEU"], [17, 17, "cable", "POS"]]}
+{"text": ["this", "is", "the", "third", "in", "a", "series", "of", "macbooks", "starting", "with", "a", "black", "macbook", "."], "predict": [], "real": []}
+{"text": ["the", "29ghz", "dual-core", "i7", "chip", "really", "out", "does", "itself", "."], "predict": [[1, 4, ["29ghz", "dual-core", "i7", "chip"], "POS"]], "real": [[1, 4, ["29ghz", "dual-core", "i7", "chip"], "POS"]]}
+{"text": ["my", "life", "has", "been", "enriched", "since", "i", "have", "been", "using", "apple", "products", "."], "predict": [], "real": []}
+{"text": ["i", "finally", "did", "it", "and", "this", "machine", "is", "the", "way", "to", "go", "!"], "predict": [], "real": []}
+{"text": ["it", "is", "pretty", "snappy", "and", "starts", "up", "in", "about", "30", "seconds", "which", "is", "good", "enough", "for", "me", "."], "predict": [], "real": [[5, 6, ["starts", "up"], "POS"]]}
+{"text": ["the", "few", "things", "that", "are", "wrong", "with", "it", "are", "very", "minor", "things", "."], "predict": [], "real": []}
+{"text": ["so", "noise", "is", "reduced", "at", "least", "50", "%", "and", "the", "heat", "is", "much", "better", ",", "now", "it", "does", "n't", "feel", "hot", "but", "warm", "."], "predict": [[1, 1, "noise", "NEG"]], "real": []}
+{"text": ["not", "sure", "on", "windows", "8", "."], "predict": [[3, 4, ["windows", "8"], "POS"]], "real": [[3, 4, ["windows", "8"], "NEU"]]}
+{"text": ["it", "'s", "a", "lottery", "at", "this", "point", "as", "i", "have", "read", "that", "other", "have", "received", "new", "ones", "with", "the", "same", "problem", "."], "predict": [], "real": []}
+{"text": ["my", "one", "complaint", "is", "that", "there", "was", "no", "internal", "cd", "drive", "."], "predict": [[8, 10, ["internal", "cd", "drive"], "NEG"]], "real": [[8, 10, ["internal", "cd", "drive"], "NEG"]]}
+{"text": ["this", "newer", "netbook", "has", "no", "hard", "drive", "or", "network", "lights", "."], "predict": [[5, 6, ["hard", "drive"], "NEG"], [8, 9, ["network", "lights"], "NEG"]], "real": [[5, 6, ["hard", "drive"], "NEU"], [8, 9, ["network", "lights"], "NEU"]]}
+{"text": ["this", "is", "the", "first", "time", "for", "me", "to", "use", "a", "mac", "and", "i", "'m", "really", "happy", "with", "the", "move", "."], "predict": [], "real": []}
+{"text": ["no", "complaints", "for", "an", "apple", "product", "."], "predict": [], "real": []}
+{"text": ["the", "new", "macbook", "is", "lightyears", "ahead", "of", "my", "old", "white", "plastic", "macbook", "circa", "2006", "."], "predict": [], "real": []}
+{"text": ["i", "would", "say", "that", "85", "%", "of", "the", "design", "industry", "is", "mac", "for", "good", "reason", "."], "predict": [], "real": []}
+{"text": ["i", "was", "having", "a", "though", "time", "deciding", "between", "the", "13", "macbook", "air", "or", "the", "macbook", "pro", "13", "both", "baseline", "models", ",", "priced", "at", "1,200", "$", "retail"], "predict": [], "real": [[21, 21, "priced", "NEU"]]}
+{"text": ["the", "last", "new", "mac", "i", "bought", "was", "in", "1998", "."], "predict": [], "real": []}
+{"text": ["there", "are", "reviews", "that", "speak", "to", "a", "few", "possible", "glitches", "but", ",", "i", "have", "n't", "seen", "them", "yet", "."], "predict": [], "real": []}
+{"text": ["not", "too", "expense", "and", "has", "enough", "storage", "for", "most", "users", "and", "many", "ports", "."], "predict": [[12, 12, "ports", "NEG"]], "real": [[6, 6, "storage", "POS"], [12, 12, "ports", "POS"]]}
+{"text": ["i", "am", "very", "satisfied", "with", "the", "mini", "."], "predict": [], "real": []}
+{"text": ["the", "audio", "volume", "is", "quite", "low", "and", "virtually", "unusable", "in", "a", "room", "with", "any", "background", "activity", "."], "predict": [[1, 2, ["audio", "volume"], "NEG"]], "real": [[1, 2, ["audio", "volume"], "NEG"]]}
+{"text": ["i", "am", "going", "to", "college", "next", "year", "and", "i", "needed", "a", "cheaper", ",", "quality", "computer", "for", "the", "goals", "i", "am", "trying", "to", "pursue", "."], "predict": [], "real": []}
+{"text": ["in", "the", "short", "time", "of", "one", "month", "since", "the", "2012", "mac", "mini", "was", "released", "there", "are", "well", "over", "1000", "posts", "regarding", "this", "issue", "and", "the", "numbers", "keep", "rising", "."], "predict": [], "real": []}
+{"text": ["it", "is", "lightweight", "and", "the", "perfect", "size", "to", "carry", "to", "class", "."], "predict": [[6, 6, "size", "POS"]], "real": [[6, 6, "size", "POS"]]}
+{"text": ["if", "you", "have", "to", "ask", "you", "do", "n't", "own", "a", "mac", "and", "your", "just", "not", "in", "the", "know", "."], "predict": [], "real": []}
+{"text": ["all", "my", "devises", "talk", "to", "each", "other", "."], "predict": [], "real": []}
+{"text": ["why", "not", "5", "stars", "?"], "predict": [], "real": []}
+{"text": ["very", "very", "highly", "recommended", "."], "predict": [], "real": []}
+{"text": ["?", "i", "am", "only", "interested", "in", "the", "154", "mcbook", "pro", "model", "#", "md103ll/a", "."], "predict": [], "real": []}
+{"text": ["i", "do", "n't", "know", "why", "i", "did", "n't", "make", "the", "switch", "soonero", "ya", "because", "it", "'s", "expensive", "."], "predict": [[10, 11, ["switch", "soonero"], "NEG"]], "real": []}
+{"text": ["i", "was", "given", "a", "demonstration", "of", "windows", "8", "."], "predict": [[6, 7, ["windows", "8"], "POS"]], "real": [[6, 7, ["windows", "8"], "NEU"]]}
+{"text": ["the", "macbook", "pro", "is", "the", "premier", "choice", "for", "college", "students", "."], "predict": [], "real": []}
+{"text": ["their", "products", ",", "including", "the", "mbp", ",", "are", "beautiful", ",", "sleek", "and", "clever", "."], "predict": [], "real": []}
+{"text": ["the", "mbp", "is", "beautiful", "has", "many", "wonderful", "capabilities", "."], "predict": [], "real": [[7, 7, "capabilities", "POS"]]}
+{"text": ["i", "thought", "that", "it", "will", "be", "fine", ",", "if", "i", "do", "some", "settings", "."], "predict": [], "real": [[12, 12, "settings", "NEU"]]}
+{"text": ["runs", "very", "smoothly", "."], "predict": [[0, 0, "runs", "POS"]], "real": [[0, 0, "runs", "POS"]]}
+{"text": ["perfect", "--", "thanks", "so", "."], "predict": [], "real": []}
+{"text": ["also", ",", "it", "hardly", "ever", "crashes", "."], "predict": [], "real": []}
+{"text": ["i", "was", "so", "excited", "to", "get", "this", "in", "the", "mail", "i", "nearly", "gave", "myself", "a", "heart", "attack", "."], "predict": [], "real": []}
+{"text": ["boot-up", "slowed", "significan'tly", "after", "all", "windows", "updates", "were", "installed", "."], "predict": [[0, 0, "boot-up", "NEG"], [5, 6, ["windows", "updates"], "NEG"]], "real": [[0, 0, "boot-up", "NEG"], [5, 6, ["windows", "updates"], "NEG"]]}
+{"text": ["more", "likely", "it", "will", "require", "replacing", "the", "logic", "board", "once", "they", "admit", "they", "have", "a", "problem", "and", "come", "up", "with", "a", "solution", "."], "predict": [[7, 8, ["logic", "board"], "NEG"]], "real": [[7, 8, ["logic", "board"], "NEG"]]}
+{"text": ["when", "i", "finally", "held", "it", "in", "my", "hands", "i", "kissed", "it", ",", "yes", "i", "did", "."], "predict": [], "real": []}
+{"text": ["it", "was", "important", "that", "it", "was", "powerful", "enough", "to", "do", "all", "of", "the", "tasks", "he", "needed", "on", "the", "internet", ",", "word", "processing", ",", "graphic", "design", "and", "gaming", "."], "predict": [[18, 18, "internet", "NEU"], [20, 21, ["word", "processing"], "NEU"], [23, 24, ["graphic", "design"], "NEU"], [26, 26, "gaming", "NEU"]], "real": [[18, 18, "internet", "POS"], [20, 21, ["word", "processing"], "POS"], [23, 24, ["graphic", "design"], "POS"], [26, 26, "gaming", "POS"]]}
+{"text": ["this", "computer", "is", "not", "cheap", "and", "represent", "an", "achievement", "for", "me", "."], "predict": [], "real": []}
+{"text": ["i", "like", "the", "mini", "mac", "it", "was", "easy", "to", "setup", "and", "install", ",", "but", "i", "am", "learning", "as", "i", "go", "and", "could", "use", "a", "tutorial", "to", "learn", "how", "to", "use", "some", "of", "the", "features", "i", "was", "use", "to", "on", "the", "pc", "especially", "the", "right", "mouse", "click", "menu", "."], "predict": [[33, 33, "features", "NEU"], [43, 46, ["right", "mouse", "click", "menu"], "NEG"]], "real": [[9, 9, "setup", "POS"], [11, 11, "install", "POS"], [24, 24, "tutorial", "NEU"], [33, 33, "features", "NEU"], [43, 46, ["right", "mouse", "click", "menu"], "NEU"]]}
+{"text": ["get", "this", "machine"], "predict": [], "real": []}
+{"text": ["it", "'s", "shiny", "and", "it", "'s", "pretty", "."], "predict": [], "real": []}
+{"text": ["runs", "real", "quick", "."], "predict": [[0, 0, "runs", "POS"]], "real": [[0, 0, "runs", "POS"]]}
+{"text": ["all", "the", "above", "aside", "this", "machine", "rocks", "!"], "predict": [], "real": []}
+{"text": ["buy", "the", "separate", "ram", "memory", "and", "you", "will", "have", "a", "rocket", "!"], "predict": [[2, 4, ["separate", "ram", "memory"], "NEU"]], "real": [[3, 4, ["ram", "memory"], "POS"]]}
+{"text": ["since", "the", "machine", "'s", "slim", "profile", "is", "critical", "to", "me", ",", "that", "was", "a", "problem", "."], "predict": [], "real": [[5, 5, "profile", "NEG"]]}
+{"text": ["bottom", "line", ",", "if", "you", "can", "afford", "it", ",", "get", "a", "mac", "!"], "predict": [], "real": []}
+{"text": ["i", "finally", "made", "the", "leap", "after", "my", "gateway", "crapped", "out", "on", "me", "."], "predict": [], "real": []}
+{"text": ["wifi", "capability", ",", "disk", "drive", "and", "multiple", "usb", "ports", "to", "connect", "scale", "and", "printers", "was", "all", "that", "was", "required", "."], "predict": [[3, 4, ["disk", "drive"], "NEG"], [7, 8, ["usb", "ports"], "NEU"]], "real": [[0, 1, ["wifi", "capability"], "POS"], [3, 4, ["disk", "drive"], "POS"], [7, 8, ["usb", "ports"], "POS"]]}
+{"text": ["the", "sd", "card", "reader", "is", "slightly", "recessed", "and", "upside", "down", "the", "nail", "slot", "on", "the", "card", "can", "not", "be", "accessed", ",", "if", "this", "was", "a", "self", "ejecting", "slot", "this", "would", "not", "be", "an", "issue", ",", "but", "its", "not", "."], "predict": [[1, 3, ["sd", "card", "reader"], "NEG"], [26, 27, ["ejecting", "slot"], "NEG"]], "real": [[1, 3, ["sd", "card", "reader"], "NEG"], [11, 15, ["nail", "slot", "on", "the", "card"], "NEG"], [27, 27, "slot", "NEG"]]}
+{"text": ["soft", "touch", ",", "anodized", "aluminum", "with", "laser", "cut", "precision", "and", "no", "flaws", "."], "predict": [[4, 8, ["aluminum", "with", "laser", "cut", "precision"], "POS"]], "real": [[1, 1, "touch", "POS"], [3, 4, ["anodized", "aluminum"], "POS"]]}
+{"text": ["simple", "details", ",", "crafted", "aluminium", "and", "real", "glass", "make", "this", "laptop", "blow", "away", "the", "other", "plastic", "ridden", ",", "bulky", "sticker", "filled", "laptops", "."], "predict": [[4, 4, "aluminium", "POS"]], "real": [[4, 4, "aluminium", "POS"], [7, 7, "glass", "POS"]]}
+{"text": ["first", "of", "all", "yes", "this", "is", "a", "mac", "and", "it", "has", "that", "nice", "brushed", "aluminum", "."], "predict": [[13, 14, ["brushed", "aluminum"], "POS"]], "real": [[14, 14, "aluminum", "POS"]]}
+{"text": ["who", "makes", "a", "laptop", "that", "ca", "n't", "rest", "on", "your", "lap", "?"], "predict": [], "real": []}
+{"text": ["after", "all", "was", "said", "and", "done", ",", "i", "essentially", "used", "that", "$", "450", "savings", "to", "buy", "16gb", "of", "ram", ",", "two", "seagate", "momentus", "xt", "hybrid", "drives", "and", "an", "owc", "upgrade", "kit", "to", "install", "the", "second", "hard", "drive", "."], "predict": [[16, 18, ["16gb", "of", "ram"], "NEU"], [21, 25, ["seagate", "momentus", "xt", "hybrid", "drives"], "NEU"], [35, 36, ["hard", "drive"], "NEU"]], "real": [[16, 18, ["16gb", "of", "ram"], "NEU"], [21, 25, ["seagate", "momentus", "xt", "hybrid", "drives"], "NEU"], [28, 30, ["owc", "upgrade", "kit"], "NEU"], [35, 36, ["hard", "drive"], "NEU"]]}
+{"text": ["the", "dell", "inspiron", "is", "fast", "and", "has", "a", "number", "pad", "on", "the", "keyboard", ",", "which", "i", "miss", "on", "my", "apple", "laptops", "."], "predict": [[9, 9, "pad", "POS"], [12, 12, "keyboard", "POS"]], "real": [[8, 12, ["number", "pad", "on", "the", "keyboard"], "POS"]]}
+{"text": ["wow", "the", "new", "macbook", "pro", "hanged", "as", "i", "tried", "to", "type", "this", "review", "."], "predict": [], "real": []}
+{"text": ["the", "macbook", "pro", "is", "a", "great", "product", "which", "can", "meet", "the", "needs", "of", "the", "average", "consumer", "."], "predict": [], "real": []}
+{"text": ["i", "was", "concerned", "that", "the", "downgrade", "to", "the", "regular", "hard", "drive", "would", "make", "it", "unacceptably", "slow", "but", "i", "need", "not", "have", "worried", ",", "this", "machine", "is", "the", "fastest", "i", "have", "ever", "owned", "."], "predict": [[9, 10, ["hard", "drive"], "NEG"]], "real": [[8, 10, ["regular", "hard", "drive"], "POS"]]}
+{"text": ["this", "one", "still", "has", "the", "cd", "slot", "."], "predict": [[5, 6, ["cd", "slot"], "NEG"]], "real": [[5, 6, ["cd", "slot"], "NEU"]]}
+{"text": ["no", "hdmi", "port", "."], "predict": [[1, 2, ["hdmi", "port"], "NEG"]], "real": [[1, 2, ["hdmi", "port"], "NEU"]]}
+{"text": ["i", "had", "to", "install", "mountain", "lion", "and", "it", "took", "a", "good", "two", "hours", "."], "predict": [], "real": [[3, 5, ["install", "mountain", "lion"], "NEG"]]}
+{"text": ["customization", "on", "mac", "is", "impossible", "."], "predict": [], "real": [[0, 0, "customization", "NEG"]]}
+{"text": ["i", "hope", "this", "review", "helps", "."], "predict": [], "real": []}
+{"text": ["however", ",", "you", "have", "to", "adjust", "yourself", "to", "what", "it", "will", "do", ",", "not", "what", "you", "want", "it", "to", "do", "."], "predict": [], "real": []}
+{"text": ["i", "am", "replacing", "the", "hd", "with", "a", "micron", "ssd", "soon", "."], "predict": [], "real": [[4, 4, "hd", "NEU"], [7, 8, ["micron", "ssd"], "NEU"]]}
+{"text": ["plus", "two", "finger", "clicking", "as", "a", "replacement", "for", "the", "right", "click", "button", "is", "surprisingly", "intuitive", "."], "predict": [[9, 11, ["right", "click", "button"], "NEG"]], "real": [[1, 3, ["two", "finger", "clicking"], "POS"], [9, 11, ["right", "click", "button"], "NEU"]]}
+{"text": ["far", "superior", "to", "my", "macbook", "."], "predict": [], "real": []}
+{"text": ["the", "superdrive", "is", "quiet", "."], "predict": [[1, 1, "superdrive", "POS"]], "real": [[1, 1, "superdrive", "POS"]]}
+{"text": ["it", "was", "quite", "easy", "."], "predict": [], "real": []}
+{"text": ["the", "power", "plug", "has", "to", "be", "connected", "to", "the", "power", "adaptor", "to", "charge", "the", "battery", "but", "wo", "n't", "stay", "connected", "."], "predict": [[1, 2, ["power", "plug"], "NEG"], [9, 10, ["power", "adaptor"], "NEG"], [14, 14, "battery", "NEG"]], "real": [[1, 2, ["power", "plug"], "NEG"], [9, 10, ["power", "adaptor"], "NEU"], [14, 14, "battery", "NEU"]]}
+{"text": ["i", "decided", "to", "buy", "a", "few", "notebooks", "for", "my", "nephews", "for", "xmas", "."], "predict": [], "real": []}
+{"text": ["the", "battery", "was", "completely", "dead", ",", "in", "fact", "it", "had", "grown", "about", "a", "quarter", "inch", "thick", "lump", "on", "the", "underside", "."], "predict": [[1, 1, "battery", "NEG"]], "real": [[1, 1, "battery", "NEG"]]}
+{"text": ["this", "is", "no", "exception", "."], "predict": [], "real": []}
+{"text": ["if", "yo", "like", "practicality", "this", "is", "the", "laptop", "for", "you", "."], "predict": [], "real": [[3, 3, "practicality", "POS"]]}
+{"text": ["the", "os", "is", "great", "."], "predict": [[1, 1, "os", "POS"]], "real": [[1, 1, "os", "POS"]]}
+{"text": ["i", "have", "had", "a", "black", "macbook", "since", "2007", "."], "predict": [], "real": []}
+{"text": ["i", "tried", "several", "monitors", "and", "several", "hdmi", "cables", "and", "this", "was", "the", "case", "each", "time", "."], "predict": [[3, 3, "monitors", "NEU"], [6, 7, ["hdmi", "cables"], "NEU"]], "real": [[3, 3, "monitors", "NEU"], [6, 7, ["hdmi", "cables"], "NEU"]]}
+{"text": ["cons", ",", "price", "is", "a", "bit", "ridiculous", ",", "kinda", "heavy", "."], "predict": [[2, 2, "price", "NEG"]], "real": [[2, 2, "price", "NEG"]]}
+{"text": ["if", "that", "is", "the", "case", ",", "then", "i", "am", "completely", "happy"], "predict": [], "real": []}
+{"text": ["10/10", "five", "stars", "would", "recommend", "."], "predict": [], "real": []}
+{"text": ["the", "troubleshooting", "said", "it", "was", "the", "ac", "adaptor", "so", "we", "ordered", "a", "new", "one", "."], "predict": [[6, 7, ["ac", "adaptor"], "NEG"]], "real": [[6, 7, ["ac", "adaptor"], "NEU"]]}
+{"text": ["i", "fell", "in", "love", "with", "my", "machine", ",", "and", "it", "was", "pampered", "."], "predict": [], "real": []}
+{"text": ["fan", "only", "comes", "on", "when", "you", "are", "playing", "a", "game", "."], "predict": [[9, 9, "game", "NEU"]], "real": [[0, 0, "fan", "NEU"], [7, 9, ["playing", "a", "game"], "NEU"]]}
+{"text": ["which", "it", "did", "not", "have", ",", "only", "3", "usb", "2", "ports", "."], "predict": [[8, 10, ["usb", "2", "ports"], "NEG"]], "real": [[8, 10, ["usb", "2", "ports"], "NEU"]]}
+{"text": ["no", "startup", "disk", "was", "not", "included", "but", "that", "may", "be", "my", "fault", "."], "predict": [[1, 2, ["startup", "disk"], "NEG"]], "real": [[1, 2, ["startup", "disk"], "NEU"]]}
+{"text": ["there", "is", "no", "tools", "menu", "."], "predict": [], "real": [[3, 4, ["tools", "menu"], "NEU"]]}
+{"text": ["it", "is", "very", "fast", "and", "has", "everything", "that", "i", "need", "except", "for", "a", "word", "program", "."], "predict": [[13, 14, ["word", "program"], "NEU"]], "real": [[13, 14, ["word", "program"], "NEG"]]}
+{"text": ["needs", "a", "cd/dvd", "drive", "and", "a", "bigger", "power", "switch", "."], "predict": [[2, 3, ["cd/dvd", "drive"], "NEU"]], "real": [[2, 3, ["cd/dvd", "drive"], "NEU"], [7, 8, ["power", "switch"], "NEG"]]}
+{"text": ["it", "is", "the", "best", "laptop", "ever", "!", "!", "!"], "predict": [], "real": []}
+{"text": ["my", "laptop", "with", "windows", "7", "crashed", "and", "i", "did", "not", "want", "windows", "8", "."], "predict": [[3, 4, ["windows", "7"], "NEG"], [11, 12, ["windows", "8"], "NEU"]], "real": [[3, 4, ["windows", "7"], "NEG"], [11, 12, ["windows", "8"], "NEG"]]}
+{"text": ["was", "skeptical", "about", "buying", "an", "electronic", "item", "online", "but", "it", "turned", "out", "to", "be", "a", "positive", "experience", "."], "predict": [], "real": []}
+{"text": ["not", "a", "scratch", "or", "mark", "on", "it", "."], "predict": [], "real": []}
+{"text": ["easy", "to", "install", "also", "small", "to", "leave", "anywhere", "at", "your", "bedroom", "also", "very", "easy", "to", "configure", "for", "adsl", "cable", "or", "wifi", "."], "predict": [[2, 2, "install", "POS"], [17, 18, ["adsl", "cable"], "NEU"], [20, 20, "wifi", "NEU"]], "real": [[2, 2, "install", "POS"], [15, 20, ["configure", "for", "adsl", "cable", "or", "wifi"], "POS"]]}
+{"text": ["words", "can", "not", "express", "how", "much", "i", "love", "my", "new", "mac", "."], "predict": [], "real": []}
+{"text": ["the", "speakers", "could", "have", "been", "better", "but", "it", "was", "n't", "a", "deal", "breaker", "this", "is", "a", "great", "little", "laptop", "love", "it", "!", "."], "predict": [[1, 1, "speakers", "NEG"]], "real": []}
+{"text": ["the", "item", "received", "was", "exactly", "as", "identified", "."], "predict": [], "real": []}
+{"text": ["its", "everything", "mac", "offers", "."], "predict": [], "real": []}
+{"text": ["nice", "packing", "."], "predict": [], "real": [[1, 1, "packing", "POS"]]}
+{"text": ["besides", "being", "elegant", ",", "the", "macbooks", "are", "durable", "."], "predict": [], "real": []}
+{"text": ["i", "switched", "to", "this", "because", "i", "wanted", "something", "different", ",", "even", "though", "i", "miss", "windows", "."], "predict": [[14, 14, "windows", "NEG"]], "real": [[14, 14, "windows", "POS"]]}
+{"text": ["yes", ",", "the", "mbp", "is", "more", "expensive", "than", "competing", "pc", "laptops", "."], "predict": [], "real": []}
+{"text": ["apple", "no", "longer", "includes", "idvd", "with", "the", "computer", "and", "furthermore", ",", "apple", "does", "n't", "even", "offer", "it", "anymore", "!"], "predict": [[4, 4, "idvd", "POS"]], "real": [[4, 4, "idvd", "NEG"]]}
+{"text": ["i", "also", "wanted", "windows", "7", ",", "which", "this", "one", "has", "."], "predict": [[3, 4, ["windows", "7"], "POS"]], "real": [[3, 4, ["windows", "7"], "POS"]]}
+{"text": ["at", "first", ",", "i", "feel", "a", "little", "bit", "uncomfortable", "in", "using", "the", "mac", "system", "."], "predict": [], "real": [[12, 13, ["mac", "system"], "NEG"]]}
+{"text": ["i", "am", "used", "to", "computers", "with", "windows", "so", "i", "am", "having", "a", "little", "difficulty", "finding", "my", "way", "around", "."], "predict": [[6, 6, "windows", "NEU"]], "real": [[6, 6, "windows", "NEU"]]}
+{"text": ["they", "replaced", "it", "and", "so", "far", "so", "good", "."], "predict": [], "real": []}
+{"text": ["it", "just", "works", "out", "of", "the", "box", "and", "you", "have", "a", "lot", "of", "cool", "software", "included", "with", "the", "os", "."], "predict": [[14, 14, "software", "POS"], [18, 18, "os", "POS"]], "real": [[2, 2, "works", "POS"], [14, 14, "software", "POS"], [18, 18, "os", "NEU"]]}
+{"text": ["good", "in", "every", "aspect", "."], "predict": [], "real": []}
+{"text": ["its", "as", "advertised", "on", "here", "it", "works", "great", "and", "is", "not", "a", "waste", "of", "money", "!", "."], "predict": [], "real": [[6, 6, "works", "POS"]]}
+{"text": ["replaced", "this", "one", "with", "my", "mac", "that", "was", "stolen", ",", "its", "a", "great", "computer", "."], "predict": [], "real": []}
+{"text": ["just", "be", "careful", ";", "you", "always", "have", "to", "give", "up", "some", "good", "stuff", "for", "others", "."], "predict": [], "real": []}
+{"text": ["runs", "like", "a", "champ", "."], "predict": [[0, 0, "runs", "POS"]], "real": [[0, 0, "runs", "POS"]]}
+{"text": ["really", "greatwell", "let", "me", "start", "at", "the", "beginning", "."], "predict": [], "real": []}
+{"text": ["premium", "price", "for", "the", "os", "more", "than", "anything", "else", "."], "predict": [[1, 1, "price", "POS"], [4, 4, "os", "POS"]], "real": [[1, 1, "price", "POS"], [4, 4, "os", "NEU"]]}
+{"text": ["this", "was", "a", "gift", "for", "my", "grand", "son", "."], "predict": [], "real": []}
+{"text": ["i", "was", "a", "little", "concerned", "about", "the", "touch", "pad", "based", "on", "reviews", ",", "but", "i", "'ve", "found", "it", "fine", "to", "work", "with", "."], "predict": [[7, 8, ["touch", "pad"], "POS"]], "real": [[7, 8, ["touch", "pad"], "POS"]]}
+{"text": ["i", "bought", "this", "mac", "book", "pro", "along", "with", "a", "new", "27", "imac", "and", "while", "they", "are", "still", "light", "years", "more", "reliable", "than", "a", "pc", "i", "have", "noticed", "a", "decline", "in", "the", "reliability", "of", "my", "mac", "computers", "."], "predict": [], "real": []}
+{"text": ["the", "sound", "as", "mentioned", "earlier", "is", "n't", "the", "best", ",", "but", "it", "can", "be", "solved", "with", "headphones", "."], "predict": [[1, 1, "sound", "NEG"]], "real": [[16, 16, "headphones", "NEU"]]}
+{"text": ["the", "track", "pad", "is", "a", "bit", "squirrely", "at", "times", "sometimes", "too", "sensitive", ",", "and", "sometimes", "a", "bit", "unresponsive", ",", "but", "it", "'s", "usable", "."], "predict": [[1, 2, ["track", "pad"], "NEG"]], "real": []}
+{"text": ["however", ",", "the", "experience", "was", "great", "since", "the", "os", "does", "not", "become", "unstable", "and", "the", "application", "will", "simply", "shutdown", "and", "reopen", "."], "predict": [[8, 8, "os", "NEG"], [15, 15, "application", "NEG"]], "real": [[8, 8, "os", "POS"], [15, 15, "application", "POS"]]}
+{"text": ["then", "only", "four", "months", "later", ",", "my", "great", "macbook", "pro", "failed", "."], "predict": [], "real": []}
+{"text": ["if", "you", "ask", "me", ",", "for", "this", "price", "it", "should", "be", "included", "."], "predict": [[7, 7, "price", "NEG"]], "real": [[7, 7, "price", "NEG"]]}
+{"text": ["the", "battery", "is", "not", "as", "shown", "in", "the", "product", "photos", "."], "predict": [[1, 1, "battery", "NEG"]], "real": [[1, 1, "battery", "NEG"]]}
+{"text": ["even", "though", "i", "could", "have", "gotten", "a", "pc", "twice", "the", "speed", "for", "the", "same", "price", "i", "still", "think", "there", "'s", "nothing", "like", "a", "mac", "."], "predict": [[10, 10, "speed", "POS"]], "real": []}
+{"text": ["seems", "a", "much", "more", "economical", "way", "to", "get", "into", "apple", "than", "their", "other", "computers", "."], "predict": [], "real": []}
+{"text": ["shipping", "was", "quick", "and", "product", "described", "was", "the", "product", "sent", "and", "so", "much", "more", "."], "predict": [[0, 0, "shipping", "POS"]], "real": [[0, 0, "shipping", "POS"]]}
+{"text": ["i", "'m", "so", "disgusted", "that", "i", "wasted", "my", "money", "on", "this", "product", "."], "predict": [], "real": []}
+{"text": ["all", "you", "get", "is", "a", "box", "and", "a", "computer", "."], "predict": [], "real": []}
+{"text": ["the", "retina", "display", "display", "make", "pictures", "i", "took", "years", "ago", "jaw", "dropping", "."], "predict": [[1, 3, ["retina", "display", "display"], "POS"]], "real": [[1, 3, ["retina", "display", "display"], "POS"]]}
+{"text": ["its", "only", "crashed", "on", "me", "one", "time", "in", "the", "3", "months", "i", "'ve", "had", "it", "."], "predict": [], "real": []}
+{"text": ["the", "mac", "mini", "is", "probably", "the", "simplest", "example", "of", "compact", "computing", "out", "there", "."], "predict": [], "real": [[9, 10, ["compact", "computing"], "POS"]]}
+{"text": ["instead", ",", "i", "'ll", "focus", "more", "on", "the", "actual", "performance", "and", "feature", "set", "of", "the", "hardware", "itself", "so", "you", "can", "make", "an", "educated", "decision", "on", "which", "mac", "to", "buy", "."], "predict": [[9, 9, "performance", "POS"], [15, 15, "hardware", "NEG"]], "real": [[9, 15, ["performance", "and", "feature", "set", "of", "the", "hardware"], "NEU"]]}
+{"text": ["my", "bag", "just", "got", "a", "little", "lighter", "."], "predict": [], "real": []}
+{"text": ["i", "'m", "not", "exagerating", "when", "i", "say", "this", "computer", "is", "perfecti", "it", "is", "!", "!", "."], "predict": [], "real": []}
+{"text": ["this", "machine", "is", "flawless", ",", "fast", ",", "and", "classy", "."], "predict": [], "real": []}
+{"text": ["other", "ports", "include", "firewire", "800", ",", "gigabit", "ethernet", ",", "magsafe", "port", ",", "microphone", "jack", "."], "predict": [[1, 1, "ports", "NEU"], [3, 4, ["firewire", "800"], "NEU"], [6, 7, ["gigabit", "ethernet"], "NEU"], [9, 10, ["magsafe", "port"], "NEU"], [12, 13, ["microphone", "jack"], "NEU"]], "real": [[1, 1, "ports", "NEU"], [3, 4, ["firewire", "800"], "NEU"], [6, 7, ["gigabit", "ethernet"], "NEU"], [9, 10, ["magsafe", "port"], "NEU"], [12, 13, ["microphone", "jack"], "NEU"]]}
+{"text": ["i", "stayed", "up", "half", "the", "night", "enjoying", "my", "new", "macbook", "pro", "."], "predict": [], "real": []}
+{"text": ["this", "laptop", "is", "a", "100", "times", "better", "than", "a", "chromebook", "!"], "predict": [], "real": []}
+{"text": ["additionally", ",", "there", "is", "barely", "a", "ventilation", "system", "in", "the", "computer", ",", "and", "even", "the", "simple", "activity", "of", "watching", "videos", "let", "alone", "playing", "steam", "games", "causes", "the", "laptop", "to", "get", "very", "very", "hot", ",", "and", "in", "fact", "impossible", "to", "keep", "on", "lap", "."], "predict": [[7, 7, "system", "POS"]], "real": [[6, 7, ["ventilation", "system"], "NEG"], [18, 19, ["watching", "videos"], "NEU"], [22, 24, ["playing", "steam", "games"], "NEU"]]}
+{"text": ["at", "$", "1899", "to", "start", ",", "this", "is", "no", "cheap", "machine", "."], "predict": [], "real": []}
+{"text": ["chatting", "with", "acer", "support", ",", "i", "was", "advised", "the", "problem", "was", "corrupted", "operating", "system", "files", "."], "predict": [[12, 13, ["operating", "system"], "NEG"]], "real": [[2, 3, ["acer", "support"], "NEU"], [12, 14, ["operating", "system", "files"], "NEU"]]}
+{"text": ["it", "'s", "been", "a", "couple", "weeks", "since", "the", "purchase", "and", "i", "'m", "struggle", "with", "finding", "the", "correct", "keys", "but", "that", "was", "expected", "."], "predict": [[17, 17, "keys", "NEG"]], "real": [[17, 17, "keys", "NEU"]]}
+{"text": ["many", "people", "complain", "about", "the", "new", "os", ",", "and", "it", "'s", "urgent", "for", "apple", "to", "fix", "it", "asap", "!"], "predict": [[6, 6, "os", "POS"]], "real": [[6, 6, "os", "NEG"]]}
+{"text": ["now", "that", "i", "have", "upgraded", "to", "lion", "i", "am", "much", "happier", "about", "mac", "os", "and", "have", "just", "bought", "an", "imac", "for", "office", "."], "predict": [[12, 13, ["mac", "os"], "POS"]], "real": [[6, 6, "lion", "POS"], [12, 13, ["mac", "os"], "POS"]]}
+{"text": ["user", "upgradeable", "ram", "and", "hdd", "."], "predict": [[2, 2, "ram", "NEG"], [4, 4, "hdd", "NEU"]], "real": [[2, 2, "ram", "POS"], [4, 4, "hdd", "POS"]]}
+{"text": ["but", "i", "wanted", "the", "pro", "for", "the", "cd/dvd", "player", "."], "predict": [[7, 8, ["cd/dvd", "player"], "NEU"]], "real": [[7, 8, ["cd/dvd", "player"], "POS"]]}
+{"text": ["i", "might", "have", "read", "it", "incorrectly", ",", "but", "better", "safe", "than", "sorry", "right", "?"], "predict": [], "real": []}
+{"text": ["the", "ultimate", "graduation", "gift", "."], "predict": [], "real": []}
+{"text": ["the", "ram", "memory", "is", "good", "but", "should", "have", "splurged", "for", "8mb", "instead", "of", "4mb", "."], "predict": [[1, 2, ["ram", "memory"], "POS"], [10, 10, "8mb", "POS"], [13, 13, "4mb", "NEG"]], "real": []}
+{"text": ["was", "debating", "to", "buy", "one", "for", "months", ",", "checked", "out", "different", "stuff", "on", "youtube", ",", "and", "read", "different", "articles", "and", "debates", ",", "i", "just", "did", "n't", "really", "wan", "na", "spend", "the", "money", "but", "im", "glad", "that", "i", "did", "."], "predict": [], "real": []}
+{"text": ["i", "love", "it", "and", "would", "recommend", "it", "to", "everyone", "who", "is", "tired", "of", "the", "constant", "attention", "pc", "'s", "require", "."], "predict": [], "real": []}
+{"text": ["i", "was", "a", "little", "worry", "at", "first", "because", "i", "do", "n't", "have", "a", "lot", "of", "experience", "with", "osx", "and", "windows", "has", "always", "been", "second", "nature", "to", "me", "after", "many", "years", "of", "using", "windows", "."], "predict": [[17, 17, "osx", "POS"], [19, 19, "windows", "NEG"], [32, 32, "windows", "NEG"]], "real": [[17, 17, "osx", "NEU"], [19, 19, "windows", "POS"], [32, 32, "windows", "POS"]]}
+{"text": ["i", "am", "an", "info", "sys", "major", "in", "college", ",", "so", "i", "started", "researching", "this", "issue", "on", "my", "own", "."], "predict": [], "real": []}
+{"text": ["solution", ",", "it", "turned", "out", "to", "be", "pretty", "simple", "."], "predict": [], "real": []}
+{"text": ["with", "the", "softwares", "supporting", "the", "use", "of", "other", "os", "makes", "it", "much", "better", "."], "predict": [[2, 2, "softwares", "NEU"], [5, 5, "use", "POS"], [8, 8, "os", "POS"]], "real": [[2, 2, "softwares", "NEU"], [8, 8, "os", "NEU"]]}
+{"text": ["still", "have", "n't", "solved", "this", "."], "predict": [], "real": []}
+{"text": ["i", "then", "upgraded", "to", "mac", "os", "x", "108", "mountain", "lion", "."], "predict": [[4, 5, ["mac", "os"], "POS"]], "real": [[4, 9, ["mac", "os", "x", "108", "mountain", "lion"], "NEU"]]}
+{"text": ["it", "is", "extremely", "fast", "and", "never", "lags", "."], "predict": [], "real": []}
+{"text": ["i", "told", "them", "that", "i", "just", "received", "my", "brand", "new", "macbook", "but", "i", "was", "having", "issues", "."], "predict": [], "real": []}
+{"text": ["i", "was", "considering", "buying", "the", "air", ",", "but", "in", "reality", ",", "this", "one", "has", "a", "more", "powerful", "performance", "and", "seems", "much", "more", "convenient", ",", "even", "though", "it", "'s", "about", "20", "inch", "thicker", "and", "2", "lbs", "heavier", "."], "predict": [[17, 17, "performance", "POS"]], "real": [[17, 17, "performance", "POS"]]}
+{"text": ["at", "home", "and", "the", "office", "it", "gets", "plugged", "into", "an", "external", "24", "lcd", "screen", ",", "so", "built", "in", "screen", "size", "is", "not", "terribly", "important", "."], "predict": [[10, 13, ["external", "24", "lcd", "screen"], "NEG"], [18, 19, ["screen", "size"], "NEU"]], "real": [[10, 13, ["external", "24", "lcd", "screen"], "NEU"], [16, 19, ["built", "in", "screen", "size"], "NEU"]]}
+{"text": ["hopefully", "my", "replacement", "is", "brand", "new", "."], "predict": [], "real": []}
+{"text": ["just", "beware", "no", "dvd", "slot", "so", "when", "i", "went", "to", "install", "software", "i", "had", "on", "cd", "i", "could", "n't", "."], "predict": [[3, 4, ["dvd", "slot"], "NEG"], [11, 11, "software", "NEU"]], "real": [[3, 4, ["dvd", "slot"], "NEU"], [10, 11, ["install", "software"], "NEG"]]}
+{"text": ["i", "bought", "it", "to", "be", "able", "to", "dedicate", "a", "small", ",", "portable", "laptop", "to", "my", "writing", "and", "was", "surprised", "to", "learn", "that", "i", "needed", "to", "buy", "a", "word", "processing", "program", "to", "do", "so", "."], "predict": [[27, 29, ["word", "processing", "program"], "NEG"]], "real": [[27, 29, ["word", "processing", "program"], "NEU"]]}
+{"text": ["this", "version", "of", "macbook", "pro", "runs", "on", "a", "third-generation", "cpu", "ivy", "bridge", ",", "not", "the", "latest", "fourth-generation", "haswell", "cpu", "the", "2013", "version", "has", "."], "predict": [], "real": [[8, 11, ["third-generation", "cpu", "ivy", "bridge"], "NEU"], [16, 18, ["fourth-generation", "haswell", "cpu"], "NEU"]]}
+{"text": ["actually", ",", "i", "think", "i", "was", "intimidated", "by", "the", "change", "from", "a", "pc", "."], "predict": [], "real": []}
+{"text": ["no", "cd", "rom", "in", "the", "new", "version", "there", "'s", "no", "way", "i", "'m", "spending", "that", "kind", "of", "money", "on", "something", "has", "less", "features", "than", "the", "older", "version", "."], "predict": [[1, 2, ["cd", "rom"], "NEG"], [22, 22, "features", "NEG"]], "real": [[1, 2, ["cd", "rom"], "NEU"], [22, 22, "features", "NEG"]]}
+{"text": ["definitely", "worth", "spending", "the", "money", "on", "it", "."], "predict": [], "real": []}
+{"text": ["i", "have", "three", "words", ",", "piece", "of", "junk", "!"], "predict": [], "real": []}
+{"text": ["the", "volume", "is", "really", "low", "to", "low", "for", "a", "laptopwas", "not", "expectin", "t", "volume", "to", "be", "so", "lowan", "i", "hate", "that", "about", "this", "computer"], "predict": [[1, 1, "volume", "NEG"]], "real": [[1, 1, "volume", "NEG"], [13, 13, "volume", "NEG"]]}
+{"text": ["fits", "all", "my", "personal", "needs", "."], "predict": [], "real": []}
+{"text": ["i", "'m", "the", "pro-active", "type", "so", "i", "went", "off", "and", "did", "some", "preventative", "fixes", "."], "predict": [], "real": []}
+{"text": ["and", "its", "not", "hard", "to", "accidentally", "bang", "it", "against", "something", "so", "i", "recommend", "getting", "a", "case", "to", "protect", "it", "."], "predict": [], "real": [[15, 15, "case", "NEU"]]}
+{"text": ["i", "wanted", "to", "explore", "what", "the", "mac", "was", "all", "about", "."], "predict": [], "real": []}
+{"text": ["i", "got", "this", "at", "an", "amazing", "price", "from", "amazon", "and", "it", "arrived", "just", "in", "time", "."], "predict": [[6, 6, "price", "POS"]], "real": [[6, 6, "price", "POS"]]}
+{"text": ["every", "time", "i", "log", "into", "the", "system", "after", "a", "few", "hours", ",", "there", "is", "this", "endlessly", "frustrating", "process", "that", "i", "have", "to", "go", "through", "."], "predict": [], "real": [[3, 6, ["log", "into", "the", "system"], "NEG"]]}
+{"text": ["the", "majority", "of", "the", "reviews", "seem", "to", "be", "for", "the", "133", "macbook", "pro", "model", "#", "md101ll/a", "."], "predict": [], "real": []}
+{"text": ["put", "a", "ssd", "and", "use", "a", "21", "led", "screen", ",", "this", "set", "up", "is", "silky", "smooth", "!"], "predict": [[6, 8, ["21", "led", "screen"], "POS"]], "real": [[2, 2, "ssd", "NEU"], [6, 8, ["21", "led", "screen"], "NEU"], [11, 12, ["set", "up"], "POS"]]}
+{"text": ["i", "saw", "the", "bad", "reviews", "from", "people", "saying", "to", "buy", "directly", "from", "apple", "and", "i", "was", "concerned", "but", "i", "took", "my", "chances", "and", "am", "overly", "impressed", "."], "predict": [], "real": []}
+{"text": ["the", "case", "is", "now", "slightly", "larger", "than", "the", "previous", "generation", ",", "but", "the", "lack", "of", "an", "external", "power", "supply", "justifies", "the", "small", "increase", "in", "size", "."], "predict": [[1, 1, "case", "NEG"], [16, 18, ["external", "power", "supply"], "NEG"], [24, 24, "size", "NEU"]], "real": [[1, 1, "case", "NEG"], [16, 18, ["external", "power", "supply"], "NEU"]]}
+{"text": ["i", "had", "to", "buy", "a", "wireless", "mouse", "to", "go", "with", "it", ",", "as", "i", "am", "old", "school", "and", "hate", "the", "pad", ",", "but", "knew", "that", "before", "i", "bought", "it", ",", "now", "it", "works", "great", ",", "need", "to", "get", "adjusted", "to", "the", "key", "board", ",", "as", "i", "am", "used", "to", "a", "bigger", "one", "and", "pounding", "."], "predict": [[5, 6, ["wireless", "mouse"], "NEU"], [41, 42, ["key", "board"], "NEU"]], "real": [[5, 6, ["wireless", "mouse"], "NEU"], [20, 20, "pad", "NEG"], [32, 32, "works", "POS"], [41, 42, ["key", "board"], "NEU"]]}
+{"text": ["when", "considering", "a", "mac", ",", "look", "at", "the", "total", "cost", "of", "ownership", "and", "not", "just", "the", "initial", "price", "tag", "."], "predict": [[17, 17, "price", "NEG"]], "real": [[9, 11, ["cost", "of", "ownership"], "NEU"], [17, 18, ["price", "tag"], "NEU"]]}
+{"text": ["has", "all", "the", "other", "features", "i", "wanted", "including", "a", "vga", "port", ",", "hdmi", ",", "ethernet", "and", "3", "usb", "ports", "."], "predict": [[4, 4, "features", "NEU"], [9, 10, ["vga", "port"], "NEU"], [12, 12, "hdmi", "NEU"], [14, 14, "ethernet", "NEU"], [17, 18, ["usb", "ports"], "NEU"]], "real": [[4, 4, "features", "POS"], [9, 10, ["vga", "port"], "NEU"], [12, 12, "hdmi", "NEU"], [14, 14, "ethernet", "NEU"], [17, 18, ["usb", "ports"], "NEU"]]}
+{"text": ["a", "great", "college", "tool", "!"], "predict": [], "real": []}
+{"text": ["the", "only", "thing", "i", "dislike", "about", "this", "laptop", "are", "the", "rubber", "pads", "found", "on", "the", "bottom", "of", "the", "computer", "for", "grip", "."], "predict": [[10, 11, ["rubber", "pads"], "NEG"]], "real": [[10, 11, ["rubber", "pads"], "NEG"]]}
+{"text": ["i", "called", "apple", "and", "no", "solution", "."], "predict": [], "real": []}
+{"text": ["it", "'s", "a", "decent", "computer", "for", "the", "price", "and", "hopefully", "it", "will", "last", "a", "long", "time", "."], "predict": [[7, 7, "price", "POS"]], "real": [[7, 7, "price", "NEU"]]}
+{"text": ["i", "was", "really", "happy", "because", "it", "is", "a", "much", "better", "price", "on", "amazoncom", "than", "it", "was", "in", "the", "mac", "store", "."], "predict": [[10, 10, "price", "POS"]], "real": []}
+{"text": ["the", "worst", "a", "mac", "ever", "did", "to", "me", "was", "freeze", "up", "."], "predict": [], "real": []}
+{"text": ["the", "nicest", "part", "is", "the", "low", "heat", "output", "and", "ultra", "quiet", "operation", "."], "predict": [[11, 11, "operation", "POS"]], "real": [[6, 7, ["heat", "output"], "POS"], [11, 11, "operation", "POS"]]}
+{"text": ["i", "am", "paying", "apple", "to", "kill", "my", "self", "and", "my", "wallet", "."], "predict": [], "real": []}
+{"text": ["no", "star", "for", "this", "trash", "[", "."], "predict": [], "real": []}
+{"text": ["i", "will", "upgrade", "the", "ram", "myself", "because", "with", "this", "model", "you", "can", "you", "can", "do", "it", "later", "on", "."], "predict": [[4, 4, "ram", "NEU"]], "real": [[2, 4, ["upgrade", "the", "ram"], "POS"]]}
+{"text": ["the", "price", "is", "200", "dollars", "down", "."], "predict": [[1, 1, "price", "NEG"]], "real": [[1, 1, "price", "POS"]]}
+{"text": ["this", "mac", "mini", "does", "not", "have", "a", "built-in", "mic", ",", "and", "it", "would", "seem", "that", "its", "mac", "os", "109", "does", "not", "handle", "external", "microphones", "properly", "."], "predict": [[7, 8, ["built-in", "mic"], "NEG"], [16, 17, ["mac", "os"], "POS"], [22, 23, ["external", "microphones"], "NEG"]], "real": [[7, 8, ["built-in", "mic"], "NEU"], [16, 18, ["mac", "os", "109"], "NEG"], [22, 23, ["external", "microphones"], "NEU"]]}
+{"text": ["a", "lot", "of", "features", "and", "shortcuts", "on", "the", "mbp", "that", "i", "was", "never", "exposed", "to", "on", "a", "normal", "pc", "."], "predict": [[3, 3, "features", "POS"], [5, 5, "shortcuts", "POS"]], "real": [[3, 3, "features", "NEU"], [5, 5, "shortcuts", "NEU"]]}
+{"text": ["was", "n't", "sure", "if", "i", "was", "going", "to", "like", "it", "much", "less", "love", "it", "so", "i", "went", "to", "a", "local", "best", "buy", "and", "played", "around", "with", "the", "ios", "system", "on", "a", "mac", "pro", "and", "it", "was", "totally", "unique", "and", "different", "."], "predict": [[27, 28, ["ios", "system"], "POS"]], "real": [[27, 28, ["ios", "system"], "POS"]]}
+{"text": ["quietest", "laptop", "i", "have", "ever", "owned", "."], "predict": [], "real": []}
+{"text": ["air", "has", "higher", "resolution", "but", "the", "fonts", "are", "small", "."], "predict": [[3, 3, "resolution", "NEG"], [6, 6, "fonts", "NEG"]], "real": [[3, 3, "resolution", "POS"], [6, 6, "fonts", "NEG"]]}
+{"text": ["again", "this", "is", "just", "my", "personal", "honest", "opinion", "."], "predict": [], "real": []}
+{"text": ["if", "you", "have", "much", "higher", "expectations", "than", "that", "i", "would", "look", "elsewhere", "."], "predict": [], "real": []}
+{"text": ["working", "with", "mac", "is", "so", "much", "easier", ",", "so", "many", "cool", "features", "."], "predict": [[11, 11, "features", "POS"]], "real": [[0, 0, "working", "POS"], [11, 11, "features", "POS"]]}
+{"text": ["i", "'m", "going", "to", "buy", "a", "logitevh", "c270", "."], "predict": [], "real": []}
+{"text": ["very", "happy", "with", "my", "purchase", "."], "predict": [], "real": []}
+{"text": ["i", "like", "the", "brightness", "and", "adjustments", "."], "predict": [[3, 3, "brightness", "POS"]], "real": [[3, 3, "brightness", "POS"], [5, 5, "adjustments", "POS"]]}
+{"text": ["i", "'m", "so", "happy", "with", "my", "macbook", "pro", "!"], "predict": [], "real": []}
+{"text": ["i", "only", "wish", "this", "mac", "had", "a", "cd/dvd", "player", "built", "in", "."], "predict": [], "real": [[7, 8, ["cd/dvd", "player"], "NEU"]]}
+{"text": ["the", "only", "thing", "i", "miss", "is", "that", "my", "old", "alienware", "laptop", "had", "backlit", "keys", "."], "predict": [], "real": [[12, 13, ["backlit", "keys"], "NEG"]]}
+{"text": ["the", "only", "thing", "i", "miss", "are", "the", "home/end", "type", "keys", "and", "other", "things", "that", "i", "grew", "accustomed", "to", "after", "so", "long", "."], "predict": [[9, 9, "keys", "NEG"]], "real": [[7, 9, ["home/end", "type", "keys"], "NEU"]]}
+{"text": ["so", "happy", "with", "this", "purchase", ",", "i", "just", "wish", "it", "came", "with", "microsoft", "word", "."], "predict": [[12, 13, ["microsoft", "word"], "NEU"]], "real": [[12, 13, ["microsoft", "word"], "NEU"]]}
+{"text": ["it", "is", "more", "than", "enough", "computer", "to", "keep", "up", "with", "the", "needs", "of", "a", "high", "school", "student", "."], "predict": [], "real": []}
+{"text": ["it", "has", "enough", "memory", "and", "speed", "to", "run", "my", "business", "with", "all", "the", "flexibility", "that", "comes", "with", "a", "laptop", "."], "predict": [[3, 3, "memory", "POS"], [5, 5, "speed", "POS"]], "real": [[3, 3, "memory", "POS"], [5, 5, "speed", "POS"], [13, 13, "flexibility", "POS"]]}
+{"text": ["the", "speed", ",", "the", "simplicity", ",", "the", "design", "it", "is", "lightyears", "ahead", "of", "any", "pc", "i", "have", "ever", "owned", "."], "predict": [[1, 1, "speed", "POS"], [4, 4, "simplicity", "POS"], [7, 7, "design", "POS"]], "real": [[1, 1, "speed", "POS"], [4, 4, "simplicity", "POS"], [7, 7, "design", "POS"]]}
+{"text": ["i", "love", "everything", "about", "this", "computer", "."], "predict": [], "real": []}
+{"text": ["i", "found", "it", "toughest", "to", "decide", "between", "dell", "ultra", "books", "and", "apple", "."], "predict": [], "real": []}
+{"text": ["the", "battery", "life", "is", "excellent", ",", "the", "display", "is", "excellent", ",", "and", "downloading", "apps", "is", "a", "breeze", "."], "predict": [[1, 2, ["battery", "life"], "POS"], [7, 7, "display", "POS"], [13, 13, "apps", "POS"]], "real": [[1, 2, ["battery", "life"], "POS"], [7, 7, "display", "POS"], [12, 13, ["downloading", "apps"], "POS"]]}
+{"text": ["the", "screen", ",", "the", "software", "and", "the", "smoothness", "of", "the", "operating", "system", "."], "predict": [[1, 1, "screen", "POS"], [4, 4, "software", "POS"], [7, 7, "smoothness", "POS"], [10, 11, ["operating", "system"], "POS"]], "real": [[1, 1, "screen", "POS"], [4, 4, "software", "POS"], [10, 11, ["operating", "system"], "POS"]]}
+{"text": ["while", "we", "struggle", "with", "all", "the", "crashes", "and", "viruses", ",", "the", "kids", "computers", "stay", "consistent", "and", "so", "we", "caved", "in", "and", "bought", "one", "for", "buisness", "!"], "predict": [], "real": []}
+{"text": ["i", "do", "n't", "want", "to", "run", "a", "computer", ";", "i", "want", "to", "use", "a", "computer", "."], "predict": [], "real": []}
+{"text": ["i", "have", "dropped", "mine", "a", "couple", "times", "with", "only", "a", "slim", "plastic", "case", "covering", "it", "."], "predict": [], "real": [[10, 12, ["slim", "plastic", "case"], "NEU"]]}
+{"text": ["i", "also", "made", "a", "recovery", "usb", "stick", "."], "predict": [[4, 5, ["recovery", "usb"], "NEG"]], "real": [[4, 6, ["recovery", "usb", "stick"], "NEU"]]}
+{"text": ["being", "a", "pc", "user", "for", "many", "years", "to", "switch", "to", "a", "mac", "i", "will", "not", "go", "back", "."], "predict": [], "real": []}
+{"text": ["but", "with", "this", "laptop", ",", "the", "bass", "is", "very", "weak", "and", "the", "sound", "comes", "out", "sounding", "tinny", "."], "predict": [[6, 6, "bass", "NEG"], [12, 12, "sound", "NEG"]], "real": [[6, 6, "bass", "NEG"], [12, 12, "sound", "NEG"], [15, 15, "sounding", "NEG"]]}
+{"text": ["i", "do", "admit", "it", "is", "pricey", "but", "the", "saying", "is", "really", "true", "with", "this", "macbook", "pro", "laptop", "you", "get", "what", "you", "pay", "for", "."], "predict": [], "real": []}
+{"text": ["i", "'ve", "almost", "have", "bought", "every", "generation", "of", "macminis", "since", "2005", ",", "and", "this", "one", "has", "n't", "let", "me", "down", "."], "predict": [], "real": []}
+{"text": ["the", "built", "quality", "is", "really", "good", ",", "i", "was", "so", "happy", "and", "excited", "about", "this", "product", "."], "predict": [[1, 2, ["built", "quality"], "POS"]], "real": [[1, 2, ["built", "quality"], "POS"]]}
+{"text": ["i", "am", "loving", "the", "fast", "performance", "also", "."], "predict": [[5, 5, "performance", "POS"]], "real": [[5, 5, "performance", "POS"]]}
+{"text": ["i", "had", "to", "return", "it", "because", "it", "would", "n't", "even", "start", "."], "predict": [], "real": []}
+{"text": ["further", ",", "this", "mac", "mini", "has", "a", "sloppy", "bluetooth", "interface", "courtesy", "of", "the", "mac", "os", "and", "the", "range", "is", "poor", "."], "predict": [[8, 9, ["bluetooth", "interface"], "NEG"], [13, 14, ["mac", "os"], "POS"], [17, 17, "range", "NEG"]], "real": [[8, 9, ["bluetooth", "interface"], "NEG"], [13, 14, ["mac", "os"], "NEG"], [17, 17, "range", "NEG"]]}
+{"text": ["great", "deal", "on", "an", "amazing", "lap", "top", "!"], "predict": [], "real": []}
+{"text": ["if", "you", "start", "on", "the", "far", "right", "side", "and", "scroll", "to", "your", "left", "the", "start", "menu", "will", "automatically", "come", "up", "."], "predict": [], "real": [[14, 15, ["start", "menu"], "NEU"]]}
+{"text": ["best", "money", "i", "ever", "spent", "."], "predict": [], "real": []}
+{"text": ["my", "only", "gripe", "would", "be", "the", "need", "to", "add", "more", "ram", "."], "predict": [[10, 10, "ram", "NEU"]], "real": [[10, 10, "ram", "NEG"]]}
+{"text": ["but", "i", "did", "n't", "want", "to", "spend", "another", "thousand", "on", "a", "laptop", "since", "my", "work", "already", "provides", "me", "with", "a", "pc", "."], "predict": [], "real": []}
+{"text": ["fine", "if", "you", "have", "a", "touch", "screen", "."], "predict": [[5, 6, ["touch", "screen"], "POS"]], "real": [[5, 6, ["touch", "screen"], "NEU"]]}
+{"text": ["can", "never", "go", "wrong", "with", "apple", "products", "."], "predict": [], "real": []}
+{"text": ["as", "far", "as", "user", "type", ",", "i", "dabble", "in", "everything", "from", "games", "wow", "to", "photoshop", ",", "but", "nothing", "professionally", "."], "predict": [[11, 11, "games", "NEU"], [14, 14, "photoshop", "POS"]], "real": [[11, 11, "games", "NEU"], [14, 14, "photoshop", "NEU"]]}
+{"text": ["it", "doesnt", "get", "hot", "like", "my", "pc", ",", "with", "technology", "always", "at", "the", "tip", "of", "our", "fingertips", "anytime", "i", "forget", "how", "to", "do", "something", "i", "just", "google", "it", "."], "predict": [], "real": []}
+{"text": ["i", "re-seated", "the", "wlan", "card", "inside", "and", "re-installed", "the", "lan", "device", "drivers", "."], "predict": [[3, 4, ["wlan", "card"], "NEG"], [9, 11, ["lan", "device", "drivers"], "NEG"]], "real": [[3, 4, ["wlan", "card"], "NEU"], [9, 11, ["lan", "device", "drivers"], "NEU"]]}
+{"text": ["this", "by", "far", "beats", "any", "computer", "out", "on", "the", "market", "today", "built", "well", ",", "battery", "life", "amazing", "."], "predict": [[14, 15, ["battery", "life"], "POS"]], "real": [[11, 11, "built", "POS"], [14, 15, ["battery", "life"], "POS"]]}
+{"text": ["i", "have", "n't", "used", "it", "for", "anything", "high", "tech", "yet", ",", "but", "i", "love", "it", "already", "."], "predict": [], "real": []}
+{"text": ["the", "os", "is", "easy", ",", "and", "offers", "all", "kinds", "of", "surprises", "."], "predict": [[1, 1, "os", "POS"]], "real": [[1, 1, "os", "POS"]]}
+{"text": ["i", "had", "to", "get", "apple", "customer", "support", "to", "correct", "the", "problem", "."], "predict": [[5, 6, ["customer", "support"], "NEG"]], "real": [[4, 6, ["apple", "customer", "support"], "NEU"]]}
+{"text": ["ideal", "for", "someone", "on", "the", "go", "or", "for", "a", "high", "school", "students", "."], "predict": [], "real": []}
+{"text": ["a", "veryimportant", "feature", "is", "firewire", "800", "which", "in", "my", "experience", "works", "better", "then", "usb3", "in", "pc", "enabled", "with", "usb3i", "was", "not", "originally", "sold", "on", "the", "mac", "os", "i", "felt", "it", "was", "inferior", "in", "many", "ways", "to", "windows", "7", "."], "predict": [[1, 2, ["veryimportant", "feature"], "NEG"], [4, 5, ["firewire", "800"], "POS"], [25, 26, ["mac", "os"], "NEG"], [36, 37, ["windows", "7"], "POS"]], "real": [[4, 5, ["firewire", "800"], "POS"], [13, 13, "usb3", "NEG"], [18, 18, "usb3i", "NEG"], [25, 26, ["mac", "os"], "NEG"], [36, 37, ["windows", "7"], "POS"]]}
+{"text": ["i", "like", "itunes", ",", "the", "apparent", "security", ",", "the", "mini", "form", "factor", ",", "all", "the", "nice", "graphics", "stuff", "."], "predict": [[2, 2, "itunes", "POS"], [5, 6, ["apparent", "security"], "POS"], [16, 16, "graphics", "POS"]], "real": [[2, 2, "itunes", "POS"], [6, 6, "security", "POS"], [9, 11, ["mini", "form", "factor"], "POS"], [16, 17, ["graphics", "stuff"], "POS"]]}
+{"text": ["the", "first", "time", "i", "used", "the", "card", "reader", "it", "took", "half", "an", "hour", "and", "a", "pair", "of", "tweezers", "to", "remove", "the", "card", "."], "predict": [], "real": [[6, 7, ["card", "reader"], "NEG"], [19, 21, ["remove", "the", "card"], "NEG"]]}
+{"text": ["this", "flaw", "unfortunately", "detracts", "from", "everything", "else", "apple", "got", "right", "with", "the", "mini", "."], "predict": [], "real": []}
+{"text": ["after", "replacing", "the", "spinning", "hard", "disk", "with", "an", "ssd", "drive", ",", "my", "mac", "is", "just", "flying", "."], "predict": [[3, 5, ["spinning", "hard", "disk"], "NEU"], [8, 9, ["ssd", "drive"], "NEU"]], "real": [[3, 5, ["spinning", "hard", "disk"], "NEU"], [8, 9, ["ssd", "drive"], "POS"]]}
+{"text": ["i", "know", "some", "people", "complained", "about", "hdmi", "issues", "but", "they", "released", "a", "firmware", "patch", "to", "address", "that", "issue", "."], "predict": [], "real": [[6, 6, "hdmi", "NEU"], [12, 13, ["firmware", "patch"], "NEU"]]}
+{"text": ["with", "the", "needs", "of", "a", "professional", "photographer", "i", "generally", "need", "to", "keep", "up", "with", "the", "best", "specs", "."], "predict": [[16, 16, "specs", "POS"]], "real": [[16, 16, "specs", "NEU"]]}
+{"text": ["added", "an", "imac", "about", "2", "years", "later", "."], "predict": [], "real": []}
+{"text": ["packing", "and", "everything", "was", "perfect"], "predict": [], "real": [[0, 0, "packing", "POS"]]}
+{"text": ["i", "will", "not", "hesitate", "to", "recommend", "it", "to", "family", "and", "friends"], "predict": [], "real": []}
+{"text": ["i", "called", "toshiba", "where", "i", "gave", "them", "the", "serial", "number", "and", "they", "informed", "me", "that", "they", "were", "having", "issues", "with", "the", "mother", "boards", "."], "predict": [[21, 22, ["mother", "boards"], "NEG"]], "real": [[21, 22, ["mother", "boards"], "NEU"]]}
+{"text": ["i", "seem", "to", "be", "having", "repeat", "problems", "as", "the", "mother", "board", "in", "this", "one", "is", "diagnosed", "as", "faulty", ",", "related", "to", "the", "graphics", "card", "."], "predict": [[9, 10, ["mother", "board"], "NEG"]], "real": [[9, 10, ["mother", "board"], "NEG"], [22, 23, ["graphics", "card"], "NEG"]]}
+{"text": ["it", "also", "comes", "with", "4g", "of", "ram", "but", "if", "you", "'re", "like", "me", "you", "want", "to", "max", "that", "out", "so", "i", "immediately", "put", "8g", "of", "ram", "in", "her", "and", "i", "'ve", "never", "used", "a", "computer", "that", "performs", "better", "."], "predict": [[4, 6, ["4g", "of", "ram"], "NEU"], [25, 25, "ram", "NEG"], [36, 36, "performs", "POS"]], "real": [[4, 6, ["4g", "of", "ram"], "NEU"], [23, 25, ["8g", "of", "ram"], "NEU"], [36, 36, "performs", "POS"]]}
+{"text": ["this", "computer", "is", "also", "awesome", "for", "my", "sons", "virtual", "home", "schooling", "."], "predict": [], "real": [[8, 10, ["virtual", "home", "schooling"], "POS"]]}
+{"text": ["cost", "is", "more", "as", "compared", "to", "other", "brands", "."], "predict": [[0, 0, "cost", "POS"]], "real": [[0, 0, "cost", "NEG"]]}
+{"text": ["also", "excellent", "operating", "system", "size", "and", "weight", "for", "optimal", "mobility", "excellent", "durability", "of", "the", "battery", "the", "functions", "provided", "by", "the", "trackpad", "is", "unmatched", "by", "any", "other", "brand-", "."], "predict": [[2, 4, ["operating", "system", "size"], "POS"], [6, 6, "weight", "POS"], [9, 9, "mobility", "POS"], [11, 11, "durability", "POS"], [14, 14, "battery", "POS"], [16, 16, "functions", "NEU"], [20, 20, "trackpad", "POS"]], "real": [[2, 4, ["operating", "system", "size"], "POS"], [6, 6, "weight", "POS"], [9, 9, "mobility", "POS"], [11, 14, ["durability", "of", "the", "battery"], "POS"], [16, 20, ["functions", "provided", "by", "the", "trackpad"], "POS"]]}
+{"text": ["this", "hardware", "seems", "to", "be", "better", "than", "the", "imac", "in", "that", "it", "is", "n't", "$", "1400", "and", "smaller", "."], "predict": [[1, 1, "hardware", "NEG"]], "real": [[1, 1, "hardware", "POS"]]}
+{"text": ["i", "'m", "done", "with", "windoze", "computers", "."], "predict": [], "real": []}
+{"text": ["i", "'ve", "had", "it", "for", "about", "2", "months", "now", "and", "found", "no", "issues", "with", "software", "or", "updates", "."], "predict": [[14, 14, "software", "NEG"]], "real": [[14, 14, "software", "NEU"], [16, 16, "updates", "NEU"]]}
+{"text": ["the", "latest", "version", "does", "not", "have", "a", "disc", "drive", "."], "predict": [[7, 8, ["disc", "drive"], "NEG"]], "real": [[7, 8, ["disc", "drive"], "NEU"]]}
+{"text": ["screen", ",", "although", "some", "people", "might", "complain", "about", "low", "res", "which", "i", "think", "is", "ridiculous", "."], "predict": [], "real": [[0, 0, "screen", "POS"], [9, 9, "res", "POS"]]}
