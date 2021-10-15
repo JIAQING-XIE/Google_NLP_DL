@@ -1,0 +1,17 @@
+如果CUDA<10.2 需要先设置环境变量export CUBLAS_WORKSPACE_CONFIG=:4096:8 ，有一个函数随机性不能固定，导致结果差异很大，尤其是验证和测试会差很多。
+
+Full model
+batch_size = 32
+learning_rate = 0.001
+decay_rate = 0.05
+seed = 1314159
+np_seed = 7894
+embedding_size = 300
+classfy_number = 13
+dropout = 0.5
+lstm_hidding_dim = 50
+max_length = 83
+epoch = 500
+
+epoch122 f1=57.3
+epoch176 f1=57.4
